@@ -12,3 +12,6 @@ https://github.com/kamranahmedse/developer-roadmap
 https://roadmap.sh/backend
 
 https://antigravity.google/
+
+
+我们要写一段记录，比如说现在是OPC，是一个公司，一个人的公司呢，就需要什么个人来做，然后坚持和行动主要是行动起来！
