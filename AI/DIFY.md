@@ -7,6 +7,12 @@ https://dify.tdse.jp/
 // good
 https://www.youtube.com/watch?v=u1BAG9bGp74
 
+https://notebooklm.google.com/notebook/f211cb8d-7ed6-42b0-a397-88d6c28ff8a4
+
+https://mp.weixin.qq.com/s/MYd_J2Yrscg6S5KJ2XYEGg
+[10:03 PM]https://mp.weixin.qq.com/s/Tf0bu_z4TKHNRNaKMhxBUA
+[10:04 PM]NotebookLM
+
 mp.weixin.qq.com/s/40-aQclZVlvRJJdc0JQVtA
 
 AI的最终形态——Agent，15分钟带你从搭建到应用落地
