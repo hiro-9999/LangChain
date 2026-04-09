@@ -23,3 +23,9 @@ LLMs (大语言模型)：如 Claude、ChatGPT、Gemini。
 核心技术：分词、语义分析、Transformer 架构（GPT 的基础）等。
 
 https://ccbook.github.io
+
+Agent 开发平台最早于 2022 年在国外出现，如 LangChain、LlamaIndex 等平台，主要
+面向的是技术人员。开发者需要通过编程语言完成 Agent 开发，这存在较高的技术门槛。
+随着 Agent 开发平台的进化，Agent 开发朝着可视化、零代码的方向发展。自 2023 年开始，
+国内的 Agent 开发平台快速崛起，以扣子（Coze）为代表的 Agent 开发平台，在功能、生
+态等方面都较为成熟，可以与国外的 Agent 开发平台相媲美。
