@@ -29,3 +29,8 @@ Agent 开发平台最早于 2022 年在国外出现，如 LangChain、LlamaIndex
 随着 Agent 开发平台的进化，Agent 开发朝着可视化、零代码的方向发展。自 2023 年开始，
 国内的 Agent 开发平台快速崛起，以扣子（Coze）为代表的 Agent 开发平台，在功能、生
 态等方面都较为成熟，可以与国外的 Agent 开发平台相媲美。
+
+基于强化学习的 Agent（Reinforcement Learning-based Agent）阶
+段。随着计算能力和数据可用性提高，研究人员开始使用强化学习方法来训练 Agent。
+随着深度强化学习（Deep Reinforcement Learning，DRL）的兴起，深度强化学习将深度
+学习的强大表征能力引入强化学习中。
