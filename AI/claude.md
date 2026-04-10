@@ -2,6 +2,12 @@ oh-my-claudecode (OmC)
 
 https://github.com/Yeachan-Heo/oh-my-claudecode
 
+
+Build AI-Enhanced Web Apps
+How to get reliable results
+with React, Next.js, and Vercel
+
+
 Gemini の回答
 在不同的语境下，NLP 主要有两种完全不同的含义。结合你之前问的 AI 和代码开发相关的问题，你指的应该是第一种：
 
