@@ -6,3 +6,4 @@ https://www.jetbrains.com/ja-jp/rust/whatsnew/
 https://rust-lang.org/ja/
 
 
+https://doc.rust-lang.org/rust-by-example/zh/index.html
