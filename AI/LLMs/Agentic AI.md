@@ -8,6 +8,13 @@ LangChain 和 LlamaIndex 常常用于开发 RAG 应用，Coze、Dify、LangGraph
 Swarm、 AutoGPT 、 MetaGPT 、 AutoGen、 OpenAI Agents SDK 和 Google Agent
 Development Kit（ADK）则主要用于开发 AI Agent 应用。
 
+LangGraph
+LangGraph 是一个专门用于构建可控 AI Agent 的底层编排框架，凭借其强大的功能和灵活
+性，被包括 Replit、Uber、LinkedIn 和 GitLab 在内的多家知名公司采用。LangChain 旨在简
+化 LLM 应用的开发流程，它提供了集成和可组合组件。与 LangChain 不同，LangGraph 专注
+于 AI Agent 的编排。这意味着 LangGraph 提供了定制化的架构设计、长期记忆功能，以及支持
+人工干预的能力，使其非常适合处理复杂任务。
+
 ReAct 框架提出使用“思考—行动—观察” （thought-action-observation）三元组构建提示词
 
 需要从提示工程（Prompt Engineering）、函数调用（Function Calling）、
