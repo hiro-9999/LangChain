@@ -4,6 +4,8 @@ AI Agent 的核心模块包括 LLM 模块（LLM Module）、角色模块（Profi
 忆模块（Memory Module）、规划模块（Planning Module）、行动模块（Action Module），
 各模块之间协同互动，形成了“感知→记忆→推理→决策→执行”的行为决策运行机制。
 
+ReAct 框架提出使用“思考—行动—观察” （thought-action-observation）三元组构建提示词
+
 これまでのAI（チャット型など）との決定的な違いを、わかりやすく解説します。
 
 1. 従来のAIとの違い
