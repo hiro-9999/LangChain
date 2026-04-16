@@ -6,6 +6,10 @@ AI Agent 的核心模块包括 LLM 模块（LLM Module）、角色模块（Profi
 
 ReAct 框架提出使用“思考—行动—观察” （thought-action-observation）三元组构建提示词
 
+需要从提示工程（Prompt Engineering）、函数调用（Function Calling）、
+检索增强生成（RAG）、微调（Fine-tuning）、训练优化与推理优化等 LLM 常见技术或应用范
+式展开讨论，为你的 AI Agent 助手配置必要的“软件”
+
 これまでのAI（チャット型など）との決定的な違いを、わかりやすく解説します。
 
 1. 従来のAIとの違い
