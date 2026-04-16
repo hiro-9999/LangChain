@@ -1,5 +1,9 @@
 **Agentic AI（エージェンティック AI）とは、一言でいうと「自ら考え、判断し、行動する自律型AI」**のことです。
 
+AI Agent 的核心模块包括 LLM 模块（LLM Module）、角色模块（Profile Module）、记
+忆模块（Memory Module）、规划模块（Planning Module）、行动模块（Action Module），
+各模块之间协同互动，形成了“感知→记忆→推理→决策→执行”的行为决策运行机制。
+
 これまでのAI（チャット型など）との決定的な違いを、わかりやすく解説します。
 
 1. 従来のAIとの違い
