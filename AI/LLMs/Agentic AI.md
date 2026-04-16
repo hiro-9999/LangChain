@@ -4,6 +4,10 @@ AI Agent 的核心模块包括 LLM 模块（LLM Module）、角色模块（Profi
 忆模块（Memory Module）、规划模块（Planning Module）、行动模块（Action Module），
 各模块之间协同互动，形成了“感知→记忆→推理→决策→执行”的行为决策运行机制。
 
+LangChain 和 LlamaIndex 常常用于开发 RAG 应用，Coze、Dify、LangGraph、CrewAI、
+Swarm、 AutoGPT 、 MetaGPT 、 AutoGen、 OpenAI Agents SDK 和 Google Agent
+Development Kit（ADK）则主要用于开发 AI Agent 应用。
+
 ReAct 框架提出使用“思考—行动—观察” （thought-action-observation）三元组构建提示词
 
 需要从提示工程（Prompt Engineering）、函数调用（Function Calling）、
