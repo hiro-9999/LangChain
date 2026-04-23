@@ -13,4 +13,11 @@ https://www.dsk-cloud.com/blog/gws/what-is-the-data-table-function-of-notebooklm
 https://www.shuwasystem.co.jp/support/7980html/7672.html
 
 
-详细教程｜如何用GLM 5.1制作高质量APP 如何用Claude ... http://xhslink.com/o/A10qqjKrO92
+详细教程｜如何用GLM 5.1制作高质量APP 如何用Claude ... http://xhslink.com/o/A10qqjKrO92 good
+
+
+https://mmguo.dev/
+
+https://www.typingmind.com/
+
+https://www.painbase.space/
