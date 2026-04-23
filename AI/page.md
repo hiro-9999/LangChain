@@ -27,3 +27,6 @@ GitHub：https://github.com/kamranahmedse/developer-roadmap[4]
 
 
 https://www.youtube.com/@%E9%A9%AC%E5%85%8B%E7%9A%84%E6%8A%80%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%9D%8A
+
+## 使用Python构建RAG系统 —— 用代码还原 RAG系统的每个细节
+https://github.com/MarkTechStation/VideoCode
