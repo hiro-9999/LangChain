@@ -8,3 +8,6 @@ https://jp.indeed.com/career-advice/finding-a-job/infj-personality
 https://www.16personalities.com/ja?utm_source=results-infj&utm_medium=email&utm_campaign=results&utm_content=logo
 
 https://www.dsk-cloud.com/blog/gws/what-is-the-data-table-function-of-notebooklm
+
+## Computer Useやアーティファクト自作からMCPサーバー構築まで Claude AIエージェント開発入門
+https://www.shuwasystem.co.jp/support/7980html/7672.html
