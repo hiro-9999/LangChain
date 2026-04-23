@@ -11,3 +11,6 @@ https://www.dsk-cloud.com/blog/gws/what-is-the-data-table-function-of-notebooklm
 
 ## Computer Useやアーティファクト自作からMCPサーバー構築まで Claude AIエージェント開発入門
 https://www.shuwasystem.co.jp/support/7980html/7672.html
+
+
+详细教程｜如何用GLM 5.1制作高质量APP 如何用Claude ... http://xhslink.com/o/A10qqjKrO92
