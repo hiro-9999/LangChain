@@ -30,3 +30,16 @@ https://www.youtube.com/@%E9%A9%AC%E5%85%8B%E7%9A%84%E6%8A%80%E6%9C%AF%E5%B7%A5%
 
 ## 使用Python构建RAG系统 —— 用代码还原 RAG系统的每个细节
 https://github.com/MarkTechStation/VideoCode
+
+uv
+An extremely fast Python package and project manager, written in Rust.
+
+首先请确保你的系统已经安装了 uv 和 Jupyter，否则请参照如下链接安装：
+
+uv: https://docs.astral.sh/uv/getting-started/installation/
+
+Jupyter Notebook 是数据科学和人工智能界的 “草稿本” + “实验台”。它最大的特色是交互式计算。
+以下是它的核心用途，以及为什么它在 AI 时代依然不可替代：
+1. 核心用途：代码、文字、图形的“大杂烩”
+Jupyter: https://jupyter.org/install
+
