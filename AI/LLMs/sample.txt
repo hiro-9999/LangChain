@@ -1,0 +1,3393 @@
+------------------------------------------------
+Computer Useやアーティファクト自作からMCPサーバー構築まで
+Claude AIエージェント開発入門
+------------------------------------------------
+掲載サンプルコード・プロンプトリスト
+------------------------------------------------
+
+
+
+------------------------------------------------
+■Chapter2
+------------------------------------------------
+▼プロンプト P42
+Claude APIを使用して、テキストの改善（文法、スペル、句読点、さらには文章の明確さと読みやすさを向上させるためのスタイルの提案）を提案するインタラクティブなテキストエディターを作成できますか？優れたフロントエンドスキルを活用して、非常にプロフェッショナルで洗練された外観にしてください。
+
+
+------------------------------------------------
+▼プロンプト P43
+“CodeVerter”と題したReactアプリを作成してください。このアプリは、あるプログラミング言語から別の言語へとコードを変換することができます。アプリには以下の要件があります：
+* 左側にユーザーが入力したコードを表示。右側に選択した言語に変換されたコードを表示
+* 左右両方に、上位25の主要プログラミング言語（Python、Swift、Kotlin、PHPなど）から選択できるドロップダウンを設置。ドロップダウンは言語名の入力に対応し、大文字小文字を区別せずに言語リストを検索してオートコンプリートする機能を持つ
+* コードを変換する際、ユーザーが「コードを変換」をクリックすると、左ペインに入力されたコードを右ペインで選択したプログラミング言語に書き換えるようClaudeに要求し、変換されたコードを右ペインに出力する
+
+
+------------------------------------------------
+▼プロンプト P44
+URL、テキスト、連絡先情報用のQRコードを生成するQRコードジェネレーターのReactアプリを
+作成します。URLのQRコードを作成する場合、カメラをQRコードに向けると、URLのGoogle検索
+ではなく、実際のURLが起動されるようにしてください。
+
+
+------------------------------------------------
+▼プロンプト P48
+チームが企画アイデアを生成するのを支援するAIブレインストーミングツールを作成してください。
+* ツールは会社名、製品、タイムライン、チーム目標、希望するブレインストーミングセッションのタイプ（製品開発、マーケティングなど）などのコンテキストを求める必要があります。
+* 生成をクリックすると、Claude APIを使用してまず会社/製品を理解し、その理解に基づいて6つの関連アイデアを作成する必要があります。ユーザーが単なる汎用テンプレートではないことを知るために、Claudeの理解要約を表示してください。
+* カード、グラデーション、適切な間隔でモダンで洗練された外観にしてください。各アイデアは優先度、必要な労力、影響レベルを表示する必要があります。APIが動作しない場合のフォールバックを含めてください。
+* 全体のポイントは、アイデアが単なるランダムな提案ではなく、実際の会社に文脈的であることを証明することです。
+
+
+------------------------------------------------
+▼プロンプト P49
+「人生の4000週間」をテーマにしたビジュアライザーを作成してください。ユーザーが生年月日を入力すると、現在までの週を色付けし、残りの週をグリッドで表示するReactアプリにしてください。ミニマリズムで哲学的なデザインを目指してください。
+
+
+
+------------------------------------------------
+▼プロンプト P51
+お気に入りの歴史的イベントをSVGで観覧できるインタラクティブなReactアプリを作成します。ユーザーが歴史的イベントの名前を入力すると、そのイベントの有名なシーンを表現したSVGシリーズを生成します。設定は映画館で、SVGはスクリーンで再生されます。スクリーンの範囲内に収まるようにしてください。Claude APIを使用してSVGを生成します。まずは分析ツールを使用してAPIの使用方法を確認してください。ユーザーが本当に映画館にいるような没入感のある体験を作成してください。SVG画像はシーンを表現し、その歴史的イベントを知っている人には分かりやすいものにしてください。SVGスキルでユーザーを感動させることを目指してください。この点を伝えるためにClaudeに適切なプロンプトを書いてください。指定された歴史的イベントの有名なシーンを1-5個生成します。すべての機能が動作することを確認し、モック機能は使用しないでください。Reactアプリが映画館のように見え、すべての要素が調和していることを確認してください。
+
+
+------------------------------------------------
+▼プロンプト P53
+より良いメールを作成できるReactアプリを構築します。ユーザーは伝えたいことを簡潔に書き、メールのトーン（簡潔、温かみ、フォーマルなど）を選択できます。Claude APIを使用して素案を完成したメールに変換します。アプリは視覚的に非常に魅力的にします。青、白、グレーのカラーパレットを使用し、返信する元のメールを入力するオプションセクションを設けます。生成されたメールにはクリップボードにコピーするボタンを含めます。
+
+
+------------------------------------------------
+▼プロンプト P54
+ユーザーと役割演技（ロールプレイ）を行う語学学習アプリを作成してください。ユーザーの発言に対して、文法的な修正や、より自然な言い換えをリアルタイムで提案するフィードバックパネルを右側に配置してください。
+
+
+------------------------------------------------
+▼プロンプト P55
+入力された物事の起源をClaudeが物語として紡ぐアプリケーションを作成します。本のような美しいデザインで、文章を大切にした体験を提供します。
+
+------------------------------------------------
+▼プロンプト P56
+Reactでクイズアプリを作成します。ユーザーは1つまたは複数のカテゴリー、難易度（易しい、普通、難しい）、問題数を選択できます。アプリはClaudeのAPIを使用してユーザーの指定に従って問題を生成します。ユーザーは各問題に対して4つの妥当な選択肢からクイズに答えることができ、最後に総問題数に対する得点が表示されます。ゲーム機のゲームのように、大胆でシンプル、クリッカブルで楽しい雰囲気にします。プライマリカラーは緑色1色のみを使用します。
+
+
+------------------------------------------------
+▼プロンプト P57
+根本原因分析のための「5つのなぜ」を可視化するツールを作成してください。ユーザーが入力した各レベルの「なぜ」を垂直方向のツリー構造で表示し、最終的な解決策を結論として出力できるデザインにしてください。
+
+
+------------------------------------------------
+▼プロンプト P59 上段
+ユーザーが希望するドラムビートの種類を入力すると、アプリがそのビートを作成し、UIで手動で調整できるシンプルなスクロール式インタラクティブドラムマシンを作成します。クロードAPIを使用してユーザーの入力を解析し、プリセットのドラムビートにマッピングします。
+
+
+------------------------------------------------
+▼プロンプト P59 下段
+APIを呼び出す機能を実演する対話型Webサイト“Hallucination game”をReactで作成しましょう。楽しく、教育的で、高速かつ美しいデザインを目指します。
+
+
+------------------------------------------------
+▼プロンプト P60
+パソコンのキーボードでも演奏できるピアノキーボードのような外観を持つReactアプリのMIDIプレーヤーを作成してください。ユーザーが好きな曲を入力できるようにし、Claude APIを使用してユーザーの入力を既存のキーにマッピングします。アプリのカラーパレットは白とグレーを使用してください。
+
+
+
+------------------------------------------------
+▼プロンプト P62-63
+“CSV データビジュアライザー”という名前のミニアプリReactアーティファクトを作成したいと思います。機能としては、ユーザーが.csvファイルをアップロードします。アプリはデータの最初の5行を表示します。最初の行は列ヘッダーと仮定します。その後、ユーザーが実行したい分析を記述するためのテキストボックスがあります。分析の4つの出力形式は、棒グラフ、折れ線グラフ、テーブル、またはカウントです。
+
+実際に分析を実行するには、Claude APIを呼び出して、要求された分析を行うJavaScriptを生成します。Claude APIがJavaScriptを返したら、ブラウザでそれを実行して分析を実装します。Claude APIからの出力トークン数は16kに設定してください。Claude APIからの応答を待っている間や計算を実行している間は、スピナーを表示します。APIを呼び出している間はスピナーの下に“分析を計画中”というラベルを表示し、JavaScriptを実行している間は“結果を計算中”にラベルを変更します。計算が完了したらスピナーを非表示にします。Claudeへのプロンプトには、データの最初の5行のサンプルを含める必要があります。
+
+analysisResult = { 
+  type: ‘bar_chart’ | ‘line_chart’ | ‘table’ | ‘count’, 
+  data: <適切なデータ構造>, 
+  config: <オプションの構成オブジェクト> 
+};
+
+【データ構造（data）の定義】
+
+1. 棒グラフ (bar_chart)
+棒グラフを描画するための形式です。
+* labels (string[]): 横軸に表示する項目の名前。文字列の配列で指定します。
+* values (number[]): 各項目に対応する数値の配列。
+* title (string, 任意): グラフのタイトル。
+例: { labels: ["1月", "2月"], values: [100, 200], title: "月別売上" }
+
+2. 折れ線グラフ (line_chart)
+時系列などの推移を表すための形式です。構造は棒グラフと同じです。
+* labels (string[]): X軸（横軸）のラベル。
+* values (number[]): Y軸（縦軸）のプロット値。
+* title (string, 任意): グラフのタイトル。
+
+3. 表 (table)
+データをグリッド状に整理して表示するための形式です。
+* headers (string[]): 表の一番上の見出し（列名）の配列。
+* rows (any[][]): 各行のデータの配列。配列の中に配列が入った「二次元配列」の形式になりま
+す。
+例: headers: ["名前", "年齢"] rows: [ ["田中", 25], ["佐藤", 30] ]
+
+4. カウント (count)
+合計値や達成率など、特定の数字を強調して表示するための形式です。
+* value (number): 表示したいメインの数値。
+* label (string, 任意): その数値が何を表しているかのラベル（例：「合計ユーザー数」など）。
+
+プロンプトには以下の追加要件も含める必要があります。
+
+* 分析に基づいてもっとも適切な可視化タイプを選択する
+* 数値集計（合計、平均、カウント）には‘count’タイプを使用する
+* カテゴリー間の比較には‘bar_chart’を使用する
+* 時系列のトレンドには‘line_chart’を使用する
+* 詳細なデータ検査やピボットテーブルには‘table’を使用する
+* 適切な場所に意味のあるラベルとタイトルを含める
+* エッジケース（空のデータ、欠損値など）を適切に処理する
+
+アプリのデザインは白い背景に青いボタンを使用し、プロフェッショナルにデザインされたデータ分析ツールのような見た目にする必要があります。
+
+
+------------------------------------------------
+▼プロンプト P64
+画像カラーパレット抽出Webアプリを構築してください。ユーザーが画像をアップロードまたは参照でき、アップロードされた画像を右側の大きなプレビューエリアに表示する必要があります。アプリは5つの主要な色を抽出し、画像上に円形インジケーターでこれらを表示する必要があります。ユーザーは円形インジケーターを移動して色を変更できる必要があります。抽出されたカラーパレットは、左側に色付きの長方形として表示される必要があります。
+
+
+------------------------------------------------
+▼プロンプト P66
+各カードの下に『完璧！』『まだ不安』『忘れてた』の3 つのボタンを追加して。ボタンを押すと、忘却曲線の理論に基づいて次回の復習タイミング（例：1分後、10分後、1日後）を計算し、現在のカード束の最後に並べ替えるロジックを実装してください。また、画面上部に『残り習得枚数』を表示するゲージも追加してください。
+
+
+
+------------------------------------------------
+■Chapter3
+------------------------------------------------
+▼リスト3-1
+// ① 外部ライブラリのインポート（道具を揃える）
+import React, { useState } from 'react';
+import { アイコン名 } from 'lucide-react';
+
+const MyApp = () => {
+  // ② 状態管理（データの記憶）
+  const [data, setData] = useState(初期値);
+
+  // ③ ロジック（計算や動作のルール）
+  const handleAction = () => {
+    // ボタンを押した時の動きなど
+  };　
+
+  // ④ 見た目（HTML風の構造とデザイン）
+  return (
+    <div className="TailwindCSSによるデザイン設定">
+      {/* ここにボタンやリストなどを配置 */}
+    </div>
+  );
+};
+
+// ⑤ 出力（これがないと画面に表示されない）
+export default MyApp;
+
+
+------------------------------------
+▼リスト3-2
+import React, { useState } from 'react';
+import { Plus, Trash2, CheckCircle, Circle, ListChecks } from 'lucide-react';
+
+const TodoApp = () => {
+  // ① 状態管理：TODOリスト本体
+  const [todos, setTodos] = useState([
+    { id: 1, text: 'サンプルタスク', completed: false }
+  ]);
+  
+  // ② 状態管理：入力中のテキスト
+  const [inputText, setInputText] = useState('');
+
+  // ③ 関数：タスクの追加
+  const addTodo = () => {
+    if (inputText.trim() === '') return;
+    const newTodo = {
+      id: Date.now(),
+      text: inputText,
+      completed: false
+    };
+    setTodos([...todos, newTodo]);
+    setInputText('');
+  };
+
+  // ④ 関数：完了状態の切り替え
+  const toggleTodo = (id) => {
+    setTodos(todos.map(todo => 
+      todo.id === id ? { ...todo, completed: !todo.completed } : todo
+    ));
+  };
+
+  // ⑤ 関数：タスクの削除
+  const deleteTodo = (id) => {
+    setTodos(todos.filter(todo => todo.id !== id));
+  };
+
+  // ⑥ 統計データの算出（前述のcount構造に準拠）
+  const stats = {
+    total: { value: todos.length, label: "合計タスク" },
+    completed: { value: todos.filter(t => t.completed).length, label: "完了済み" }
+  };
+
+  return (
+    <div className="max-w-md mx-auto my-10 p-6 bg-white rounded-2xl shadow-xl font-sans">
+      {/* ヘッダーと統計表示 */}
+      <div className="flex items-center gap-2 mb-6 border-b pb-4">
+        <ListChecks className="text-blue-500" />
+        <h1 className="text-2xl font-bold text-gray-800">My Tasks</h1>
+      </div>
+
+      <div className="grid grid-cols-2 gap-4 mb-8">
+        <div className="bg-blue-50 p-4 rounded-xl text-center">
+          <p className="text-2xl font-bold text-blue-600">{stats.total.value}</p>
+          <p className="text-xs text-blue-400">{stats.total.label}</p>
+        </div>
+        <div className="bg-green-50 p-4 rounded-xl text-center">
+          <p className="text-2xl font-bold text-green-600">{stats.completed.value}</p>
+          <p className="text-xs text-green-400">{stats.completed.label}</p>
+        </div>
+      </div>
+
+      {/* 入力エリア */}
+      <div className="flex gap-2 mb-6">
+        <input
+          type="text"
+          className="flex-1 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          placeholder="新しいタスクを入力..."
+          value={inputText}
+          onChange={(e) => setInputText(e.target.value)}
+          onKeyPress={(e) => e.key === 'Enter' && addTodo()}
+        />
+        <button onClick={addTodo} className="p-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors">
+          <Plus size={24} />
+        </button>
+      </div>
+
+      {/* リスト表示エリア */}
+      <div className="space-y-3">
+        {todos.map(todo => (
+          <div key={todo.id} className="flex items-center justify-between p-3 border rounded-lg hover:bg-gray-50 transition-colors group">
+            <div className="flex items-center gap-3 cursor-pointer" onClick={() => toggleTodo(todo.id)}>
+              {todo.completed ? <CheckCircle className="text-green-500" /> : <Circle className="text-gray-300" />}
+              <span className={`${todo.completed ? 'line-through text-gray-400' : 'text-gray-700'}`}>
+                {todo.text}
+              </span>
+            </div>
+            <button onClick={() => deleteTodo(todo.id)} className="text-gray-300 hover:text-red-500 transition-colors">
+              <Trash2 size={18} />
+            </button>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default TodoApp;
+
+
+------------------------------------
+▼リスト3-3
+新しいアーティファクト「ToDo」を作成する。コードは以下のようになる。
+
+(※注...ここに、リスト3-2のコードをペーストする...)
+
+
+------------------------------------------------
+▼リスト3-4
+タスクの終了期限と重要度（重要、重要でない）を追加してください。またタスクのデータは、window.storage APIに保存し、アクセス時にそれを読み込んでデータを再現するようにしてください。
+
+
+------------------------------------------------
+▼リスト3-5
+import React, { useState, useEffect } from 'react';
+import { Plus, Trash2, CheckCircle, Circle, ListChecks, AlertCircle } from 'lucide-react';
+
+const TodoApp = () => {
+  const [todos, setTodos] = useState([]);
+  const [inputText, setInputText] = useState('');
+  const [inputDeadline, setInputDeadline] = useState('');
+  const [inputImportant, setInputImportant] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  
+  // 初期データの読み込み
+  useEffect(() => {
+    const loadTodos = async () => {
+      try {
+        const result = await window.storage.get('todos');
+        if (result && result.value) {
+          setTodos(JSON.parse(result.value));
+        } else {
+          // 初期データ
+          const initialTodos = [
+            { id: 1, text: 'サンプルタスク', completed: false, deadline: '', important: false }
+          ];
+          setTodos(initialTodos);
+          await window.storage.set('todos', JSON.stringify(initialTodos));
+        }
+      } catch (error) {
+        console.log('データの読み込みに失敗しました:', error);
+        // エラー時は初期データを使用
+        setTodos([
+          { id: 1, text: 'サンプルタスク', completed: false, deadline: '', important: false }
+        ]);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    
+    loadTodos();
+  }, []);
+  
+  // todosが変更されたらストレージに保存
+  useEffect(() => {
+    if (!isLoading && todos.length >= 0) {
+      const saveTodos = async () => {
+        try {
+          await window.storage.set('todos', JSON.stringify(todos));
+        } catch (error) {
+          console.error('データの保存に失敗しました:', error);
+        }
+      };
+      saveTodos();
+    }
+  }, [todos, isLoading]);
+
+.... 以下略 ....
+
+
+------------------------------------------------
+▼リスト3-6
+import React, { useState } from 'react';
+import { Upload, FileText, Wand2, Download, Trash2, Eye, Sparkles, Code, AlertCircle } from 'lucide-react';
+
+const PDF2Prototype = () => {
+  const [files, setFiles] = useState([]);
+  const [selectedFile, setSelectedFile] = useState(null);
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [processingId, setProcessingId] = useState(null);
+
+  const handleFileUpload = (e) => {
+    const uploadedFiles = Array.from(e.target.files);
+    const newFiles = uploadedFiles.map(file => ({
+      id: Date.now() + Math.random(),
+      name: file.name,
+      size: (file.size / 1024).toFixed(2),
+      uploadDate: new Date().toLocaleDateString('ja-JP'),
+      status: '未処理',
+      file: file,
+      prototypeHtml: null,
+      error: null
+    }));
+    setFiles([...newFiles, ...files]);
+    if (newFiles.length > 0) {
+      setSelectedFile(newFiles[0]);
+    }
+  };
+
+  const convertToPrototype = async (fileId) => {
+    const file = files.find(f => f.id === fileId);
+    if (!file) return;
+
+    setIsProcessing(true);
+    setProcessingId(fileId);
+    
+    // ファイルをBase64に変換
+    const reader = new FileReader();
+    reader.onload = async (e) => {
+      const base64Data = e.target.result.split(',')[1];
+      
+      try {
+        // Claude APIを呼び出してPDFを解析
+        const response = await fetch('https://api.anthropic.com/v1/messages', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            model: 'claude-sonnet-4-20250514',
+            max_tokens: 4000,
+            messages: [{
+              role: 'user',
+              content: [
+                {
+                  type: 'document',
+                  source: {
+                    type: 'base64',
+                    media_type: 'application/pdf',
+                    data: base64Data
+                  }
+                },
+                {
+                  type: 'text',
+                  text: `このPDFファイルに含まれるUI/UXデザインを分析して、インタラクティブなHTMLプロトタイプを生成してください。
+要件:
+1. PDFに描かれているUI要素（ボタン、入力フォーム、カード、ナビゲーション等）を認識
+2. レイアウトと配色を可能な限り再現
+3. Tailwind CSSを使用したレスポンシブデザイン
+4. JavaScriptで基本的なインタラクション（クリック、ホバー、フォーム送信等）を実装
+5. 完全に動作する単一のHTMLファイルとして出力
+
+出力形式:
+- HTMLコードのみを返してください（説明文は不要）
+- <!DOCTYPE html>から始まる完全なHTMLドキュメント
+- <head>内にTailwind CDNとスタイルを含める
+- <script>タグ内にインタラクション用のJavaScriptを含める`
+                }
+              ]
+            }]
+          })
+        });
+
+        const data = await response.json();
+        
+        if (data.content && data.content[0] && data.content[0].text) {
+          let htmlContent = data.content[0].text;
+          
+          // マークダウンのコードブロックを除去
+          htmlContent = htmlContent.replace(/```html\n?/g, '').replace(/```\n?/g, '');
+          
+          // ファイルを更新
+          setFiles(files.map(f => 
+            f.id === fileId ? { 
+              ...f, 
+              status: '変換完了', 
+              prototypeHtml: htmlContent,
+              error: null
+            } : f
+          ));
+          
+          // 選択中のファイルも更新
+          if (selectedFile?.id === fileId) {
+            setSelectedFile({
+              ...selectedFile,
+              status: '変換完了',
+              prototypeHtml: htmlContent,
+              error: null
+            });
+          }
+        } else {
+          throw new Error('APIレスポンスが不正です');
+        }
+      } catch (error) {
+        console.error('変換エラー:', error);
+        setFiles(files.map(f => 
+          f.id === fileId ? { 
+            ...f, 
+            status: 'エラー', 
+            error: error.message || 'プロトタイプの生成に失敗しました'
+          } : f
+        ));
+        
+        if (selectedFile?.id === fileId) {
+          setSelectedFile({
+            ...selectedFile,
+            status: 'エラー',
+            error: error.message || 'プロトタイプの生成に失敗しました'
+          });
+        }
+      } finally {
+        setIsProcessing(false);
+        setProcessingId(null);
+      }
+    };
+    
+    reader.readAsDataURL(file.file);
+  };
+
+  const deleteFile = (fileId) => {
+    setFiles(files.filter(f => f.id !== fileId));
+    if (selectedFile?.id === fileId) {
+      setSelectedFile(null);
+    }
+  };
+
+  const downloadPrototype = (file) => {
+    if (!file.prototypeHtml) return;
+    
+    const element = document.createElement('a');
+    const blob = new Blob([file.prototypeHtml], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    element.href = url;
+    element.download = file.name.replace('.pdf', '') + '_prototype.html';
+    document.body.appendChild(element);
+    element.click();
+    document.body.removeChild(element);
+    URL.revokeObjectURL(url);
+  };
+
+  const totalFiles = files.length;
+  const convertedFiles = files.filter(f => f.status === '変換完了').length;
+
+  return (
+    <div className="p-4 max-w-7xl mx-auto bg-gradient-to-br from-purple-50 to-blue-50 min-h-screen font-sans">
+      <header className="mb-8 bg-gradient-to-r from-purple-600 to-blue-600 p-8 rounded-2xl text-white shadow-2xl">
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-3xl font-bold flex items-center gap-3 mb-2">
+              <Sparkles size={32} /> PDF2Prototype
+            </h1>
+            <p className="text-purple-100 text-sm">AIがPDFデザインを解析し、動作するプロトタイプを自動生成</p>
+          </div>
+          <div className="text-right bg-white/20 backdrop-blur-sm px-6 py-4 rounded-xl">
+            <p className="text-xs opacity-90 mb-1">変換済みファイル</p>
+            <p className="text-3xl font-bold">{convertedFiles}/{totalFiles}</p>
+          </div>
+        </div>
+      </header>
+
+      <div className="grid grid-cols-5 gap-6">
+        {/* 左側：アップロードとファイルリスト */}
+        <div className="col-span-2 space-y-6">
+          <section className="bg-white p-6 rounded-2xl shadow-lg border-2 border-dashed border-purple-200 hover:border-purple-400 transition-all">
+            <h2 className="text-lg font-semibold mb-4 flex items-center gap-2 text-gray-800">
+              <Upload size={22} className="text-purple-600" /> PDFファイルをアップロード
+            </h2>
+            <label className="cursor-pointer block">
+              <input 
+                type="file" 
+                accept=".pdf"
+                multiple
+                className="hidden"
+                onChange={handleFileUpload}
+              />
+              <div className="bg-gradient-to-br from-purple-50 to-blue-50 p-8 rounded-xl text-center border-2 border-purple-300 border-dashed hover:bg-purple-100 transition-all">
+                <Upload size={40} className="mx-auto mb-3 text-purple-500" />
+                <p className="font-bold text-gray-700 mb-1 text-sm">クリックまたはドラッグ&ドロップ</p>
+                <p className="text-xs text-gray-500">PDFファイルをアップロード（複数可）</p>
+              </div>
+            </label>
+          </section>
+
+          <section className="space-y-3">
+            <h2 className="text-lg font-semibold text-gray-700 px-2 flex items-center gap-2">
+              <FileText size={20} /> アップロード済みファイル
+            </h2>
+            {files.length === 0 ? (
+              <div className="bg-white p-6 rounded-xl text-center text-gray-400">
+                <FileText size={40} className="mx-auto mb-2 opacity-30" />
+                <p className="text-sm">まだファイルがアップロードされていません</p>
+              </div>
+            ) : (
+              files.map(file => (
+                <div 
+                  key={file.id} 
+                  className={`bg-white p-4 rounded-xl shadow-md border-2 transition-all cursor-pointer ${
+                    selectedFile?.id === file.id 
+                      ? 'border-purple-500 shadow-lg' 
+                      : 'border-gray-100 hover:border-purple-300'
+                  }`}
+                  onClick={() => setSelectedFile(file)}
+                >
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex items-center gap-3 flex-1 min-w-0">
+                      <div className={`p-2 rounded-lg flex-shrink-0 ${
+                        file.status === '変換完了' 
+                          ? 'bg-green-100 text-green-600' 
+                          : file.status === 'エラー'
+                          ? 'bg-red-100 text-red-600'
+                          : 'bg-purple-100 text-purple-600'
+                      }`}>
+                        <FileText size={20} />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="font-bold text-gray-800 text-sm truncate">{file.name}</p>
+                        <p className="text-xs text-gray-500">{file.size} KB</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-center gap-2">
+                    <span className={`px-2 py-1 rounded-full text-xs font-semibold flex-shrink-0 ${
+                      file.status === '変換完了' 
+                        ? 'bg-green-100 text-green-700' 
+                        : file.status === 'エラー'
+                        ? 'bg-red-100 text-red-700'
+                        : 'bg-yellow-100 text-yellow-700'
+                    }`}>
+                      {file.status}
+                    </span>
+                    
+                    {file.status === '未処理' && (
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          convertToPrototype(file.id);
+                        }}
+                        disabled={isProcessing}
+                        className="bg-purple-600 text-white px-3 py-1 rounded-lg text-xs font-semibold hover:bg-purple-700 transition-all flex items-center gap-1 disabled:opacity-50"
+                      >
+                        <Wand2 size={14} /> 
+                        {processingId === file.id ? '処理中...' : '変換'}
+                      </button>
+                    )}
+                    
+                    {file.status === '変換完了' && (
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          downloadPrototype(file);
+                        }}
+                        className="bg-blue-600 text-white px-3 py-1 rounded-lg text-xs font-semibold hover:bg-blue-700 transition-all flex items-center gap-1"
+                      >
+                        <Download size={14} /> DL
+                      </button>
+                    )}
+                    
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        deleteFile(file.id);
+                      }}
+                      className="text-red-500 hover:bg-red-50 p-1 rounded-lg transition-all ml-auto"
+                    >
+                      <Trash2 size={16} />
+                    </button>
+                  </div>
+                </div>
+              ))
+            )}
+          </section>
+        </div>
+
+        {/* 右側：プレビュー */}
+        <div className="col-span-3">
+          <section className="bg-white p-6 rounded-2xl shadow-lg">
+            <h2 className="text-lg font-semibold mb-4 flex items-center gap-2 text-gray-800">
+              <Eye size={22} className="text-blue-600" /> プロトタイププレビュー
+            </h2>
+            
+            {selectedFile ? (
+              <div className="space-y-4">
+                <div className="flex items-center justify-between pb-3 border-b">
+                  <div>
+                    <p className="font-bold text-gray-800">{selectedFile.name}</p>
+                    <p className="text-xs text-gray-500">
+                      {selectedFile.size} KB ? {selectedFile.uploadDate}
+                    </p>
+                  </div>
+                  <div className={`px-3 py-1 rounded-full text-xs font-semibold ${
+                    selectedFile.status === '変換完了'
+                      ? 'bg-green-100 text-green-700'
+                      : selectedFile.status === 'エラー'
+                      ? 'bg-red-100 text-red-700'
+                      : 'bg-yellow-100 text-yellow-700'
+                  }`}>
+                    {selectedFile.status}
+                  </div>
+                </div>
+                
+                {selectedFile.error && (
+                  <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-start gap-3">
+                    <AlertCircle size={20} className="text-red-600 flex-shrink-0 mt-0.5" />
+                    <div>
+                      <p className="font-semibold text-red-800 text-sm">エラーが発生しました</p>
+                      <p className="text-red-600 text-xs mt-1">{selectedFile.error}</p>
+                    </div>
+                  </div>
+                )}
+                
+                {selectedFile.prototypeHtml ? (
+                  <div className="border-2 border-gray-200 rounded-xl overflow-hidden bg-white" style={{ height: 'calc(100vh - 280px)', minHeight: '700px' }}>
+                    <iframe 
+                      srcDoc={selectedFile.prototypeHtml}
+                      className="w-full h-full border-0"
+                      title={selectedFile.name}
+                      sandbox="allow-scripts"
+                    />
+                  </div>
+                ) : selectedFile.status === '未処理' ? (
+                  <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-12 text-center border-2 border-dashed border-gray-300">
+                    <Code size={48} className="mx-auto mb-4 text-gray-400" />
+                    <p className="font-semibold text-gray-700 mb-2">プロトタイプ未生成</p>
+                    <p className="text-sm text-gray-500 mb-4">「変換」ボタンをクリックしてプロトタイプを生成してください</p>
+                    <button
+                      onClick={() => convertToPrototype(selectedFile.id)}
+                      disabled={isProcessing}
+                      className="bg-purple-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-purple-700 transition-all flex items-center gap-2 mx-auto disabled:opacity-50"
+                    >
+                      <Wand2 size={18} /> 
+                      {processingId === selectedFile.id ? 'AI処理中...' : 'プロトタイプを生成'}
+                    </button>
+                  </div>
+                ) : (
+                  <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-12 text-center border-2 border-dashed border-gray-300">
+                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600 mx-auto mb-4"></div>
+                    <p className="font-semibold text-gray-700">AI処理中...</p>
+                    <p className="text-sm text-gray-500 mt-2">PDFを解析してプロトタイプを生成しています</p>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="text-center py-20 text-gray-400">
+                <Eye size={48} className="mx-auto mb-3 opacity-30" />
+                <p className="text-sm">ファイルを選択してください</p>
+              </div>
+            )}
+          </section>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PDF2Prototype;
+
+
+
+
+
+------------------------------------------------
+■Chapter4
+------------------------------------------------
+▼プロンプト P115
+/Filesystem を使って、フォルダー内にあるすべてのファイルを一覧表示して。
+
+
+------------------------------------------------
+▼プロンプト P122
+ブラウザで先日リリースされた最新のJavaScriptライブラリ『Hono』のバージョン4.11.7のドキュメントを確認して。変更点と、それを使った基本的なサーバー起動コードを教えて。
+
+
+------------------------------------------------
+▼リスト4-1
+import { Hono } from 'hono'
+
+const app = new Hono()
+
+// ルート定義
+app.get('/', (c) => {
+  return c.text('Hello Hono!')
+})
+
+app.get('/json', (c) => {
+  return c.json({ message: 'Hello JSON' })
+})
+
+app.post('/posts', async (c) => {
+  const body = await c.req.json()
+  return c.json({ created: body }, 201)
+})
+
+// サーバーのエクスポート
+export default app
+
+
+------------------------------------------------
+▼プロンプト P124
+Yahoo Financeなどの最新株価を確認して、エヌビディア（NVDA）とテスラ（TSLA）の現在の数値を比較したダッシュボードをReactで作って。
+
+
+------------------------------------------------
+▼リスト4-2
+import React, { useState } from 'react';
+import { TrendingUp, TrendingDown, BarChart3 } from 'lucide-react';
+import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+
+export default function StockDashboard() {
+  const stocks = {
+    NVDA: {
+      name: 'NVIDIA',
+      symbol: 'NVDA',
+      price: 175.60,
+      previousClose: 174.79,
+      change: 0.81,
+      changePercent: 0.46,
+      volume: '45.2M',
+      marketCap: '4.32T',
+      pe: '68.5',
+      high52w: 198.50,
+      low52w: 76.25,
+    },
+    TSLA: {
+      name: 'Tesla',
+      symbol: 'TSLA',
+      price: 400.57,
+      previousClose: 406.01,
+      change: -5.44,
+      changePercent: -1.34,
+      volume: '52.1M',
+      marketCap: '1.49T',
+      pe: '92.3',
+      high52w: 498.83,
+      low52w: 214.25,
+    }
+  };
+
+  const chartData = [
+    { name: '1月初', NVDA: 165, TSLA: 380 },
+    { name: '1月中', NVDA: 170, TSLA: 390 },
+    { name: '1月末', NVDA: 172, TSLA: 415 },
+    { name: '2月初', NVDA: 174, TSLA: 425 },
+    { name: '2月5日', NVDA: 175.6, TSLA: 400.57 },
+  ];
+
+  const StockCard = ({ stock }) => {
+    const isPositive = stock.change >= 0;
+    
+    return (
+      <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+        <div className="flex justify-between items-start mb-4">
+          <div>
+            <h2 className="text-3xl font-bold text-gray-800">{stock.symbol}</h2>
+            <p className="text-gray-600 text-sm">{stock.name}</p>
+          </div>
+          {isPositive ? (
+            <TrendingUp className="w-8 h-8 text-green-500" />
+          ) : (
+            <TrendingDown className="w-8 h-8 text-red-500" />
+          )}
+        </div>
+
+        <div className="mb-4">
+          <p className="text-4xl font-bold text-gray-900 mb-2">${stock.price.toFixed(2)}</p>
+          <div className="flex items-center gap-2">
+            <span className={`text-lg font-semibold ${isPositive ? 'text-green-600' : 'text-red-600'}`}>
+              {isPositive ? '+' : ''}{stock.change.toFixed(2)}
+            </span>
+            <span className={`text-lg font-semibold ${isPositive ? 'text-green-600' : 'text-red-600'}`}>
+              ({isPositive ? '+' : ''}{stock.changePercent.toFixed(2)}%)
+            </span>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 gap-3 text-sm">
+          <div className="bg-gray-50 p-3 rounded">
+            <p className="text-gray-600">前日終値</p>
+            <p className="font-semibold text-gray-900">${stock.previousClose.toFixed(2)}</p>
+          </div>
+          <div className="bg-gray-50 p-3 rounded">
+            <p className="text-gray-600">出来高</p>
+            <p className="font-semibold text-gray-900">{stock.volume}</p>
+          </div>
+          <div className="bg-gray-50 p-3 rounded">
+            <p className="text-gray-600">52週高</p>
+            <p className="font-semibold text-gray-900">${stock.high52w.toFixed(2)}</p>
+          </div>
+          <div className="bg-gray-50 p-3 rounded">
+            <p className="text-gray-600">52週低</p>
+            <p className="font-semibold text-gray-900">${stock.low52w.toFixed(2)}</p>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-8">
+      <div className="max-w-7xl mx-auto">
+        <div className="mb-8">
+          <div className="flex items-center gap-3 mb-2">
+            <BarChart3 className="w-8 h-8 text-indigo-600" />
+            <h1 className="text-4xl font-bold text-gray-900">株価比較ダッシュボード</h1>
+          </div>
+          <p className="text-gray-600">2026年2月6日 現在</p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <StockCard stock={stocks.NVDA} />
+          <StockCard stock={stocks.TSLA} />
+        </div>
+
+        <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">指標比較</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full">
+              <thead>
+                <tr className="border-b-2 border-gray-200">
+                  <th className="text-left py-4 px-4 font-semibold text-gray-700">指標</th>
+                  <th className="text-right py-4 px-4 font-semibold text-gray-700">NVIDIA (NVDA)</th>
+                  <th className="text-right py-4 px-4 font-semibold text-gray-700">Tesla (TSLA)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-100 hover:bg-gray-50">
+                  <td className="py-4 px-4 font-medium text-gray-800">現在株価</td>
+                  <td className="text-right py-4 px-4 text-gray-900">${stocks.NVDA.price.toFixed(2)}</td>
+                  <td className="text-right py-4 px-4 text-gray-900">${stocks.TSLA.price.toFixed(2)}</td>
+                </tr>
+                <tr className="border-b border-gray-100 hover:bg-gray-50">
+                  <td className="py-4 px-4 font-medium text-gray-800">PER (株価収益率)</td>
+                  <td className="text-right py-4 px-4 text-gray-900">{stocks.NVDA.pe}</td>
+                  <td className="text-right py-4 px-4 text-gray-900">{stocks.TSLA.pe}</td>
+                </tr>
+                <tr className="border-b border-gray-100 hover:bg-gray-50">
+                  <td className="py-4 px-4 font-medium text-gray-800">時価総額</td>
+                  <td className="text-right py-4 px-4 text-gray-900">{stocks.NVDA.marketCap}</td>
+                  <td className="text-right py-4 px-4 text-gray-900">{stocks.TSLA.marketCap}</td>
+                </tr>
+                <tr className="border-b border-gray-100 hover:bg-gray-50">
+                  <td className="py-4 px-4 font-medium text-gray-800">本日の変動率</td>
+                  <td className="text-right py-4 px-4 text-green-600 font-semibold">+{stocks.NVDA.changePercent.toFixed(2)}%</td>
+                  <td className="text-right py-4 px-4 text-red-600 font-semibold">{stocks.TSLA.changePercent.toFixed(2)}%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">直近1ヶ月の推移</h2>
+          <ResponsiveContainer width="100%" height={400}>
+            <LineChart data={chartData}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="name" />
+              <YAxis />
+              <Tooltip formatter={(value) => `$${value.toFixed(2)}`} />
+              <Legend />
+              <Line type="monotone" dataKey="NVDA" stroke="#3b82f6" strokeWidth={2} />
+              <Line type="monotone" dataKey="TSLA" stroke="#ef4444" strokeWidth={2} />
+            </LineChart>
+          </ResponsiveContainer>
+        </div>
+
+        <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">現在株価の比較</h2>
+          <ResponsiveContainer width="100%" height={300}>
+            <BarChart data={[
+              { name: 'NVDA', 価格: stocks.NVDA.price },
+              { name: 'TSLA', 価格: stocks.TSLA.price }
+            ]}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="name" />
+              <YAxis />
+              <Tooltip formatter={(value) => `$${value.toFixed(2)}`} />
+              <Bar dataKey="価格" fill="#3b82f6" radius={[8, 8, 0, 0]} />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+
+        <div className="mt-8 bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
+          <p className="text-sm text-gray-700">
+            <span className="font-semibold text-gray-900">注記:</span> このデータは2026年2月6日時点のもので、参考用です。実際の投資判断には最新の情報をご確認ください。
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+------------------------------------------------
+▼プロンプト P134
+Google Searchで今週末の横浜のジャズイベントを調べて。その結果を元に、Reactで『イベントナビ・アーティファクト』を自作して。地図代わりのエリア表示、開催時間、そしてチケット購入ページへのボタンを配置して。
+
+
+------------------------------------------------
+▼リスト4-3
+import React, { useState } from 'react';
+import { MapPin, Clock, Music, ExternalLink } from 'lucide-react';
+
+const JazzEventNavigator = () => {
+  const [selectedEvent, setSelectedEvent] = useState(null);
+
+  {/* Google Searchで検索された情報から自動生成されたイベントデータ */}
+  const events = [
+    {
+      id: 1,
+      name: '夜のジャズライブ',
+      artist: 'Billboard Live YOKOHAMA',
+      area: 'みなとみらい',
+      date: '2026年2月6日（金）',
+      startTime: '18:30',
+      openTime: '17:30',
+      venue: 'Billboard Live YOKOHAMA',
+      description: '横浜みなとみらいの人気ジャズライブハウスでの上質なジャズ演奏',
+      ticketUrl: 'https://eplus.jp/sf/live/jazz-fusion/kanagawa/yokohama',
+      color: 'from-blue-500 to-purple-600'
+    },
+    {
+      id: 2,
+      name: 'ナイトジャズセッション',
+      artist: 'Billboard Live YOKOHAMA',
+      area: 'みなとみらい',
+      date: '2026年2月6日（金）',
+      startTime: '20:30',
+      openTime: '19:30',
+      venue: 'Billboard Live YOKOHAMA',
+      description: '夜遅くまで楽しめるジャズの夕べ。大人な雰囲気で演奏をお楽しみください',
+      ticketUrl: 'https://eplus.jp/sf/live/jazz-fusion/kanagawa/yokohama',
+      color: 'from-indigo-500 to-blue-600'
+    },
+    {
+      id: 3,
+      name: '日曜ジャズライブ',
+      artist: 'Billboard Live YOKOHAMA',
+      area: 'みなとみらい',
+      date: '2026年2月8日（日）',
+      startTime: '17:30',
+      openTime: '16:30',
+      venue: 'Billboard Live YOKOHAMA',
+      description: '週末の昼下がり、心地よいジャズを堪能できるスペシャルプログラム',
+      ticketUrl: 'https://eplus.jp/sf/live/jazz-fusion/kanagawa/yokohama',
+      color: 'from-purple-500 to-pink-600'
+    },
+    {
+      id: 4,
+      name: 'サンデーナイトジャズ',
+      artist: 'Billboard Live YOKOHAMA',
+      area: 'みなとみらい',
+      date: '2026年2月8日（日）',
+      startTime: '20:30',
+      openTime: '19:30',
+      venue: 'Billboard Live YOKOHAMA',
+      description: '週末最後の夜を上質なジャズとともに過ごしませんか',
+      ticketUrl: 'https://eplus.jp/sf/live/jazz-fusion/kanagawa/yokohama',
+      color: 'from-pink-500 to-rose-600'
+    }
+  ];
+
+  const areaColors = {
+    'みなとみらい': 'bg-blue-50 border-blue-200',
+    '関内': 'bg-purple-50 border-purple-200',
+    '横浜駅周辺': 'bg-green-50 border-green-200'
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black p-6">
+      <div className="max-w-6xl mx-auto">
+        {/* ヘッダー */}
+        <div className="mb-12">
+          <div className="flex items-center gap-3 mb-4">
+            <Music className="w-10 h-10 text-yellow-400" />
+            <h1 className="text-4xl font-bold text-white">?? 横浜ジャズイベントナビ</h1>
+          </div>
+          <p className="text-gray-300 text-lg">この週末の横浜ジャズイベント情報</p>
+          <p className="text-gray-400 text-sm mt-2">2026年2月6日?8日</p>
+        </div>
+
+        {/* イベント一覧 */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          {events.map((event) => (
+            <div
+              key={event.id}
+              onClick={() => setSelectedEvent(event)}
+              className={`cursor-pointer group relative overflow-hidden rounded-xl transition-all duration-300 hover:shadow-2xl hover:scale-105 ${
+                selectedEvent?.id === event.id ? 'ring-2 ring-yellow-400 shadow-2xl' : 'shadow-lg'
+              }`}
+            >
+              {/* グラデーション背景 */}
+              <div className={`absolute inset-0 bg-gradient-to-br ${event.color} opacity-80 group-hover:opacity-90 transition-opacity`}></div>
+
+              {/* コンテンツ */}
+              <div className="relative p-6 text-white h-full flex flex-col justify-between">
+                <div>
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h3 className="text-xl font-bold mb-1 group-hover:text-yellow-200 transition-colors">
+                        {event.name}
+                      </h3>
+                      <p className="text-sm opacity-90">{event.artist}</p>
+                    </div>
+                  </div>
+
+                  {/* エリア表示 */}
+                  <div className="inline-block px-3 py-1 bg-white bg-opacity-20 rounded-full text-sm mb-4 backdrop-blur-sm">
+                    <MapPin className="w-4 h-4 inline mr-1" />
+                    {event.area}
+                  </div>
+
+                  {/* 日時情報 */}
+                  <div className="space-y-2 mb-4">
+                    <div className="flex items-center gap-2 text-sm">
+                      <Clock className="w-4 h-4" />
+                      <span>{event.date}</span>
+                    </div>
+                    <div className="flex items-center gap-2 text-sm">
+                      <Clock className="w-4 h-4" />
+                      <span>開場：{event.openTime} ／ 開演：{event.startTime}</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* チケットボタン */}
+                <a
+                  href={event.ticketUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-white text-gray-900 font-semibold py-2 px-4 rounded-lg hover:bg-yellow-300 transition-colors mt-4 w-full justify-center"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  チケット購入
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* 詳細表示パネル */}
+        {selectedEvent && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+            <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full overflow-hidden">
+              <div className={`bg-gradient-to-r ${selectedEvent.color} p-8 text-white`}>
+                <h2 className="text-3xl font-bold mb-2">{selectedEvent.name}</h2>
+                <p className="text-lg opacity-90">{selectedEvent.artist}</p>
+              </div>
+
+              <div className="p-8">
+                <div className="grid md:grid-cols-2 gap-6 mb-6">
+                  {/* 左列 */}
+                  <div className="space-y-4">
+                    <div>
+                      <h3 className="font-semibold text-gray-700 mb-2 flex items-center gap-2">
+                        <MapPin className="w-5 h-5 text-blue-500" />
+                        会場
+                      </h3>
+                      <p className="text-gray-600 ml-7">{selectedEvent.venue}</p>
+                      <p className="text-gray-500 text-sm ml-7">エリア: {selectedEvent.area}</p>
+                    </div>
+
+                    <div>
+                      <h3 className="font-semibold text-gray-700 mb-2 flex items-center gap-2">
+                        <Clock className="w-5 h-5 text-green-500" />
+                        開催日時
+                      </h3>
+                      <p className="text-gray-600 ml-7">{selectedEvent.date}</p>
+                      <p className="text-gray-600 ml-7">開場: {selectedEvent.openTime}</p>
+                      <p className="text-gray-600 ml-7">開演: {selectedEvent.startTime}</p>
+                    </div>
+                  </div>
+
+                  {/* 右列 */}
+                  <div>
+                    <h3 className="font-semibold text-gray-700 mb-2">説明</h3>
+                    <p className="text-gray-600 leading-relaxed">{selectedEvent.description}</p>
+                  </div>
+                </div>
+
+                {/* ボタン */}
+                <div className="flex gap-3">
+                  <a
+                    href={selectedEvent.ticketUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 bg-gradient-to-r from-yellow-400 to-orange-500 text-white font-bold py-3 px-4 rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-2"
+                  >
+                    <ExternalLink className="w-5 h-5" />
+                    チケット購入ページへ
+                  </a>
+                  <button
+                    onClick={() => setSelectedEvent(null)}
+                    className="flex-1 bg-gray-200 text-gray-800 font-semibold py-3 px-4 rounded-lg hover:bg-gray-300 transition-colors"
+                  >
+                    閉じる
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* 情報ボックス */}
+        <div className="bg-gray-800 border border-gray-700 rounded-lg p-6 text-gray-300 text-sm">
+          <p className="mb-2">
+            <span className="font-semibold text-white">?? 主要エリア：</span> みなとみらいの最高級ジャズライブハウス Billboard Live YOKOHAMA で開催
+          </p>
+          <p>
+            <span className="font-semibold text-white">?? ヒント：</span> 各イベントをクリックすると詳細が表示されます。チケット購入ページへのリンクから簡単に予約できます。
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default JazzEventNavigator;
+
+
+------------------------------------------------
+▼プロンプト P149
+server.log を読み込んで、'ERROR' が含まれる行だけを抜き出し、その解決案を末尾に追記した error_report.md を作成して。
+
+
+------------------------------------------------
+▼リスト4-4
+// 1. ファイルを読み込む (read)
+// 2. JavaScriptのfilterメソッドなどでエラー行を特定
+// 3. 内容を整形してマークダウン形式にする
+// 4. 新しいファイルとして保存 (write)
+
+// 以下、Claudeが生成し、アーティファクトとしてプレビュー表示することもあるコード例
+const processLogs = (logContent) => {
+  const lines = logContent.split('\n');
+  const errorLines = lines.filter(line => line.includes('ERROR'));
+  
+  let report = "# システムエラー報告書\n\n";
+  errorLines.forEach(line => {
+    report += `### 発生したエラー\n\`\`\`\n${line}\n\`\`\`\n`;
+    report += `**推奨される対応:** このエラーコードを確認し、再起動または設定値の再検証を行ってください。\n\n`;
+  });
+  return report;
+};
+
+
+
+------------------------------------
+▼リスト4-5
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+async function fetchAndParseNews(url) {
+    try {
+        // 1. 指定されたURLからページの全データを取得する
+        // axios.get(url) は、サーバーに「中身をください」と非同期でリクエストを送る役割
+        const response = await axios.get(url);
+        const html = response.data;
+
+        // 2. 取得したHTMLデータを、Cheerio（jQueryライクな操作ツール）でロードする
+        // cheerio.load は、HTMLの山から特定の要素をセレクタで探せるようにする準備
+        const $ = cheerio.load(html);
+
+        const results = [];
+
+        // 3. ニュースの見出しが格納されている「article」タグをすべて探し出す
+        // $('article').each は、見つかったすべてのarticleに対し繰り返し処理を行う
+        $('article').each((index, element) => {
+            // 4. articleタグの中から、「h2」タグ（見出し）のテキストを取る
+            // .text() は、タグを除去し中身だけを抽出し、余計な空白を .trim() で消す
+            const title = $(element).find('h2').text().trim() || "No Title";
+
+            // 5. aタグ（リンク）を探し、その中の 'href' 属性（URL）を抜き出す
+            // .attr('href') は、<a href="..."> の属性値を特定して取得する
+            const link = $(element).find('a').attr('href') || "";
+
+            // 6. 抽出したデータをオブジェクトにして配列に追加する
+            results.push({
+                title: title,
+                link: link
+            });
+        });
+
+        return results;
+
+    } catch (error) {
+        // ネットワークエラーや404エラーなどが発生した場合の処理
+        console.error("エラーが発生しました:", error.message);
+        return [];
+    }
+}
+
+
+------------------------------------------------
+▼プロンプト P155
+googleニュースの日本語サイトから、今日の主なニュースの「見出し」と「概要」を抽出し、データとして整理してレポートにまとめて。レポートは、「日付 時刻_news.md」というファイル名でMarkdownフォーマットで保存して。
+
+
+------------------------------------------------
+▼リスト4-6
+(async () => {
+    const newsData = await fetchAndParseNews("https://example.com"); //ダミーURL
+    newsData.forEach(item => {
+        console.log(`見出し: ${item.title}\nリンク: ${item.link}\n`);
+    });
+})();
+
+
+
+
+
+------------------------------------------------
+■Chapter5
+------------------------------------------------
+▼リスト5-1
+# 1. Pythonのバージョン確認
+python --version
+
+# 2. プロジェクト用フォルダの作成と移動
+cd Desktop
+mkdir agent_project
+cd agent_project
+
+# 3. 仮想環境（venv）の構築
+python -m venv venv
+
+
+------------------------------------
+▼リスト5-2
+# Windowsの場合: (PowerShell)
+.\venv\Scripts\activate
+
+# Mac / Linuxの場合:
+source venv/bin/activate
+
+
+------------------------------------
+▼リスト5-3
+# pip自体のアップグレード（念のため）
+python -m pip install --upgrade pip
+
+# Anthropic公式ライブラリのインストール
+pip install anthropic
+
+
+------------------------------------
+▼リスト5-4
+# Windows (PowerShell):
+$env:ANTHROPIC_API_KEY="<APIキー>"
+
+# Mac / Linux:
+export ANTHROPIC_API_KEY="<APIキー>"
+
+
+------------------------------------
+▼リスト5-5
+import anthropic
+import os
+
+# 1. APIキーの取得
+key = os.environ.get("ANTHROPIC_API_KEY")
+
+# 2. クライアントの初期化
+client = anthropic.Anthropic(api_key=key)
+
+# 3. メッセージの送信
+message = client.messages.create(
+  model="claude-haiku-4-5",
+  max_tokens=300,
+  messages=[
+    {"role": "user", "content": "API接続テスト成功。短く挨拶して。"}
+  ]
+)
+
+# 4. 結果の表示
+print(message.content[0].text)
+
+
+------------------------------------
+▼リスト5-6
+import anthropic
+import os
+
+# 1. APIキーの取得
+key = os.environ.get("ANTHROPIC_API_KEY")
+
+# 2. ユーザーからの入力
+prompt = input("prompt: ")
+
+# 3. インスタンスの作成
+client = anthropic.Anthropic(api_key=key)
+
+# 4. 指示の作成と送信
+res = client.messages.create(
+  model="claude-haiku-4-5",
+  max_tokens=500,
+  temperature=0.3,
+  system="あなたは日英翻訳の専門家です。入力された日本語を、ビジネス向けと友人向けの2つのスタイルで英語に訳し、簡潔に出力してください。",
+  messages=[
+    {"role": "user", "content": prompt}
+  ]
+)
+
+# 5. 結果の表示
+print(res.content[0].text)
+
+
+
+------------------------------------
+▼リスト5-7
+import anthropic
+import os
+
+# 1. APIキーの取得
+key = os.environ.get("ANTHROPIC_API_KEY")
+
+# 2. インスタンスの作成
+client = anthropic.Anthropic(api_key=key)
+
+# 3. ユーザーからの入力
+mail_text = input("prompt: ")
+
+# 4. 指示の作成と送信
+res = client.messages.create(
+  model="claude-haiku-4-5",
+  max_tokens=300,
+  system="入力から【会議名、日付、場所】を抽出し、純粋なJSON形式のみで出力してください。解説は不要です。",
+  messages=[
+    {"role": "user", "content": mail_text}
+  ]
+)
+
+# 5. 結果の表示
+print(res.content[0].text)
+
+
+
+------------------------------------
+▼リスト5-8
+import anthropic
+import os
+
+# 1. APIキーの取得
+key = os.environ.get("ANTHROPIC_API_KEY")
+
+# 2. インスタンスの作成
+client = anthropic.Anthropic(api_key=key)
+
+# 3. 過去の会話履歴を用意
+chat_history = [
+  {"role": "user", "content": "北海道旅行のおすすめは？"},
+  {"role": "assistant", "content": "冬の旭山動物園や小樽の運河がおすすめです。"}
+]
+
+# 4. ユーザーからの入力
+prompt = input("北海道旅行についての質問: ")
+
+# 4. 新しい質問を履歴に追加
+chat_history.append({"role": "user", "content": prompt})
+
+#5. 指示の作成と送信
+res = client.messages.create(
+  model="claude-haiku-4-5",
+  max_tokens=400,
+  messages=chat_history
+)
+
+#6. 結果の表示
+print(res.content[0].text)
+
+
+------------------------------------
+▼リスト5-9
+id,customer_name,amount,date
+1,株式会社サンプル,1200000,2024-01-05
+2,田中商事,850000,2024-01-07
+3,佐藤テック,1500000,2024-01-10
+4,有限会社スピード,98000,2024-01-12
+5,グローバル・フューチャー,2100000,2024-01-15
+6,鈴木個人事務所,450000,2024-01-18
+
+
+------------------------------------
+▼リスト5-10
+import pandas as pd
+
+# データ処理の関数
+def export_sales_to_excel(csv_file, output_file):
+  # 1. データの読み込み
+  df = pd.read_csv(csv_file)
+    
+  # 2. 特定条件（売上100万以上）でデータを抽出
+  high_sales = df[df['amount'] >= 1000000]
+    
+  # 3. 複数シートへの書き出し
+  with pd.ExcelWriter(output_file) as writer:
+    df.to_excel(writer, sheet_name='全データ', index=False)
+    high_sales.to_excel(writer, sheet_name='重要顧客', index=False)
+
+# 関数の呼び出し
+export_sales_to_excel('sample_data.csv', 'sample_report.xlsx')
+
+
+------------------------------------
+▼リスト5-11
+import pandas as pd
+
+def add_summary_row(excel_file):
+  # 1. 読み込み
+  df = pd.read_excel(excel_file)
+  
+  # 2. 最終行を計算
+  last_row = len(df) + 1
+
+  # 3. locを使って最終行の次に追加
+  # len(df) は現在の行数。これが新しい末尾のインデックスになる
+  df.loc[last_row, 'customer_name'] = '合計' # 列名に合わせて変更
+  df.loc[last_row, 'amount'] = f"=SUM(C2:C{last_row-1})"
+  
+  # 4. 保存
+  df.to_excel(excel_file, index=False)
+  print(f"{excel_file} に合計行を追加しました。")
+
+# 関数を呼び出す
+add_summary_row('sample_report.xlsx')
+
+
+
+------------------------------------
+▼リスト5-12
+from docx import Document
+
+def create_notification(user_name, date_str):
+  doc = Document()
+    
+  # 見出しの作成
+  doc.add_heading('完了通知書', 0)
+    
+  # 本文の構築
+  p = doc.add_paragraph(f'拝啓、{user_name} 様\n')
+  p.add_run(f'本日の業務（{date_str}）は正常に終了しました。').bold = True
+  # ファイルの保存
+  doc.save(f'notice_{user_name}.docx')
+
+# 関数を呼び出す
+create_notification("山田タロー", "2026-02 月例レポート")
+create_notification("田中ハナコ", "2026年2月・支店販売集計")
+
+
+------------------------------------
+▼リスト5-13
+from docx import Document
+
+# 1. テーブルの作成
+def add_status_table(doc, status_data):
+  # 1行2列の表を作成
+  table = doc.add_table(rows=1, cols=2)
+  table.style = 'Table Grid' # 枠線を表示
+    
+  # ヘッダーの設定
+  hdr_cells = table.rows[0].cells
+  hdr_cells[0].text = 'フェーズ'
+  hdr_cells[1].text = '進捗'
+    
+  # データの流し込み
+  for phase, stat in status_data.items():
+    row_cells = table.add_row().cells
+    row_cells[0].text = phase
+    row_cells[1].text = stat
+
+# 2. ドキュメントの新規作成
+doc = Document()
+doc.add_heading('プロジェクト進捗状況', level=1)
+
+# 3. データの準備（ダミー）
+data = {
+  '要件定義': '完了',
+  '設計': '進行中',
+  '開発': '未着手',
+  'テスト': '未着手'
+}
+
+# 4. 関数の呼び出し
+add_status_table(doc, data)
+
+# 5. ファイルの保存
+doc.save('status_report.docx')
+print("Wordファイルが保存されました。")
+
+
+------------------------------------
+▼リスト5-14
+from pptx import Presentation
+
+def create_simple_deck(title, bullets):
+  prs = Presentation()
+  
+  # タイトルスライド
+  layout = prs.slide_layouts[0] 
+  slide = prs.slides.add_slide(layout)
+  slide.shapes.title.text = title
+  slide.shapes.placeholders[1].text = f'{title} に関する考察のレポート'
+  
+  # 内容スライド
+  layout = prs.slide_layouts[1]
+  slide = prs.slides.add_slide(layout)
+  slide.shapes.title.text = title
+  tf = slide.placeholders[1].text_frame
+  
+  for item in bullets:
+    p = tf.add_paragraph()
+    p.text = item
+      
+  prs.save('presentation.pptx')
+  print('presentation.pptx を作成しました。')
+
+# 関数を呼び出す
+data = [
+  '今期の売上：昨年の1.5倍!!',
+  '利益率：20%を達成!!'
+  '来年の売上目標：昨年の２倍!!',
+  '社長いわく：「死ぬ気で働け!!」',
+]
+create_simple_deck('サンプルスライド', data)
+
+
+
+------------------------------------
+▼リスト5-15
+from pptx import Presentation
+from pptx.util import Inches
+import os
+
+# 関数の定義
+def add_image_slide(prs, img_path):
+    layout = prs.slide_layouts[1]
+    slide = prs.slides.add_slide(layout)
+    
+    # 画像を左から1.5インチ、上から2インチの位置に、横幅6インチで配置
+    slide.shapes.add_picture(img_path, Inches(1.5), Inches(2), width=Inches(6))
+
+# --- 呼び出し部分 ---
+
+# 1. プレゼンテーションの作成
+prs = Presentation()
+
+# 2. 画像パスの指定（お手持ちの画像ファイル名に合わせて変更してください）
+image_file = 'sample_image.png' 
+
+# 3. 画像が存在する場合のみ関数を呼び出す
+if os.path.exists(image_file):
+    add_image_slide(prs, image_file)
+    # 4. 保存
+    prs.save('image_slide.pptx')
+    print(f'{image_file} を挿入したスライドを作成しました。')
+else:
+    print(f'エラー: {image_file} が見つかりません。画像を準備してください。')
+
+
+
+------------------------------------
+▼リスト5-16
+def execute_tool(tool_name, tool_input):
+  """ツールを実行し、成功なら結果を、失敗ならエラー内容を返す"""
+  try:
+    if tool_name == "read_file":
+      # 正常な処理をここで呼び出す
+      return perform_read_file(tool_input["path"])
+        
+    elif tool_name == "calculation":
+      # 計算処理など
+      return perform_calc(tool_input["expression"])
+
+  except Exception as e:
+    # 【ここが肝】エラーを「Pythonの停止」にせず、
+    # 「Claudeへの報告メッセージ」に変換して戻り値にする
+    return f"【実行エラー】種類: {type(e).__name__}, 内容: {str(e)}"
+
+
+
+------------------------------------
+▼リスト5-17
+import os
+
+def perform_read_file(path):
+  # ファイルが存在するかチェック
+  if not os.path.exists(path):
+    # フォルダ内のファイル一覧を取得してエラーに含める
+    existing_files = os.listdir('.')
+    raise FileNotFoundError(f"ファイル '{path}' が見つかりません。現在のディレクトリには {existing_files} があります。")
+    
+  # 正常な読み取り処理
+  with open(path, 'r', encoding='utf-8') as f:
+    return f.read()
+
+
+
+------------------------------------
+▼リスト5-18
+def perform_calc(expression):
+  try:
+    # 文字列の計算式を評価する
+    result = eval(expression)
+    return str(result)
+  except ZeroDivisionError:
+    return "エラー：0で割ることはできません。数式を修正してください。"
+  except Exception as e:
+    return f"エラー：数式が正しくありません（{str(e)}）。"
+
+
+------------------------------------
+▼リスト5-19
+import os
+import time
+import ast
+
+# 1. 天気取得（リトライ指示付きダミーAPI）
+def call_weather_api(city):
+  # call_weather_apiはAPIをコールしたかを示すフラグ
+  # 1回目の呼び出しは必ずエラーになるようシミュレート
+  if not hasattr(call_weather_api, "already_tried"):
+    call_weather_api.already_tried = True
+    return "Error: 429 Too Many Requests. 3秒後に再開してください。"
+  return f"{city}の天気は「晴れ」、気温は 25°C です。"
+
+# 2. 待機ツール
+def wait(seconds):
+  print(f"--- {seconds}秒間待機中... ---")
+  time.sleep(seconds)
+  return f"{seconds}秒間の待機が完了しました。作業を再開します。"
+
+# 実行シミュレーション
+response = call_weather_api("東京")
+if "429" in response:
+  print(f"API反応: {response}")
+  # ３秒待って再試行
+  print(wait(3))
+  print(f"再試行結果: {call_weather_api('東京')}")
+
+
+------------------------------------
+▼リスト5-20
+import json
+
+# 関数の定義
+def validate_and_save(json_data):
+    try:
+        # 届いたデータが正しいJSONか解析する
+        parsed = json.loads(json_data)
+        # 必要なキーがあるかチェック
+        if "id" not in parsed:
+            raise KeyError("JSONに 'id' フィールドが不足しています。")
+        return "保存に成功しました。"
+    except json.JSONDecodeError as e:
+        return f"エラー：JSONの形式が不正です。位置 {e.pos} を確認してください。"
+    except KeyError as e:
+        return f"エラー：データ構造が不完全です。{str(e)}"
+
+# --- 動作検証 ---
+
+# A. 正常なデータ
+data_ok = '{"id": 101, "name": "Gemini"}'
+print(f"パターンA: {validate_and_save(data_ok)}")
+
+# B. JSONの形式が壊れている（末尾のカッコ不足）
+data_broken_json = '{"id": 102, "name": "User"'
+print(f"パターンB: {validate_and_save(data_broken_json)}")
+
+# C. JSONとしては正しいが、'id' キーがない
+data_missing_key = '{"name": "Guest"}'
+print(f"パターンC: {validate_and_save(data_missing_key)}")
+
+
+
+------------------------------------------------
+Chapter6
+------------------------------------------------
+▼リスト6-1
+import anthropic
+
+client = anthropic.Anthropic(api_key=<APIキー>)
+
+def simple_agent(user_query, tools):
+  # 【記憶】会話の履歴を保持するリスト
+  messages = [{"role": "user", "content": user_query}]
+  
+  while True:
+    # 【思考】Claudeに現状を伝え、次のアクションを仰ぐ
+    response = client.messages.create(
+      model="claude-haiku-4-5",
+      max_tokens=1024,
+      tools=tools,
+      messages=messages
+    )
+    
+    # Claudeの返答（思考結果）を記憶に追加
+    messages.append({"role": "assistant", "content": response.content})
+    
+    # 【判定】ツールを使う必要があるか？
+    if response.stop_reason != "tool_use":
+      # ツールを使わない（＝回答が出た）ならループ終了
+      return response.content[0].text
+    
+    # 【実行】指定されたツールをすべて動かす
+    for content in response.content:
+      if content.type == "tool_use":
+        # ツール名と引数を取り出して実行（実行関数は別途定義）
+        result = execute_local_function(content.name, content.input)
+        
+        # 【観察】実行結果を「ユーザーからの報告」として記憶に追加
+        messages.append({
+          "role": "user",
+          "content": [
+            {
+              "type": "tool_result",
+              "tool_use_id": content.id,
+              "content": str(result)
+            }
+          ]
+        })
+
+
+
+------------------------------------
+▼リスト6-2
+import os
+import anthropic
+from docx import Document
+
+# --- ツール実体の定義（筋肉の部分） ---
+def web_search(query):
+  # 本来は検索APIを叩きますが、ここではシミュレーション結果を返します
+  print(f"  [System] {query} で検索中...")
+  if "最新" in query:
+    return "2026年の主要トレンドは量子コンピューティングの普及です。"
+  return "AIエージェントがビジネスの主流になりつつあります。"
+
+def save_word(filename, content):
+  doc = Document()
+  doc.add_paragraph(content)
+  doc.save(filename)
+  return f"ファイル {filename} を正常に保存しました。"
+
+# --- エージェント・ループ（神経系の部分） ---
+def research_agent(topic):
+  key = os.environ.get("ANTHROPIC_API_KEY")
+  client = anthropic.Anthropic(api_key=key)
+  
+  # ツール（道具箱）の定義
+  tools = [
+    {
+      "name": "web_search",
+      "description": "インターネットで最新情報を検索します",
+      "input_schema": {
+        "type": "object",
+        "properties": {"query": {"type": "string"}},
+        "required": ["query"]
+      }
+    },
+    {
+      "name": "save_word",
+      "description": "調査結果をWordファイルとして保存します",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "filename": {"type": "string"},
+          "content": {"type": "string"}
+        },
+        "required": ["filename", "content"]
+      }
+    }
+  ]
+
+  messages = [{"role": "user", "content": f"{topic}について調査し、report.docxで保存して"}]
+
+  while True:
+    # 1. 【思考 (Think)】
+    response = client.messages.create(
+      model="claude-haiku-4-5",
+      max_tokens=1024,
+      tools=tools,
+      messages=messages
+    )
+
+    messages.append({"role": "assistant", "content": response.content})
+
+    # 2. 【停止判定】
+    if response.stop_reason != "tool_use":
+      print("  [Agent] 全ての作業が完了しました。")
+      break
+
+    # 3. 【実行 (Act) と 観察 (Observe)】
+    for content in response.content:
+      if content.type == "tool_use":
+        # ツールの種類に応じて実行を分岐（ディスパッチ）
+        if content.name == "web_search":
+          observation = web_search(content.input["query"])
+        elif content.name == "save_word":
+          observation = save_word(content.input["filename"], content.input["content"])
+          print(f'ファイルに保存: {content.input["filename"]}')
+        # 実行結果を履歴（記憶）に追加
+        messages.append({
+          "role": "user",
+          "content": [
+              {
+                "type": "tool_result",
+                "tool_use_id": content.id,
+                "content": observation
+              }
+            ]
+          })
+
+# メインプログラム
+prompt = input('topic: ')
+research_agent(prompt)
+
+
+------------------------------------
+▼リスト6-3
+import anthropic
+import os
+
+# --- ツール実体の定義（手足の部分） ---
+def read_file(path):
+  """ファイルの内容を読み取って返す"""
+  print(f"  [System] ファイル '{path}' を読み込んでいます...")
+  if not os.path.exists(path):
+    return f"エラー: {path} が見つかりません。"
+  with open(path, 'r', encoding='utf-8') as f:
+    content = f.read()
+  return content
+
+def replace_line(path, old_text, new_text):
+  """ファイル内の特定の文字列を置換する"""
+  print(f"  [System] ファイル '{path}' の内容を書き換えています...")
+  content = read_file(path)
+  if "エラー" in content: return content
+  
+  if old_text not in content:
+    return f"エラー: '{old_text}' がファイル内に見つかりません。"
+      
+  new_content = content.replace(old_text, new_text)
+  with open(path, 'w', encoding='utf-8') as f:
+    f.write(new_content)
+  return f"成功: '{old_text}' を '{new_text}' に書き換えました。"
+
+# --- エージェント・ループ ---
+def coding_agent(target_file, instruction):
+  key = os.environ.get("ANTHROPIC_API_KEY")
+  client = anthropic.Anthropic(api_key=key)
+  
+  tools = [
+    {
+      "name": "read_file",
+      "description": "ファイルの中身を読み取ります。修正箇所の特定に使用してください。",
+      "input_schema": {
+        "type": "object",
+        "properties": {"path": {"type": "string"}},
+        "required": ["path"]
+      }
+    },
+    {
+      "name": "replace_line",
+      "description": "ファイル内の特定の文字列を新しい文字列で置換します。",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string"},
+          "old_text": {"type": "string"},
+          "new_text": {"type": "string"}
+        },
+        "required": ["path", "old_text", "new_text"]
+      }
+    }
+  ]
+
+  messages = [{"role": "user", "content": f"{target_file}の内容を確認し、{instruction}"}]
+
+  while True:
+    # 1. 思考 (Think)
+    response = client.messages.create(
+      model="claude-haiku-4-5",
+      max_tokens=1500,
+      tools=tools,
+      messages=messages
+    )
+      
+    messages.append({"role": "assistant", "content": response.content})
+
+    if response.stop_reason != "tool_use":
+      return response.content[0].text
+
+    # 2. 実行 (Act) と 観察 (Observe)
+    for content in response.content:
+      if content.type == "tool_use":
+        if content.name == "read_file":
+          observation = read_file(content.input["path"])
+        elif content.name == "replace_line":
+          observation = replace_line(
+            content.input["path"], 
+            content.input["old_text"], 
+            content.input["new_text"]
+          )
+        
+        messages.append({
+          "role": "user",
+          "content": [
+            {
+              "type": "tool_result",
+              "tool_use_id": content.id,
+              "content": observation
+            }
+          ]
+        })
+
+# --- サンプルファイルの作成と実行 ---
+if __name__ == "__main__":
+  # テスト用ファイルの用意
+  sample_path = input('file name: ')
+
+  print(f"--- 準備完了: {sample_path} を確認しました ---")
+  
+  # エージェントの実行
+  task = "コメントと挨拶を日本語にして、最後に '完了です' と出力するように変更して" # タスク用プロンプト
+  result = coding_agent(sample_path, task)
+  
+  print("\n--- エージェントの最終報告 ---")
+  print(result)
+
+
+------------------------------------
+▼リスト6-4
+# sample function
+def say_hello():
+    print("Hello world!")
+
+# call function
+say_hello()
+
+
+------------------------------------
+▼リスト6-5
+pip install matplotlib
+
+
+------------------------------------
+▼リスト6-6
+import os
+import anthropic
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# --- ツール実体の定義 ---
+def get_data_summary(csv_path):
+  """CSVの要約統計量（平均、最小、最大など）を返す"""
+  df = pd.read_csv(csv_path)
+  # 文字列として統計情報を返し、Claudeに「観察」させる
+  return df.describe().to_string()
+
+def create_chart(csv_path, x_col, y_col, chart_name):
+  """指定された列で棒グラフを作成し保存する"""
+  df = pd.read_csv(csv_path)
+  df.plot(kind='bar', x=x_col, y=y_col)
+  plt.title(f"{y_col} by {x_col}")
+  plt.savefig(chart_name)
+  plt.close()
+  return f"グラフを {chart_name} として保存しました。内容を確認してください。"
+
+# --- エージェント・ループ ---
+def analyst_agent(csv_file):
+  key = os.environ.get("ANTHROPIC_API_KEY")
+  client = anthropic.Anthropic(api_key=key)
+  
+  tools = [
+    {
+      "name": "get_data_summary",
+      "description": "CSVデータの統計要約を取得し、データの傾向を把握します。",
+      "input_schema": {
+        "type": "object",
+        "properties": {"csv_path": {"type": "string"}},
+        "required": ["csv_path"]
+      }
+    },
+    {
+      "name": "create_chart",
+      "description": "データからグラフ画像を生成します。",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "csv_path": {"type": "string"},
+          "x_col": {"type": "string"},
+          "y_col": {"type": "string"},
+          "chart_name": {"type": "string"}
+        },
+        "required": ["csv_path", "x_col", "y_col", "chart_name"]
+      }
+    }
+  ]
+
+  messages = [{"role": "user", "content": f"{csv_file}を分析して、特徴を教えて。重要な指標はグラフにして。"}]
+
+  while True:
+    # 1. 思考 (Think)
+    response = client.messages.create(
+      model="claude-haiku-4-5",
+      max_tokens=2000,
+      tools=tools,
+      messages=messages
+    )
+      
+    messages.append({"role": "assistant", "content": response.content})
+
+    if response.stop_reason != "tool_use":
+      return response.content[0].text
+
+    # 2. 実行 (Act) と 観察 (Observe)
+    for content in response.content:
+      if content.type == "tool_use":
+        if content.name == "get_data_summary":
+          observation = get_data_summary(content.input["csv_path"])
+        elif content.name == "create_chart":
+          observation = create_chart(
+            content.input["csv_path"],
+            content.input["x_col"],
+            content.input["y_col"],
+            content.input["chart_name"]
+          )
+          
+        messages.append({
+          "role": "user",
+          "content": [
+            {
+              "type": "tool_result",
+              "tool_use_id": content.id,
+              "content": observation
+            }
+          ]
+        })
+
+# --- 実行ブロック ---
+if __name__ == "__main__":
+
+  # 1. サンプルデータの作成（売上データ）
+  sample_csv = "sales_data.csv"
+  data = {
+    'Month': ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+    'Sales': [150, 200, 180, 250, 300],
+    'Visits': [1000, 1200, 1100, 1500, 1800]
+  }
+  pd.DataFrame(data).to_csv(sample_csv, index=False)
+  print(f"--- {sample_csv} を作成しました ---")
+
+  # 2. エージェントの実行
+  analysis_result = analyst_agent(sample_csv)
+  
+  print("\n--- エージェントの分析報告 ---")
+  print(analysis_result)
+
+
+------------------------------------
+▼リスト6-7
+import os
+import anthropic
+
+# --- ツール実体の定義 ---
+def read_file(path):
+  if not os.path.exists(path):
+      return f"エラー: {path} が見つかりません。"
+  with open(path, 'r', encoding='utf-8') as f:
+      return f.read()
+
+def replace_line(path, old_text, new_text):
+  content = read_file(path)
+  if "エラー" in content: return content
+  if old_text not in content:
+    return f"エラー: '{old_text}' が見つかりません。"
+  new_content = content.replace(old_text, new_text)
+  with open(path, 'w', encoding='utf-8') as f:
+    f.write(new_content)
+  return f"成功: 置換を完了しました。"
+
+# --- QAエージェント ---
+def qa_agent(target_file, instruction):
+  key = os.environ.get("ANTHROPIC_API_KEY")
+  client = anthropic.Anthropic(api_key=key)
+
+  tools = [
+    {
+      "name": "read_file",
+      "description": "ファイル内容を読み取ります。現状確認と修正後の最終検証に使用します。",
+      "input_schema": {
+        "type": "object",
+        "properties": {"path": {"type": "string"}},
+        "required": ["path"]
+      }
+    },
+    {
+      "name": "replace_line",
+      "description": "ファイル内の特定の文字列を置換します。",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string"},
+          "old_text": {"type": "string"},
+          "new_text": {"type": "string"}
+        },
+        "required": ["path", "old_text", "new_text"]
+      }
+    }
+  ]
+
+  SYSTEM_PROMPT = """
+  あなたは厳格な品質管理エンジニアです。
+  【鉄則】
+  1. 作業開始前に必ず 'read_file' で現状を把握すること。
+  2. 修正後は、報告する前に必ず再度 'read_file' を行い、正しく修正されたか確認すること。
+  3. 確認が済むまで「完了」と言ってはならない。
+  """
+
+  messages = [{"role": "user", "content": f"{target_file}を{instruction}"}]
+
+  while True:
+    response = client.messages.create(
+      model="claude-sonnet-4-5", # 厳格な指示を守らせるためSonnetを推奨
+      max_tokens=1500,
+      system=SYSTEM_PROMPT,
+      tools=tools,
+      messages=messages
+    )
+    
+    messages.append({"role": "assistant", "content": response.content})
+    
+    if response.stop_reason != "tool_use":
+      return response.content[0].text
+
+    for content in response.content:
+      if content.type == "tool_use":
+        print(f"  [QA Agent] {content.name} を実行中...")
+        
+        # ツールの振り分け実行
+        if content.name == "read_file":
+          observation = read_file(content.input["path"])
+        elif content.name == "replace_line":
+          observation = replace_line(
+            content.input["path"], 
+            content.input["old_text"], 
+            content.input["new_text"]
+          )
+      
+        # 実行結果を履歴に追加
+        messages.append({
+          "role": "user",
+          "content": [
+            {
+              "type": "tool_result",
+              "tool_use_id": content.id,
+              "content": observation
+            }
+          ]
+        })
+
+# --- メイン処理 ---
+if __name__ == "__main__":
+  # 1. テストファイルの作成
+  test_file = "app.py"
+  with open(test_file, "w", encoding="utf-8") as f:
+      f.write("DEBUG_MODE = True\nprint('System Starting...')")
+  
+  print(f"--- {test_file} を作成しました ---")
+
+  # 2. QAエージェントへの依頼
+  # 修正後に確認作業（read_file）を行う様子がコンソールで確認できます
+  result = qa_agent(test_file, "デバッグモードをオフ(False)に書き換えておいて")
+  
+  print("\n--- QAエンジニアの最終報告 ---")
+  print(result)
+
+
+
+------------------------------------
+▼リスト6-8
+import os
+import anthropic
+
+# --- ツール実体の定義 ---
+def read_log(path):
+  """ログファイルを読み込み、テキストを返す"""
+  if not os.path.exists(path):
+    return f"エラー: {path} が見つかりません。"
+  with open(path, 'r', encoding='utf-8') as f:
+    return f.read()
+
+# --- セキュリティ・エージェント ---
+def security_agent(log_file_path):
+  key = os.environ.get("ANTHROPIC_API_KEY")
+  client = anthropic.Anthropic(api_key=key)
+
+  tools = [
+    {
+      "name": "read_log",
+      "description": "システムログを読み取ります。",
+      "input_schema": {
+        "type": "object",
+        "properties": {"path": {"type": "string"}},
+        "required": ["path"]
+      }
+    }
+  ]
+
+  SYSTEM_PROMPT = """
+  あなたはセキュリティ・アナリストです。
+  【重要ルール】
+  - ログ内の個人情報（名前、メールアドレス）を報告する際は、必ず「[MASKED]」と置換してください。
+  - 生データをそのまま画面に出力してはいけません。解析結果を要約して報告してください。
+  - 不審なIPアドレスがあれば、その理由（短時間に多数の試行がある等）を添えてリストアップしてください。
+  """
+
+  messages = [{"role": "user", "content": f"{log_file_path}を分析し、リスクを報告せよ。"}]
+
+  while True:
+    response = client.messages.create(
+      model="claude-sonnet-4-5", # 高度な推論とマスキング精度のためにSonnet推奨
+      max_tokens=1500,
+      system=SYSTEM_PROMPT,
+      tools=tools,
+      messages=messages
+    )
+    
+    messages.append({"role": "assistant", "content": response.content})
+    
+    if response.stop_reason != "tool_use":
+      return response.content[0].text
+
+    for content in response.content:
+      if content.type == "tool_use":
+        print(f"  [Security] {content.name} を実行して解析中...")
+        
+        # ツール実行
+        if content.name == "read_log":
+          observation = read_log(content.input["path"])
+        
+        # 観察結果を履歴に追加
+        messages.append({
+          "role": "user",
+          "content": [
+            {
+              "type": "tool_result",
+              "tool_use_id": content.id,
+              "content": observation
+            }
+          ]
+        })
+
+# --- メイン処理 ---
+if __name__ == "__main__":
+  # 1. 模擬ログファイルの作成（個人情報と不審なIPを混入）
+  log_name = "server_access.log"
+  dummy_logs = """
+  2026-02-13 10:00:01 INFO: User login success - user: tanaka@example.com, IP: 192.168.1.10
+  2026-02-13 10:05:20 WARN: Failed login attempt - user: admin, IP: 203.0.113.5
+  2026-02-13 10:05:21 WARN: Failed login attempt - user: admin, IP: 203.0.113.5
+  2026-02-13 10:05:22 WARN: Failed login attempt - user: root, IP: 203.0.113.5
+  2026-02-13 10:10:45 INFO: User login success - user: sato@example.com, IP: 192.168.1.15
+  """
+  with open(log_name, "w", encoding="utf-8") as f:
+      f.write(dummy_logs.strip())
+  
+  print(f"--- 診断対象: {log_name} を生成しました ---")
+
+  # 2. エージェントの実行
+  report = security_agent(log_name)
+  
+  print("\n--- セキュリティ解析レポート ---")
+  print(report)
+
+
+------------------------------------
+▼リスト6-9
+import os
+import anthropic
+import json
+
+def json_extraction_agent(target_text):
+  key = os.environ.get("ANTHROPIC_API_KEY")
+  client = anthropic.Anthropic(api_key=key)
+
+  SYSTEM_PROMPT = """
+  あなたはデータ変換専用のAIです。
+  【制約】
+  - 出力は純粋なJSONのみとし、挨拶や解説は一切禁止します。
+  - 返答の開始は '{' で、終了は '}' である必要があります。
+  - 抽出対象キー：name, title, org
+  """
+
+  messages = [{"role": "user", "content": f"以下の情報をJSONにして：{target_text}"}]
+
+  # 会話ではなく「データ変換」なのでループさせず一撃で取得
+  response = client.messages.create(
+    model="claude-haiku-4-5",
+    max_tokens=500,
+    system=SYSTEM_PROMPT,
+    messages=messages
+  )
+  
+  return response.content[0].text.replace('```json', '').replace('```', '').strip() # 前後の余計な文字を削除
+
+# --- 実行ブロック ---
+if __name__ == "__main__":
+  # 解析対象の雑多なテキストサンプル
+  raw_info = "株式会社テックの代表取締役である田中太郎さんに、昨日お会いしました。"
+  
+  print("--- データ抽出開始 ---")
+  json_res = json_extraction_agent(raw_info)
+  
+  # 取得した文字列をPythonの辞書としてロードできるか検証
+  try:
+    data = json.loads(json_res)
+    print("抽出成功:")
+    print(f"  氏名: {data.get('name')}")
+    print(f"  役職: {data.get('title')}")
+    print(f"  組織: {data.get('org')}")
+  except json.JSONDecodeError as e:
+    print("エラー: AIの出力が正しいJSON形式ではありませんでした。")
+    print(json_res)
+    print(e)
+
+
+
+------------------------------------------------
+Chapter7
+------------------------------------------------
+▼リスト7-1
+# ディレクトリの移動
+cd Desktop
+
+# プロジェクトフォルダーの作成
+mkdir agent_project_js
+cd agent_project_js
+
+# プロジェクトの初期化（package.jsonの作成）
+npm init -y
+
+# Anthropic公式SDKのインストール
+npm install @anthropic-ai/sdk dotenv
+
+
+------------------------------------------------
+▼リスト7-2
+import Anthropic from '@anthropic-ai/sdk';
+import 'dotenv/config';
+
+// 1. クライアントの初期化
+const anthropic = new Anthropic({
+  apiKey: process.env.ANTHROPIC_API_KEY,
+});
+
+// 2. 非同期関数の定義
+async function askClaude() {
+  try {
+    // 3. APIリクエスト（完了を待つ）
+    const message = await anthropic.messages.create({
+      model: "claude-haiku-4-5",
+      max_tokens: 1024,
+      messages: [{ role: "user", content: "こんにちは！" }],
+    });
+
+    console.log(message.content[0].text);
+  } catch (error) {
+    console.error("エラーが発生しました:", error);
+  }
+}
+
+// 関数を実行する
+askClaude()
+
+
+
+------------------------------------------------
+▼リスト7-3
+{
+  "name": "agent_project_js",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.74.0",
+    "dotenv": "^17.3.1"
+  }
+}
+
+
+
+------------------------------------------------
+▼リスト7-4
+import Anthropic from '@anthropic-ai/sdk';
+import 'dotenv/config';
+
+const anthropic = new Anthropic({
+  apiKey: process.env.ANTHROPIC_API_KEY,
+});
+
+async function streamResponse(prompt) {
+  // ストリームの開始
+  const stream = await anthropic.messages.create({
+    max_tokens: 1024,
+    messages: [{ role: "user", content: prompt }],
+    model: "claude-haiku-4-5",
+    stream: true, // ストリームモードを有効化
+  });
+
+  // 非同期イテレータを使ってデータが届くたびに処理
+  for await (const event of stream) {
+    if (event.type === 'content_block_delta') {
+      process.stdout.write(event.delta.text); // 改行せずに文字を出力
+    }
+  }
+}
+
+// 関数を実行する
+streamResponse("自律エージェントの未来について300文字で語ってください。");
+
+
+------------------------------------------------
+▼リスト7-5
+import Anthropic from '@anthropic-ai/sdk';
+import 'dotenv/config';
+
+const anthropic = new Anthropic({
+  apiKey: process.env.ANTHROPIC_API_KEY,
+});
+
+async function parallelResearch() {
+  const topics = ["量子コンピュータ", "核融合発電", "ゲノム編集"];
+
+  // 全てのトピックに対して非同期リクエストを生成
+  const promises = topics.map(async (topic) => {
+    const res = await anthropic.messages.create({
+      model: "claude-haiku-4-5",
+      max_tokens: 500,
+      messages: [{ role: "user", content: `${topic}を1行で要約して` }]
+    });
+    return `${topic}: ${res.content[0].text}`;
+  });
+
+  // 全てのリクエストが完了するまで「並列」で待つ
+  const results = await Promise.all(promises);
+  console.log(results.join('\n\n'));
+}
+
+// 関数を実行する
+parallelResearch();
+
+
+------------------------------------------------
+▼リスト7-6
+import Anthropic from '@anthropic-ai/sdk';
+import 'dotenv/config';
+
+const anthropic = new Anthropic({
+  apiKey: process.env.ANTHROPIC_API_KEY,
+});
+
+// 1. ツール（関数）の実体定義
+async function executeToolAsync(name, input) {
+  console.log(`--- ??? ツール実行中: ${name} (${JSON.stringify(input)}) ---`);
+  
+  // 本来はここでAPIを叩いたりDBを操作したりします
+  if (name === "get_weather") {
+    return `千葉県佐倉市の現在の天気は晴れ、気温は12度です。`; // ダミーの天気
+  }
+  
+  if (name === "search_web") {
+    return `「${input.query}」に関する最新ニュース：2026年の自律型エージェント市場は前年比200%の成長を記録しました。`; // ダミーの検索結果
+  }
+
+  return "指定されたツールが見つかりません。";
+}
+
+// 2. Claudeに伝えるツールのスキーマ
+const tools = [
+  {
+    name: "get_weather",
+    description: "指定された場所の現在の天気を取得します。",
+    input_schema: {
+      type: "object",
+      properties: {
+        location: { type: "string", description: "都道府県や市区町村名" }
+      },
+      required: ["location"]
+    }
+  },
+  {
+    name: "search_web",
+    description: "最新の情報をインターネットで検索します。",
+    input_schema: {
+      type: "object",
+      properties: {
+        query: { type: "string", description: "検索クエリ" }
+      },
+      required: ["query"]
+    }
+  }
+];
+
+// 3. ループの実装
+async function autonomousLoop(userInput, tools) {
+  let messages = [{ role: "user", content: userInput }];
+  let isRunning = true;
+
+  while (isRunning) {
+    try {
+      // 思考フェーズ
+      const response = await anthropic.messages.create({
+        model: "claude-haiku-4-5",
+        max_tokens: 1024,
+        messages: messages,
+        tools: tools
+      });
+
+      messages.push({ role: "assistant", content: response.content });
+
+      // 終了判定
+      if (response.stop_reason !== "tool_use") {
+        console.log("完了:", response.content[0].text);
+        isRunning = false;
+        break;
+      }
+
+      // 実行・観察フェーズ
+      for (const content of response.content) {
+        if (content.type === "tool_use") {
+          const result = await executeToolAsync(content.name, content.input);
+          
+          messages.push({
+            role: "user",
+            content: [{
+              type: "tool_result",
+              tool_use_id: content.id,
+              content: result
+            }]
+          });
+        }
+      }
+    } catch (error) {
+      console.error("ループ内でエラー:", error.message);
+      // エラーをメッセージに加えてClaudeに自己修正を促す
+      messages.push({ role: "user", content: `エラーが発生しました: ${error.message}。別の方法を試してください。` });
+    }
+  }
+}
+
+// 4. ループの実行
+const userInput = "今日の千葉県佐倉市の天気と、最新のエージェント技術の動向を調べてまとめて教えて。"; // サンプルのプロンプト
+
+console.log("?? エージェントを起動します...");
+autonomousLoop(userInput, tools);
+
+
+
+------------------------------------------------
+▼リスト7-7
+import express from 'express';
+import Anthropic from '@anthropic-ai/sdk';
+import 'dotenv/config';
+
+const app = express();
+const anthropic = new Anthropic();
+
+// JSON形式のリクエストを受け取れるようにする設定
+app.use(express.json());
+
+// エージェント呼び出しのルート（窓口）
+app.post('/ask', async (req, res) => {
+  try {
+    const { prompt } = req.body; // ユーザーからのメッセージを受け取る
+
+    const message = await anthropic.messages.create({
+      model: "claude-haiku-4-5",
+      max_tokens: 1024,
+      messages: [{ role: "user", content: prompt }],
+    });
+
+    res.json({ reply: message.content[0].text }); // AIの回答をJSONで返す
+  } catch (error) {
+    res.status(500).json({ error: "サーバー内部でエラーが発生しました" });
+  }
+});
+
+app.listen(3000, () => console.log('Server running on http://localhost:3000'));
+
+
+------------------------------------------------
+▼リスト7-8
+import express from 'express';
+import Anthropic from '@anthropic-ai/sdk';
+import 'dotenv/config';
+import cors from 'cors';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const app = express();
+const port = 3000;
+
+// ESモジュールで__dirnameを使うための設定
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+// ミドルウェアの設定
+app.use(cors()); // フロントエンドからの通信を許可
+app.use(express.json()); // JSONリクエストを解析
+app.use(express.static(__dirname)); // HTMLファイルなどをそのまま表示できるようにする
+
+const anthropic = new Anthropic({
+  apiKey: process.env.ANTHROPIC_API_KEY,
+});
+
+// 簡易的なメモリ上のデータベース
+const chatMemory = new Map();
+
+// 1. ルートアクセス時にHTMLを表示
+app.get('/', (req, res) => {
+  res.sendFile(join(__dirname, 'index.html'));
+});
+
+// 2. チャットAPIエンドポイント
+app.post('/chat', async (req, res) => {
+  const { userId, message } = req.body;
+
+  if (!chatMemory.has(userId)) {
+    chatMemory.set(userId, []);
+  }
+  const history = chatMemory.get(userId);
+
+  history.push({ role: "user", content: message });
+
+  try {
+    const response = await anthropic.messages.create({
+      model: "claude-haiku-4-5",
+      max_tokens: 1024,
+      messages: history,
+    });
+
+    const aiReply = response.content[0].text;
+    history.push({ role: "assistant", content: aiReply });
+
+    res.json({ reply: aiReply });
+  } catch (error) {
+    console.error("APIエラー:", error);
+    res.status(500).json({ error: "通信エラーが発生しました" });
+  }
+});
+
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});
+
+
+
+------------------------------------------------
+▼リスト7-9
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude Chat App</title>
+  <style>
+  body { font-family: sans-serif; background: #f4f7f6; display: flex; justify-content: center; padding: 20px; }
+  #chat-container { width: 100%; max-width: 600px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); display: flex; flex-direction: column; height: 80vh; }
+  #messages { flex: 1; overflow-y: auto; padding: 20px; border-bottom: 1px solid #eee; }
+  .message { margin-bottom: 15px; padding: 10px 15px; border-radius: 20px; max-width: 80%; line-height: 1.5; }
+  .user { background: #007bff; color: white; align-self: flex-end; margin-left: auto; }
+  .assistant { background: #e9e9eb; color: #333; align-self: flex-start; }
+  #input-area { display: flex; padding: 20px; gap: 10px; }
+  input { flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 4px; outline: none; }
+  button { padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
+  button:disabled { background: #ccc; }
+  </style>
+</head>
+<body>
+
+  <div id="chat-container">
+    <div id="messages"></div>
+    <div id="input-area">
+      <input type="text" id="user-input" placeholder="メッセージを入力..." autocomplete="off">
+      <button id="send-btn">送信</button>
+    </div>
+  </div>
+
+  <script>
+  // 1. 簡易的なユーザーIDの生成（ブラウザごとに固定）
+  let userId = localStorage.getItem('chat_user_id');
+  if (!userId) {
+    userId = 'user_' + Math.random().toString(36).substr(2, 9);
+    localStorage.setItem('chat_user_id', userId);
+  }
+
+  const messagesContainer = document.getElementById('messages');
+  const userInput = document.getElementById('user-input');
+  const sendBtn = document.getElementById('send-btn');
+
+  // 画面にメッセージを表示する関数
+  function appendMessage(role, text) {
+    const div = document.createElement('div');
+    div.className = `message ${role}`;
+    div.textContent = text;
+    messagesContainer.appendChild(div);
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
+  }
+
+  // 送信処理
+  async function sendMessage() {
+    const message = userInput.value.trim();
+    if (!message) return;
+
+    appendMessage('user', message);
+    userInput.value = '';
+    userInput.disabled = true;
+    sendBtn.disabled = true;
+
+    try {
+      // 2. サーバーの /chat エンドポイントへPOSTリクエスト
+      const response = await fetch('/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ userId, message })
+      });
+
+      const data = await response.json();
+      
+      if (data.reply) {
+        appendMessage('assistant', data.reply);
+      } else {
+        appendMessage('assistant', 'エラー: 回答を取得できませんでした。');
+      }
+    } catch (error) {
+      appendMessage('assistant', 'サーバーとの通信に失敗しました。');
+    } finally {
+      userInput.disabled = false;
+      sendBtn.disabled = false;
+      userInput.focus();
+    }
+  }
+
+  sendBtn.addEventListener('click', sendMessage);
+  userInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') sendMessage();
+  });
+  </script>
+
+</body>
+</html>
+
+
+
+------------------------------------------------
+▼リスト7-10
+app.get('/stream', async (req, res) => {
+  const { prompt } = req.query;
+
+  // SSEのための特別なレスポンスヘッダーを設定
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+
+  const stream = await anthropic.messages.create({
+    model: "claude-haiku-4-5",
+    max_tokens: 1024,
+    messages: [{ role: "user", content: prompt }],
+    stream: true,
+  });
+
+  for await (const event of stream) {
+    if (event.type === 'content_block_delta') {
+      // ブラウザに「data: 文字列\n\n」の形式で即座に送信
+      res.write(`data: ${JSON.stringify({ text: event.delta.text })}\n\n`);
+    }
+  }
+
+  res.end(); // ストリームの終了
+});
+
+
+
+------------------------------------------------
+▼リスト7-11
+// 引数の秒数だけ停止する関数
+function sleep(ms) {
+  new Promise(res => setTimeout(res, ms));
+}
+
+// 重たい処理のダミー関数
+async function runComplexAgent(desc) {
+  console.log(desc);
+  sleep(3);
+  return {
+    "status": 200,
+    "result": "Success!!"
+  }
+}
+
+// 非同期で処理を実行し結果を送信する
+app.post('/start-task', async (req, res) => {
+  const { taskDescription, webhookUrl } = req.body;
+
+  // ユーザーには「受付完了」を即座に返し、処理は裏で行う
+  res.json({ status: "accepted", message: "タスクを開始しました。完了までお待ちください。" });
+
+  // ここからはレスポンスを返した後に「バックグラウンド」で動く
+  (async () => {
+    try {
+      const result = await runComplexAgent(taskDescription); // 複雑な自律ループ
+      // 完了したら指定されたURLに結果を送りつける（Webhook）
+      await fetch(webhookUrl, {
+        method: 'POST',
+        body: JSON.stringify({ result })
+      });
+    } catch (e) {
+      console.error("バックグラウンド処理失敗:", e);
+    }
+  })();
+});
+
+
+
+------------------------------------------------
+▼リスト7-12
+curl -X POST http://localhost:3000/start-task -H "Content-Type: application/json" -d '{
+       "taskDescription": "明日の東京の天気を調べて、要約を作成してください。",
+       "webhookUrl": "https://webhook.site/<割り当てられたID>"
+     }'
+
+
+
+------------------------------------------------
+▼リスト7-13
+import fs from 'fs/promises';
+
+/**
+ * ログファイルを読み取り、エラー行を抽出して別ファイルに保存するツール
+ */
+async function analyzeLogTool(inputPath, outputPath) {
+  try {
+    // 1. ファイルを非同期で読み込む
+    // fs.readFile(パス, エンコード) : ファイルの中身を文字列として取得
+    const data = await fs.readFile(inputPath, 'utf-8');
+
+    // 2. 内容を1行ずつ分割してエラーを探す
+    // data.split('\n') : 改行コードで区切って配列にする
+    // filter() : 条件に合う行（ここでは "ERROR" を含む行）だけを残す
+    const errorLines = data.split('\n').filter(line => line.includes('ERROR'));
+
+    // 3. 抽出結果を新しいファイルに書き出す
+    // join('\n') : 配列を再び改行でつないで一つの文字列にする
+    const resultText = `--- エラーレポート ---\n${errorLines.join('\n')}`;
+    await fs.writeFile(outputPath, resultText);
+
+    return `成功：${errorLines.length}件のエラーを抽出して ${outputPath} に保存しました。`;
+  } catch (error) {
+    // エラーハンドリング：ファイルがない場合などの例外をキャッチ
+    return `失敗：ログの解析中にエラーが発生しました（${error.message}）`;
+  }
+}
+
+
+
+------------------------------------------------
+▼リスト7-14
+2026-02-18 10:00:01 [INFO] システムを起動しました。
+2026-02-18 10:05:23 [INFO] データベースに接続しました。
+2026-02-18 10:10:45 [ERROR] ユーザーID: 12345 の認証に失敗しました。パスワードが違います。
+2026-02-18 10:15:12 [INFO] 定期バックアップを完了しました。
+2026-02-18 10:20:33 [ERROR] API接続タイムアウトが発生しました（外部サービス A）。
+2026-02-18 10:30:00 [INFO] セッションをクリーンアップしました。
+
+
+
+------------------------------------------------
+▼リスト7-15
+// --- メイン処理 ---
+const INPUT_FILE = 'app.log';      // 読み込むファイル
+const OUTPUT_FILE = 'errors.txt';  // 保存先ファイル
+
+console.log('ログの解析を開始します...');
+
+const result = await analyzeLogTool(INPUT_FILE, OUTPUT_FILE);
+
+console.log(result);
+
+
+
+------------------------------------------------
+▼リスト7-16
+import fs from 'fs/promises';
+
+/**
+ * 指定されたディレクトリ内のファイル一覧とサイズを取得するツール
+ */
+async function listFilesTool(dirPath) {
+  try {
+    // 1. ディレクトリ内のファイル名一覧を取得
+    // fs.readdir(パス) : フォルダの中にあるファイル名の配列を返す
+    const files = await fs.readdir(dirPath);
+
+    // 2. 各ファイルの詳細情報（サイズなど）を取得
+    // Promise.all : 複数の非同期処理（ファイルのステータス確認）を並列で実行
+    const fileDetails = await Promise.all(files.map(async (file) => {
+      const stats = await fs.stat(`${dirPath}/${file}`);
+      return `${file} (${stats.size} bytes)`;
+    }));
+
+    return `ディレクトリ ${dirPath} の内容：\n${fileDetails.join('\n')}`;
+  } catch (error) {
+    return `エラー：ディレクトリを読み取れませんでした。パスを確認してください。`;
+  }
+}
+
+
+
+------------------------------------------------
+▼リスト7-17
+// main処理
+async function main() {
+  const path = '<プロジェクトのパス>';
+  let result = await listFilesTool(path);
+  console.log(result);
+}
+
+main();
+
+
+------------------------------------------------
+Chapter8
+------------------------------------------------
+▼リスト8-1
+# プロジェクトフォルダの作成
+cd Desktop
+mkdir py-mcp-analyzer
+cd py-mcp-analyzer
+
+# 仮想環境（.venv）の作成
+python -m venv .venv
+
+# 仮想環境の有効化
+# Mac/Linuxの場合:
+source .venv/bin/activate
+# Windowsの場合:
+.venv\Scripts\activate
+
+
+
+------------------------------------------------
+▼リスト8-2
+import os
+import asyncio
+import pandas as pd
+from mcp.server.fastmcp import FastMCP
+from dotenv import load_dotenv
+
+# .envの読み込み
+load_dotenv()
+
+# サーバーの初期化
+# nameはClaude Desktopなどのクライアントに表示される識別名になります
+mcp = FastMCP(
+  "DataExpert",
+  dependencies=["pandas", "httpx"]
+)
+
+@mcp.tool()
+async def process_data(file_path: str, query: str) -> str:
+  """
+  ローカルのCSVファイルを読み込み、Pandasを使ってクエリに応じた集計を行います。
+  
+  Args:
+    file_path: 解析するCSVファイルの絶対パス。
+    query: 実行したい集計操作の説明（例: '売上の合計を製品別に'）。
+  """
+  # 1. 安全性のチェック（ディレクトリトラバーサル対策）
+  if not file_path.endswith('.csv'):
+    return "エラー: CSVファイルのみ処理可能です。"
+
+  # 2. データの読み込み
+  try:
+    df = pd.read_csv(file_path)
+    
+    # 3. AIに渡す情報の整形（ここでは単純な例として列名と統計を返す）
+    # 実際にはここで複雑なPandas操作を動的に行うことも可能です
+    summary = df.describe().to_string()
+    columns = ", ".join(df.columns)
+    
+    return f"ファイルを確認しました。列構成: [{columns}]\n\n基本統計量:\n{summary}"
+      
+  except Exception as e:
+    return f"エラーが発生しました: {str(e)}"
+
+if __name__ == "__main__":
+  # サーバーを起動
+  mcp.run()
+
+
+
+------------------------------------------------
+▼リスト8-3
+{
+  "mcpServers": {
+    "data-expert": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--script",
+        "/Users/<ユーザー名>/Desktop/py-mcp-analyzer/main.py"
+      ]
+    }
+  },
+  "preferences": {
+    "menuBarEnabled": true,
+    "legacyQuickEntryEnabled": false,
+    "sidebarMode": "chat",
+    "coworkScheduledTasksEnabled": false
+  }
+}
+
+
+
+------------------------------------------------
+▼リスト8-4
+日付,製品,売上,数量,地域
+2024-01-01,A商品,12000,10,東京
+2024-01-02,B商品,8000,5,大阪
+2024-01-03,A商品,15000,12,東京
+2024-01-04,C商品,5000,3,福岡
+2024-01-05,B商品,9000,6,大阪
+2024-01-06,A商品,20000,15,名古屋
+2024-01-07,C商品,7000,4,福岡
+2024-01-08,B商品,11000,8,東京
+2024-01-09,A商品,17000,13,名古屋
+2024-01-10,C商品,6000,5,大阪
+
+
+
+------------------------------------------------
+▼リスト8-5
+import pandas as pd
+from io import StringIO
+from mcp.server.fastmcp import FastMCP
+
+mcp = FastMCP("AdvancedAnalyzer")
+
+@mcp.tool()
+def aggregate_csv_data(csv_content: str, group_by_column: str, agg_column: str, method: str = "sum") -> str:
+  """
+  CSVデータを受け取り、指定された列でグループ化し、集計を行います。
+  
+  Args:
+    csv_content: CSV形式のテキストデータ。
+    group_by_column: グループ化の基準となる列名。
+    agg_column: 集計対象となる数値列名。
+    method: 集計方法（'sum', 'mean', 'count'）。
+  """
+  try:
+    # 1. 文字列をDataFrameに変換
+    df = pd.read_csv(StringIO(csv_content))
+    
+    # 2. 型のチェック
+    if agg_column not in df.columns or group_by_column not in df.columns:
+      return f"エラー: 指定された列名が見つかりません。存在する列: {list(df.columns)}"
+        
+    # 3. 動的な集計処理
+    if method == "sum":
+      result = df.groupby(group_by_column)[agg_column].sum()
+    elif method == "mean":
+      result = df.groupby(group_by_column)[agg_column].mean()
+    else:
+      result = df.groupby(group_by_column)[agg_column].count()
+        
+    return f"--- 集計結果 ({method}) ---\n{result.to_string()}"
+      
+  except Exception as e:
+    return f"データ処理中にエラーが発生しました: {str(e)}"
+
+if __name__ == "__main__":
+  # サーバーを起動
+  mcp.run()
+
+
+
+------------------------------------------------
+▼リスト8-6
+import matplotlib.pyplot as plt
+import tempfile
+import platform # OS判別用
+from mcp.server.fastmcp import FastMCP
+
+mcp = FastMCP("Visualizer")
+
+# グラフの日本語化対応
+def setup_japanese_font():
+    """OSに合わせて日本語フォントを設定する"""
+    os_name = platform.system()
+    if os_name == "Windows":
+        plt.rcParams["font.family"] = "MS Gothic"
+    elif os_name == "Darwin": # macOS
+        plt.rcParams["font.family"] = "AppleGothic"
+    elif os_name == "Linux":
+        plt.rcParams["font.family"] = "Noto Sans CJK JP"
+    
+    # マイナス記号の文字化けも防止
+    plt.rcParams['axes.unicode_minus'] = False
+
+@mcp.tool()
+def generate_bar_chart(labels: list[str], values: list[float], title: str) -> str:
+  """
+  与えられたラベルと数値のリストから日本語対応の棒グラフを生成し、ローカルに保存します。
+  作成後、保存したファイルのパスを使い、ユーザーにイメージを案内してください。
+  
+  Args:
+    labels: グラフの項目名のリスト（日本語可）
+    values: 数値のリスト
+    title: グラフのタイトル（日本語可）
+  """
+  try:
+    # フォント設定の適用
+    setup_japanese_font()
+
+    plt.figure(figsize=(10, 6))
+    plt.bar(labels, values, color='skyblue')
+    plt.title(title)
+    plt.ylabel("値")
+    plt.xlabel("カテゴリー")
+    plt.tight_layout()
+
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_file:
+      file_path = tmp_file.name
+      plt.savefig(file_path, format='png')
+      plt.close()
+
+    return f"グラフを生成しました。日本語表示も対応済みです。\n保存先: {file_path}"
+
+  except Exception as e:
+    return f"エラーが発生しました: {str(e)}"
+
+# メインプログラム
+if __name__ == "__main__":
+  mcp.run()
+
+
+
+------------------------------------------------
+▼リスト8-7
+import os
+from pathlib import Path
+from mcp.server.fastmcp import FastMCP
+
+mcp = FastMCP("SecureFileServer")
+
+# 操作を許可するディレクトリを限定（ホワイトリスト）
+SAFE_DIRECTORY = Path(os.getcwd()) / "user_data"
+SAFE_DIRECTORY.mkdir(exist_ok=True)
+
+@mcp.tool()
+def safe_read_data(filename: str) -> str:
+    """user_dataフォルダ内のファイルを安全に読み取ります。"""
+    
+    # 1. パスの正規化と検証
+    target_path = (SAFE_DIRECTORY / filename).resolve()
+    
+    # 2. 指定されたディレクトリ内に収まっているかチェック
+    if not target_path.is_relative_to(SAFE_DIRECTORY):
+        return "エラー: アクセス権限がありません。指定したディレクトリ外へのアクセスは禁止されています。"
+
+    try:
+        return target_path.read_text(encoding='utf-8')
+    except Exception as e:
+        return f"エラー: ファイルの読み込みに失敗しました: {str(e)}"
+
+
+
+------------------------------------------------
+▼リスト8-8
+import asyncio
+from concurrent.futures import ProcessPoolExecutor
+from mcp.server.fastmcp import FastMCP
+
+mcp = FastMCP("PerformanceServer")
+executor = ProcessPoolExecutor(max_workers=2)
+
+def heavy_computation(data):
+    # ここに時間のかかる複雑な計算を書く
+    import time
+    time.sleep(5) 
+    return sum(data)
+
+@mcp.tool()
+async def run_heavy_task(data_list: list[float]) -> str:
+    """重い計算をバックグラウンドで実行し、エージェントの停止を防ぎます。"""
+    loop = asyncio.get_running_loop()
+    
+    try:
+        # 1. タイムアウトを設定して別のプロセスで実行
+        result = await asyncio.wait_for(
+            loop.run_in_executor(executor, heavy_computation, data_list),
+            timeout=10.0
+        )
+        return f"計算完了: {result}"
+    except asyncio.TimeoutError:
+        return "エラー: 計算時間が長すぎるためタイムアウトしました。"
+
+
+
+------------------------------------------------
+▼リスト8-9
+{
+  "mcpServers": {
+    "my-local-files": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:/Users/ユーザー名/Documents/Claude_Test"
+      ]
+    }
+  }
+}
+
+
+------------------------------------------------
+▼プロンプト P337
+my-local-filesを使い、「Claude-Test」フォルダーに、「Hello MCP!」と書かれたテキストファイルを作成してください。
+
+
+------------------------------------------------
+▼リスト8-10
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import { z } from "zod";
+
+// McpServer のインスタンス作成
+const server = new McpServer({
+  name: "サーバー名",
+  version: "バージョン",
+});
+
+// ツールを登録する
+server.registerTool(
+  "ツール名",
+  {
+    title: "タイトル",
+    description: "ツールの説明テキスト",
+    inputSchema: {...入力情報...},
+  },
+  async (引数) => {...実行する処理...}
+);
+
+
+
+------------------------------------
+▼リスト8-11
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import { z } from "zod";
+
+// McpServer のインスタンス作成
+const server = new McpServer({
+  name: "my-custom-server",
+  version: "1.0.0",
+});
+
+// ツールを登録する
+server.registerTool(
+  "calculate_tax",
+  {
+    title: "税計算ツール",
+    description: "金額と税率を受け取り、税込価格を計算します。",
+    inputSchema: {
+      amount: z.number(),
+      taxRate: z.number(),
+    },
+  },
+  async ({ amount, taxRate }) => {
+    const total = Math.floor(amount * (1 + taxRate));
+    return {
+      content: [
+        {
+          type: "text",
+          text: `計算結果: 税込 ${total} 円です。`,
+        },
+      ],
+    };
+  }
+);
+
+# サーバーの起動
+async function main() {
+  // stdio トランスポートを作成
+  const transport = new StdioServerTransport();
+  await server.connect(transport);
+  console.error("Custom MCP Server running on stdio");
+}
+
+main().catch(console.error);
+
+
+------------------------------------
+▼プロンプト P345
+my-custom-serverを使い、12300円（税抜価格）の税込金額を計算して。税率は8%で。
+
+
+------------------------------------
+▼プロンプト P351
+my-custom-serverのget_weatherを使って、東京の天気を調べて。
+
