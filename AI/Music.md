@@ -1,5 +1,5 @@
-adb devices
-adb push  ~/高音質38首.mp3 /sdcard/Music/
+##  adb devices
+## adb push  ~/高音質38首.mp3 /sdcard/Music/
 
 
 yt-dlp -x --audio-format mp3 --no-playlist "https://www.youtube.com/watch?v=wDMP3eYLeLM"
