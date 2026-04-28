@@ -47,3 +47,12 @@ OpenAI 的 RAG 范例，无需向量化 #openai #llm #retrievalaugmentedgenerati
 
 OpenAI RAG范例地址：[https://cookbook.openai.com/examples/...](https://developers.openai.com/cookbook/examples/partners/model_selection_guide/model_selection_guide)
 
+“我可能错了
+森林智者的最后一堂人生课
+Jag kan ha fel och andra visdomar från mitt liv som buddhistmunk
+ 作者：比约恩．纳提科．林德布劳（Björn Natthiko Lindeblad）、卡洛琳．班克勒（Caroline Bankler）、纳维德．莫迪里（Navid Modiri）
+
+抜粋: 
+我可能错了：森林智者的最后一堂人生课
+比约恩．纳提科．林德布劳（Björn Natthiko Lindeblad）、卡洛琳．班克勒（Caroline Bankler）、纳维德．莫迪里（Navid Modiri）
+この作品は著作権で保護されている可能性があります。
