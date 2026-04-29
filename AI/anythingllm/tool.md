@@ -1,9 +1,12 @@
-## kling video
-
+## kling  video
 https://kling.ai/
 
 1，技术视频
-2，amazon book
+
+## suno
+https://suno.com/
+
+## amazon book
 
 ## 打印
 printful https://www.printful.com/jp
