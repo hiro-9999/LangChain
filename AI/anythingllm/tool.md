@@ -39,6 +39,10 @@ https://aistudio.google.com/api-keys?project=gen-lang-client-0821196839
 https://www.youtube.com/results?search_query=%E5%B0%8Flu%E8%AF%B4
 
 
+# Grok強勢回歸！VEO 3 1 + Grok免費無限生成
+https://www.youtube.com/watch?v=l-_SUWS7KjI
+
+
 我用AI帮别人每天赚300到1000美元：5个可复制的AI副业，0成本上手！
 https://www.youtube.com/watch?v=hNVHa1z4j5E
 
