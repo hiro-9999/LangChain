@@ -39,8 +39,19 @@ https://aistudio.google.com/api-keys?project=gen-lang-client-0821196839
 https://www.youtube.com/results?search_query=%E5%B0%8Flu%E8%AF%B4
 
 
-# Grok強勢回歸！VEO 3 1 + Grok免費無限生成
+# Grok強勢回歸！VEO 3 1 + Grok免費無限生成  度白視界
 https://www.youtube.com/watch?v=l-_SUWS7KjI
+
+視頻中提到的工具鏈接：
+GeminiGen：https://geminigen.ai
+----------------------------------------------------------------
+【最强AI配音】
+ElevenLabs ：https://try.elevenlabs.io/xfwjdpq5sbry
+【AI數字人】
+Heygen ：https://www.heygen.com/?sid=rewardful...
+【双语翻译插件】
+沉浸式翻譯 ：https://immersivetranslate.com/?via=d...
+Grok免费, Grok AI视频, Grok视频生成, Veo 3.1, Veo3 AI, Veo视频生成, 免费AI视频生成, AI视频免费, AI视频教程, AI视频生成教学, AI视频生成方法, AI视频无限生成, AI视频0成本, 免费AI工具推荐, AI视频制作教程, AI短视频制作, AI内容创作, AI自动生成视频, Nano Banana 2, AI图片生成, AI图像生成, Google Imagen AI, GeminiGen, AI视频无水印, AI视频生成1080p, AI视频模型, best AI video generator, free AI video generator, AI video tutorial, how to make AI videos free
 
 
 我用AI帮别人每天赚300到1000美元：5个可复制的AI副业，0成本上手！
