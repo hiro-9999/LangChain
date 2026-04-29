@@ -23,6 +23,9 @@ https://cursor.com/ja
 https://antigravity.google/
 
 
+## Kronos 清华
+https://github.com/shiyu-coder/Kronos
+
 ## 游戏
 [perplexity](https://www.perplexity.ai/)
 
