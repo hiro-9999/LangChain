@@ -19,6 +19,9 @@ etsy https://www.etsy.com/jp/
 ## cursor
 https://cursor.com/ja
 
+## antigravity
+https://antigravity.google/
+
 
 ## 游戏
 [perplexity](https://www.perplexity.ai/)
