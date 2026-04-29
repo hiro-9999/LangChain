@@ -15,3 +15,7 @@ https://cursor.com/ja
 
 ## canva
 https://www.canva.com/ja_jp/
+
+
+## Google ai studio
+https://aistudio.google.com/api-keys?project=gen-lang-client-0821196839
