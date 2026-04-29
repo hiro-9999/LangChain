@@ -20,5 +20,12 @@ https://www.youtube.com/results?search_query=%E9%B9%8F%E5%93%A5%E7%9A%84AI
 
 https://www.youtube.com/@%E9%A9%AC%E5%85%8B%E7%9A%84%E6%8A%80%E6%9C%AF%E5%B7%A5%E4%BD%9C%E5%9D%8A
 
+## llm wiki
+【LLM Wiki】Obsidian x Claude Codeで学んだ知識を構造化し記憶媒体を脳からAIに移行する
+https://zenn.dev/dely_jp/articles/8b55114cc0b958
+
+https://cloco.co.jp/blog/karpathy-llm-wiki-rag-alternative
+
+
 
 
