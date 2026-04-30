@@ -60,6 +60,14 @@ Grok免费, Grok AI视频, Grok视频生成, Veo 3.1, Veo3 AI, Veo视频生成, 
 我用AI帮别人每天赚300到1000美元：5个可复制的AI副业，0成本上手！
 https://www.youtube.com/watch?v=hNVHa1z4j5E
 
+
+Grok：https://grok.com/
+千問AI：https://chat.qwen.ai/
+豆包：https://www.doubao.com/chat/
+Vheer：https://vheer.com/
+智譜清言：https://chatglm.cn/
+
+
 ►课程集中营（随时更新）与小Lu一对一私聊 →https://bit.ly/xiaolushuo-content
 
 ►免费办理境外银行卡WISE，多币种卡，提供一张实体卡和三张虚拟卡，全球收款，注册链接https://bit.ly/invite-wise
