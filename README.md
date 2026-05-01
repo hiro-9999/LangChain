@@ -7,6 +7,9 @@
 
 在2～3年内，能够成为OPC的一员，能够真正的可以独立发展！！
 
+## 用智慧铺就一条通往至善的路。
+第一性原理（First Principles）
+
 https://github.com/kamranahmedse/developer-roadmap
 
 https://roadmap.sh/backend
