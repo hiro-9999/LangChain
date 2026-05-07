@@ -1,6 +1,10 @@
 ## kling  video
 https://kling.ai/
 
+## anijam
+https://www.anijam.ai/
+
+
 1，技术视频
 
 ## suno
