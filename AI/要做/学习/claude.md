@@ -1,6 +1,8 @@
 ## tmux
 brew install tmux
 
+"teammateMode":"tmux",
+
 起動 tmux (ターミナルに入力してEnter。)
 終了 exit, Ctrl+d
 
