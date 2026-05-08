@@ -34,6 +34,22 @@ https://github.com/shiyu-coder/Kronos
 [perplexity](https://www.perplexity.ai/)
 
 
+## rust用Tauri库打造轻量级桌面应用
+https://v2.tauri.app/
+
+https://qiita.com/automation2025/items/c2e5d77c08c37532a3a3
+
+## Slintと他のGUIフレームワーク is good
+https://slint.dev/
+
+https://qiita.com/hermit4/items/0b48c5c9e51efa36b091
+
+### RustでGUIライブラリ(gpui)
+https://note.com/kemoshumai/n/nabbc0c9c6b87
+
+
+
+
 ## canva
 https://www.canva.com/ja_jp/
 
