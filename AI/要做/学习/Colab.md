@@ -1,5 +1,7 @@
 https://github.com/polzerdo55862/RAG-with-Python-Cookbook
 
+
+
 ## Colab Notebook（全称 Google Colaboratory）是 Google 提供的一款基于云端的免费 Jupyter Notebook 环境。它允许你直接通过浏览器编写和执行 Python 代码，而无需在本地计算机上进行任何配置。
 
 在你当前查看的 RAG-with-Python-Cookbook 仓库中，作者通过 Colab 链接提供了所有章节的代码示例，方便读者一键运行。
