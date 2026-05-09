@@ -1,5 +1,8 @@
 https://colab.research.google.com/
 
+## rag-examples
+https://www.evidentlyai.com/blog/rag-examples
+
 https://colab.research.google.com/#scrollTo=ufxBm1yRnruN  ->note
 
 
