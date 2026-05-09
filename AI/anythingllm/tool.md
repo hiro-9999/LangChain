@@ -1,3 +1,20 @@
+## LM studio   安装LLM
+https://lmstudio.ai/
+
+Use local LLMs like gpt-oss, Qwen3, Gemma3, DeepSeek
+and many more, locally on your own hardware.
+
+## free-claude-code
+https://github.com/Alishahryar1/free-claude-code
+
+## nvidia llm
+https://build.nvidia.com/nvidia/bring-llm-to-nim
+
+https://build.nvidia.com/models
+
+https://www.nvidia.com/en-us/ai/
+
+
 ## kling  video
 https://kling.ai/
 
