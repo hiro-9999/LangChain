@@ -1,8 +1,11 @@
 https://colab.research.google.com/
 
+https://colab.research.google.com/#scrollTo=ufxBm1yRnruN  ->note
+
 
 https://github.com/polzerdo55862/RAG-with-Python-Cookbook
 
+https://docs.jaxstack.ai/en/latest/JAX_for_LLM_pretraining.html
 ```
 from google.colab import ai
 response = ai.generate_text("What is the capital of France?")
