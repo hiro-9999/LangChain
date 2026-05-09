@@ -1,6 +1,13 @@
+https://colab.research.google.com/
+
+
 https://github.com/polzerdo55862/RAG-with-Python-Cookbook
 
-
+```
+from google.colab import ai
+response = ai.generate_text("What is the capital of France?")
+response
+```
 
 ## Colab Notebook（全称 Google Colaboratory）是 Google 提供的一款基于云端的免费 Jupyter Notebook 环境。它允许你直接通过浏览器编写和执行 Python 代码，而无需在本地计算机上进行任何配置。
 
