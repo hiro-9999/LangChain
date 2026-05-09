@@ -3,6 +3,8 @@ https://colab.research.google.com/
 ## rag-examples
 https://www.evidentlyai.com/blog/rag-examples
 
+https://github.com/themanojdesai/genai-llm-ml-case-studies
+
 https://colab.research.google.com/#scrollTo=ufxBm1yRnruN  ->note
 
 
