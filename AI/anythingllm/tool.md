@@ -14,6 +14,8 @@ https://build.nvidia.com/models
 
 https://www.nvidia.com/en-us/ai/
 
+## veo3ai make video
+https://www.veo3ai.io/ja
 
 ## kling  video
 https://kling.ai/
