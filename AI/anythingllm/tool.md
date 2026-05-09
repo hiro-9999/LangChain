@@ -5,6 +5,9 @@ https://kling.ai/
 https://www.anijam.ai/
 
 
+## nvidia ai
+https://www.nvidia.com/ja-jp/software/?ncid=no-ncid
+
 1，技术视频
 
 ## suno
