@@ -1,5 +1,10 @@
 GenAI 是 Generative Artificial Intelligence（生成式人工智能）的缩写。
 
+・ブロックチェーン・Web3開発人材（Solidity、WASM）
+・生成AI・RAG活用エンジニア／企画職（LangChain、ChatGPT APIなど）
+・コンシューマー／モバイルゲームのプランナー・Unity開発人材
+・ITコンサルティング（物流システム、RPA、SAP、SFA等）
+
 简单来说，传统的人工智能（判别式 AI）主要负责“分类”和“预测”（比如判断一张图片是不是猫，或者预测明天的天气），而 GenAI 的核心在于“创造”。它能够根据训练数据中的模式，生成全新的、原创的内容。
 
 GenAI 能生成什么？
