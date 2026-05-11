@@ -1,6 +1,9 @@
 ## 录屏工具
 https://github.com/siddharthvaddem/openscreen
 
+## 一个人拥有了团队的能力 skills
+https://github.com/msitarzewski/agency-agents
+
 ## 让AI像人一样看屏干活
 https://github.com/bytedance/UI-TARS-desktop
 ```
