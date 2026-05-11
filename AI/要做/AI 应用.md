@@ -1,8 +1,51 @@
-## 录屏工具
+## GitHub上爆火的手机电脑同屏工具，无需root！
+https://github.com/barry-ran/QtScrcpy
+
+## AI外挂的Claude [code辅助工具](https://mp.weixin.qq.com/s?__biz=MzkyNDYwMjcwOA==&mid=2247484657&idx=1&sn=ae2e7386d4556604a3b3eefd73b754ea&chksm=c1d21ccaf6a595dc01caabf7f918bdbcd15ef24b4f4709774ffa5a1dfa6ccdde2fb84c35db03&cur_album_id=4431304512196313088&scene=189#wechat_redirect)
+github.com/apps/ecc-tools
+
+ /ecc-tools analyze
+
+ ## 丢个GitHub链接，它自动画出代码[知识图谱](https://mp.weixin.qq.com/s?__biz=MzkyNDYwMjcwOA==&mid=2247484461&idx=1&sn=f2d030268c7cde16aacb3c9a8ae3089e&chksm=c1d21c16f6a595007b638282274c2aaa2e7dd91dfa7f51ae5ca6b79c646ea0717b701a4ef922&cur_album_id=4431304512196313088&scene=189#wechat_redirect)
+ GitHub 地址：https://github.com/abhigyanpatwari/GitNexus
+
+Web UI：https://gitnexus.vercel.app
+
+## 这个开源股票工具把[付费平台按在地上摩擦](https://mp.weixin.qq.com/s?__biz=MzkyNDYwMjcwOA==&mid=2247484580&idx=1&sn=b779ebea1f5e430af82bf5b79d095944&chksm=c1d21c9ff6a5958934a42efdba474d7e06bd831c08a3492f210ed1cf37e55c478fb1b7f9bcc1&cur_album_id=4431304512196313088&scene=189#wechat_redirect)
+https://github.com/Open-Dev-Society/OpenStock
+
+
+## [录屏工具](https://mp.weixin.qq.com/s?__biz=MzkyNDYwMjcwOA==&mid=2247484668&idx=1&sn=48203a7401fb22b1feebd5181728c1a2&chksm=c1d21cc7f6a595d13f369e248fdfe979f4a81cb3ebbf2f8a845b0c6941ed904c174b13b9b40d&cur_album_id=4431304512196313088&scene=189#wechat_redirect)
 https://github.com/siddharthvaddem/openscreen
+
+## Mac录屏
+https://github.com/lihaoyun6/QuickRecorder/releases
+
+## 谷歌开源命令行工具 揭开了未来软件形态
+https://github.com/googleworkspace/cli/tree/main/skills
+
+
+
+## 与其每年给远程软件交钱，不如用CrossDesk这种开源方案。免费、专业、安全、能私有化——它不香吗？
+Github：https://github.com/kunkundi/crossdesk
+
+## 把有价值的 Prompt 积累下来、管理起来、优化迭代
+https://github.com/jwangkun/Prompt-Tools
+
+## 这个插件让agent彻底进化
+https://github.com/obra/superpowers
 
 ## 一个人拥有了团队的能力 skills
 https://github.com/msitarzewski/agency-agents
+
+1、PakePlus：把任意网页变身高颜值多端客户端，5MB 不到
+https://github.com/Sjj1024/PakePlus
+
+2、ArchiveBox：开源的私人网页时光机，让消失的网页永不消失
+https://github.com/ArchiveBox/ArchiveBox
+
+3、Tomato：可能是你见过最好看的安卓番茄钟
+https://github.com/nsh07/Tomato
 
 ## 让AI像人一样看屏干活
 https://github.com/bytedance/UI-TARS-desktop
@@ -58,6 +101,10 @@ github.com/forrestchang/andrej-karpathy-skills
 
 ## cc-switch
 https://github.com/farion1231/cc-switch
+
+
+## windows拿它重装系统，不用U盘、不用面板、不用折腾BIOS，物理机、软路由、小鸡都能跑。手里有独立服务器或者在折腾各种开发环境的同学，这个脚本值得收藏。
+https://github.com/bin456789/reinstall
 
 
 
