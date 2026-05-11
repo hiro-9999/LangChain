@@ -13,6 +13,9 @@ https://github.com/bytedance/UI-TARS-desktop
 重复劳动：批量处理文件、执行机械操作，把人从繁琐的重复工作中解放出来。
 ```
 
+## GitHub星标 82k 的面试题库
+github.com/DopplerHQ/awesome-interview-questions
+
 ## GitHub 108K Stars！100+ 可直接运行的 AI 应用合集，每个都附源码
 https://github.com/Shubhamsaboo/awesome-llm-apps
 
