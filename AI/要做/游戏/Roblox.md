@@ -1,6 +1,9 @@
 ## astrocade
 https://www.astrocade.com/
 
+## roblox
+https://www.roblox.com/ja
+
 
 Roblox 不仅仅是一个游戏，它更像是一个“游戏界的 YouTube”。它是一个大型多人在线创作平台，允许用户使用官方提供的开发工具设计游戏（体验）、服装和道具，并供其他玩家游玩。
 
