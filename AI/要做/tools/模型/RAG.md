@@ -86,3 +86,22 @@ https://www.youtube.com/watch?v=6s_Z9Tl0sHU
 
 ## AI監控 TikTok 爆款影片 → 自動找到相關股票
 https://www.youtube.com/watch?v=th_ebf93k-c
+
+
+## Claude Code + Vibe Coding 太猛了！80分鐘打造完整 RAG AI 網站
+這支影片，我用 1 小時 20 分鐘，完整帶你用 Claude Code + Vibe Coding 的方式，從 0 打造一個真正可用的多功能 RAG 網站。
+你將學會：
+如何用 Claude Code 做 Web Coding
+用 Vibe Coding 的方式快速生成前後端架構
+建立多功能 RAG 系統（知識庫 / 文件問答 / 多資料整合）
+打造可部署、可擴展的 AI Web App
+這不是單純 Demo，而是完整實戰流程。即使你是新手小白，只要跟著操作，你可以自己做出一個真正屬於你的 AI 網站。
+這是一種全新的寫程式方式 —— Vibe Coding。
+https://github.com/harryleemedia/claude-code-agentic-rag-masterclass
+https://supabase.com/
+https://smith.langchain.com/
+https://openrouter.ai/
+https://mistral.ai/
+https://dashboard.cohere.com/
+https://app.tavily.com/
+https://vercel.com/
