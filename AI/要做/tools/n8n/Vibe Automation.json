@@ -1,0 +1,3394 @@
+{
+  "name": "Vibe Automation",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "![Description](https://i.imgur.com/LIvAz5w.png)\n",
+        "height": 608,
+        "width": 624
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        288,
+        192
+      ],
+      "id": "99a1466b-5dca-4d3f-be80-e123286ee2f4",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        384,
+        1264
+      ],
+      "id": "8ece4ec8-99f3-4829-b619-188050ff8625",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        384,
+        1456
+      ],
+      "id": "b723fc9f-d85c-49b8-87f6-51f35937167e",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "path": "7a5b8be4-096a-412a-ab2c-9eab6dc4155f",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        384,
+        1632
+      ],
+      "id": "3da049e1-5922-49c6-897a-98287ef0690d",
+      "name": "Webhook",
+      "webhookId": "7a5b8be4-096a-412a-ab2c-9eab6dc4155f"
+    },
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "documentId": {
+          "__rl": true,
+          "value": "=ph",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "=ph",
+          "mode": "id"
+        },
+        "event": "rowAdded",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTrigger",
+      "typeVersion": 1,
+      "position": [
+        384,
+        1984
+      ],
+      "id": "208904d1-a779-45cf-bf28-c202e371ab05",
+      "name": "Google Sheets Trigger"
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://i.imgur.com/bfbezlH.png)",
+        "height": 432,
+        "width": 464
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -256,
+        1456
+      ],
+      "typeVersion": 1,
+      "id": "eb1f1b24-f2fb-4cab-b60b-14c3b3b49556",
+      "name": "Sticky Note3"
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://i.imgur.com/3K88Vuf.png)",
+        "height": 528,
+        "width": 512
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -256,
+        2480
+      ],
+      "typeVersion": 1,
+      "id": "418b14ea-4de1-4fb7-9ad0-b575110399e4",
+      "name": "Sticky Note4"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "f2d0db13-3081-4ff8-b313-6ef267fdb312",
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        400,
+        2496
+      ],
+      "id": "1e547129-fe59-4d1d-b686-12cfe8964102",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "=ph",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        400,
+        2688
+      ],
+      "id": "a7470c97-95f7-4269-9f7c-78b49ce0965e",
+      "name": "Split Out"
+    },
+    {
+      "parameters": {
+        "fieldsToAggregate": {
+          "fieldToAggregate": [
+            {}
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        400,
+        2880
+      ],
+      "id": "67020c8e-8eab-4d43-b225-d51ed6007344",
+      "name": "Aggregate"
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://i.imgur.com/cm2DlsR.png)",
+        "height": 528,
+        "width": 512
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -256,
+        3408
+      ],
+      "typeVersion": 1,
+      "id": "fad43152-3418-4faa-bae9-2d313c84f773",
+      "name": "Sticky Note6"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "b8bffddb-8783-47f6-898a-39776f4ab4cd",
+              "leftValue": "",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        384,
+        3312
+      ],
+      "id": "7db7f3f7-3bdb-4293-a194-dfe030a4b213",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "id": "bdffdebb-8343-47ae-96ca-1f50e2fe3dde"
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "d0fde09e-c36e-4ea1-bcbf-4f99a5cc9bee",
+                    "leftValue": "",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "38ddc97b-0102-41e9-afaf-384c66cf2a9d",
+                    "leftValue": "",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "42a90661-2491-4bc8-9107-d8fa1678c872",
+                    "leftValue": "",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.3,
+      "position": [
+        384,
+        3472
+      ],
+      "id": "08921845-f1fe-4e80-b679-7ab618f9e221",
+      "name": "Switch"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        384,
+        3696
+      ],
+      "id": "bcec0967-ce86-44f0-8227-7893d0a63637",
+      "name": "Merge"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        384,
+        3872
+      ],
+      "id": "20a3025f-dac7-4621-aa09-08c687771853",
+      "name": "Wait",
+      "webhookId": "033600b1-ec95-499e-883e-6459dccc2f9a"
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://i.imgur.com/LhEp1t3.png)",
+        "height": 512,
+        "width": 496
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -272,
+        4432
+      ],
+      "typeVersion": 1,
+      "id": "3f6454a9-aa99-4946-948f-4b875aabde71",
+      "name": "Sticky Note8"
+    },
+    {
+      "parameters": {
+        "url": "=",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        352,
+        4336
+      ],
+      "id": "39675f1d-5b73-49c7-ac36-3923323d40e8",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "dataTableId": {
+          "__rl": true,
+          "value": "=",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1,
+      "position": [
+        352,
+        4528
+      ],
+      "id": "7bc9493b-0a9a-4980-8fe6-b8700f7e2142",
+      "name": "Insert row"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "e2d579a6-6063-4ad7-aee8-031cdc361db9",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        352,
+        4704
+      ],
+      "id": "af565236-8037-4e9b-aa1f-7dc81f526339",
+      "name": "Webhook1",
+      "webhookId": "e2d579a6-6063-4ad7-aee8-031cdc361db9"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        352,
+        4880
+      ],
+      "id": "127d35a3-62dd-4673-bb9c-1be4474cc882",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://media.tenor.com/9yslA4ZYi-cAAAAM/parallel-universe.gif)",
+        "height": 256,
+        "width": 272
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        608,
+        4736
+      ],
+      "typeVersion": 1,
+      "id": "4e04be49-446c-4819-962b-a60839478453",
+      "name": "Sticky Note10"
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://i.imgur.com/MliUT0C.png)",
+        "height": 496,
+        "width": 496
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -288,
+        5472
+      ],
+      "typeVersion": 1,
+      "id": "59d79493-174c-4463-ac44-97831a64d4b3",
+      "name": "Sticky Note11"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.aiTransform",
+      "typeVersion": 1,
+      "position": [
+        336,
+        5536
+      ],
+      "id": "375a389c-c0bc-4575-ab2c-ccb2caed35a2",
+      "name": "AI Transform"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Loop over input items and add a new field called 'myNewField' to the JSON of each one\nfor (const item of $input.all()) {\n  item.json.myNewField = 1;\n}\n\nreturn $input.all();"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        336,
+        5360
+      ],
+      "id": "32abdfb4-6091-4ee4-b12c-2801494179fa",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        336,
+        5728
+      ],
+      "id": "e01c9d04-3bd6-475b-b9e7-ba2354fa1396",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "options": {
+          "systemMessage": "You are a helpful assistant"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3,
+      "position": [
+        336,
+        6336
+      ],
+      "id": "a2e71e87-bd21-45fd-b525-202a06e5b0b0",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "text": "=",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 2.2,
+      "position": [
+        464,
+        6544
+      ],
+      "id": "06b21ab9-9057-4246-8a54-a85dd810797c",
+      "name": "AI Agent Tool"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "chatgpt-4o-latest",
+          "mode": "list",
+          "cachedResultName": "CHATGPT-4O-LATEST"
+        },
+        "responses": {
+          "values": [
+            {}
+          ]
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 2,
+      "position": [
+        336,
+        6032
+      ],
+      "id": "2355d754-08dc-4cca-933c-c43b7072e0b4",
+      "name": "Message a model node",
+      "credentials": {
+        "openAiApi": {
+          "id": "WdNCSir4qi0cxfNj",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://i.imgur.com/zzUkoQ8.png)",
+        "height": 496,
+        "width": 496
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -480,
+        6992
+      ],
+      "typeVersion": 1,
+      "id": "f29dc0d2-b4c0-45f2-b450-9fe0c599d67e",
+      "name": "Sticky Note13"
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png)",
+        "width": 150
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -288,
+        7392
+      ],
+      "typeVersion": 1,
+      "id": "2613068c-cbd5-42a8-9e5e-41810ae958ac",
+      "name": "Sticky Note14"
+    },
+    {
+      "parameters": {
+        "content": "這是第一條規則。不要含糊其辭。要像個明確的指揮官一樣，告訴AI該在棋盤上放置哪些棋子。\n\n**糟糕的提示：**“從表單中獲取我的新線索並保存。”\n\n**理想的提示：**「建立一個以**Webhook觸發器**開始的工作流程。當收到資料時，將其發送給**AI代理**。該代理需要將線索的行業分類為『科技』、『金融』或『其他』。然後，使用**切換節點**根據該分類路由。『「科技』線索」中被新增到「科技」線索」的線索或「科技」。",
+        "height": 208,
+        "width": 592
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        192,
+        8592
+      ],
+      "typeVersion": 1,
+      "id": "03033466-2c79-4f66-9200-1e8e9b256f2c",
+      "name": "Sticky Note19"
+    },
+    {
+      "parameters": {
+        "content": "不要只是列出配料；要提供詳細的步驟說明。使用「首先」、「然後」、「接下來」、「之後」和「最後」等字眼。\n\n- **糟糕的提示：** “我需要查看股票並發送電子郵件。”\n\n- **理想的提示：** 「首先，創建一個每天早上 9 點運行的**定時觸發器**。其次，使用一個**HTTP 請求**節點從雅虎財經 API 獲取 'TSLA' 的股票價格。第三，使用一個**條件節點**檢查價格是否低於 180 美元。最後，如果低於 180 美元，則使用一個**條件節點**檢查價格是否低於 180 美元。最後，如果低於 180 美元，則使用一個**gmail 向該節點發送一個主題。",
+        "height": 224,
+        "width": 592
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        192,
+        9136
+      ],
+      "typeVersion": 1,
+      "id": "66719c64-8e84-4a94-a35d-42d75bf31b09",
+      "name": "Sticky Note20"
+    },
+    {
+      "parameters": {
+        "content": "這就是你提到的強大功能。你可以用一個程式碼節點取代大量的「編輯欄位」或「分割」邏輯。只要告訴 AI 為你寫程式。\n- **糟糕的提示：** “過濾我的電子郵件。”\n- **理想的提示：** 「我有一個來自 **Webhook** 的新用戶清單。我需要使用 **分割** 節點來處理他們。對於每個用戶，我需要使用一個 **程式碼節點**。在這個 **程式碼節點** 中，編寫 JavaScript 程式碼：\n1. 取得電子郵件欄位。\n2. 檢查它是否是個人電子郵件（gmail.com、outlook.com 等）。\n3. 如果是，則新增一個名為 is_personal 的新欄位並將其設為 true。\n4. 如果不是，則將 is_personal 設為 false。\n之後，使用一個 If 節點來檢查 is_personal 標誌。 」",
+        "height": 272,
+        "width": 592
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        192,
+        9760
+      ],
+      "typeVersion": 1,
+      "id": "2e2257d2-38df-4083-9d21-0669a05bbd9f",
+      "name": "Sticky Note21"
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://i.imgur.com/JflVyiv.png)",
+        "height": 560,
+        "width": 784
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        128,
+        6960
+      ],
+      "typeVersion": 1,
+      "id": "f4056fba-dd48-4e41-9770-1f9444e8d2ee",
+      "name": "Sticky Note23"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-2.5-pro-preview-03-25",
+          "mode": "list",
+          "cachedResultName": "models/gemini-2.5-pro-preview-03-25"
+        },
+        "messages": {
+          "values": [
+            {}
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGeminiTool",
+      "typeVersion": 1,
+      "position": [
+        352,
+        6160
+      ],
+      "id": "de5aa5bd-bde7-4013-8934-0ac5558fcdd8",
+      "name": "Message a model in Google Gemini"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        416,
+        5872
+      ],
+      "id": "cf27b1d3-0290-4b17-b2b1-a8dfc39e903a",
+      "name": "Google Gemini Chat Model"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "claude-sonnet-4-5-20250929",
+          "cachedResultName": "Claude Sonnet 4.5"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [
+        176,
+        6560
+      ],
+      "id": "ad5f3232-0e7f-4738-b7dd-4aefd9b50c6c",
+      "name": "Anthropic Chat Model"
+    },
+    {
+      "parameters": {
+        "content": "# 模式 1：線性流程\n\n##（簡單取得和儲存）\n\n一種直接的流程，用於獲取資料、格式化資料並保存資料。",
+        "height": 216,
+        "width": 400
+      },
+      "id": "3cd781a9-75bb-4579-8a63-2b13391f5b32",
+      "name": "PATTERN 1: LINEAR FLOW",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -304,
+        10992
+      ]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 9
+            }
+          ]
+        }
+      },
+      "id": "65731553-4251-42cc-8840-15c077a37aac",
+      "name": "START (Trigger)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        224,
+        11024
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://api.example.com/data",
+        "options": {}
+      },
+      "id": "8197cba3-30eb-49a2-b962-4f2ba4e4ad1e",
+      "name": "GET DATA (HTTP)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        448,
+        11024
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "status",
+              "value": "processed",
+              "type": "string"
+            },
+            {
+              "id": "id-2",
+              "name": "timestamp",
+              "value": "={{ $now() }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "4baeb54d-a001-4e2b-a1f4-f5a54a3a65b2",
+      "name": "FORMAT DATA (Edit Fields)",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        672,
+        11024
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "1xK8Ee44mPxmXeUMM2Vi3Ob2vt17JBPmKH6eQgmahJic",
+          "mode": "list",
+          "cachedResultName": "Paddle Batch Codes for Mark Kashef - 2025-10-21",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1xK8Ee44mPxmXeUMM2Vi3Ob2vt17JBPmKH6eQgmahJic/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1xK8Ee44mPxmXeUMM2Vi3Ob2vt17JBPmKH6eQgmahJic/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [
+            "codes"
+          ],
+          "schema": [
+            {
+              "id": "codes",
+              "displayName": "codes",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "id": "791435eb-b7c0-4cdb-9128-7beb1cbe9ff5",
+      "name": "SAVE DATA (Google Sheet)",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        896,
+        11024
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# 模式 2：分支流程\n\n## （簡單決策）\n\n資料流經決策點（如果），並根據條件分支到不同的操作。",
+        "height": 216,
+        "width": 400
+      },
+      "id": "26a6d21c-81e8-4c9c-a3e6-b1dd66209a30",
+      "name": "PATTERN 2: BRANCHING FLOW",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -304,
+        11472
+      ]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours"
+            }
+          ]
+        }
+      },
+      "id": "5bc998cb-b8c5-4919-bd05-6586adf5693c",
+      "name": "START (Trigger) 2",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        224,
+        11520
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://api.example.com/items",
+        "options": {}
+      },
+      "id": "fc1a536b-a469-4aad-bddc-54b6193d11fc",
+      "name": "GET DATA 2",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        448,
+        11520
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "id-1",
+              "leftValue": "={{ $('GET DATA 2').item.json.priority }}",
+              "rightValue": "high",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "920f0e04-0458-4d0b-baa8-03a9ecfddcf9",
+      "name": "IF (Decision)",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        672,
+        11520
+      ]
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "sendTo": "ph",
+        "subject": "ph",
+        "message": "ph",
+        "options": {}
+      },
+      "id": "f3091bff-b585-4910-9429-9c34c2676cba",
+      "name": "DO_THING_A (Gmail)",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        896,
+        11424
+      ],
+      "webhookId": "9fb29eaa-1b55-42b8-b964-17e174081184"
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "=ph",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "=ph",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "id": "464c68f2-c09d-4bb7-ab72-60c4f5350ade",
+      "name": "DO_THING_B (Airtable)",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        896,
+        11616
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "G9UWOYHbK01vy3Ur",
+          "name": "Airtable Personal Access Token account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "combineBy": "combineAll",
+        "options": {}
+      },
+      "id": "138b4e09-1f51-429f-82d4-1ab1d1eef81a",
+      "name": "MERGE",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        1120,
+        11520
+      ]
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "process-list",
+        "options": {}
+      },
+      "id": "4acb794b-99c1-4128-b15e-c0d0850a413c",
+      "name": "START (Webhook)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        224,
+        12016
+      ],
+      "webhookId": "47202bd3-c78f-4b6b-a982-f4e753e6efeb"
+    },
+    {
+      "parameters": {
+        "url": "https://api.example.com/users",
+        "options": {}
+      },
+      "id": "88f5404d-b614-41d8-8d7a-43cd7da3faca",
+      "name": "GET LIST",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        448,
+        12016
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "ad8afe18-9a4c-4bc8-8c5c-200d32a56c5c",
+      "name": "SPLIT OUT (Loop Over Items)",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        672,
+        12016
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "processed",
+              "value": true,
+              "type": "boolean"
+            },
+            {
+              "id": "id-2",
+              "name": "enriched_at",
+              "value": "={{ $now() }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "ae1f799a-a042-4eb1-a209-8a4fa2fd78d1",
+      "name": "PROCESS_EACH (Edit Fields/AI)",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        896,
+        12016
+      ]
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "id": "71548751-1d06-47ea-870c-c75ea4dc7356",
+      "name": "AGGREGATE (Group Back)",
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        1120,
+        12016
+      ]
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "=ph",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "=ph",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "id": "1fb2c5ce-de43-4976-8485-faa2ccab130e",
+      "name": "SAVE_LIST (Google Sheet)",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        1344,
+        12016
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# 模式 3：循環流程\n\n## （處理清單）\n\n取得一個項目列表，將其拆分，分別處理每個項目，然後將結果匯總在一起。",
+        "height": 216,
+        "width": 400,
+        "color": 4
+      },
+      "id": "098dfea8-9417-42fd-bf2f-7a1845ef57bc",
+      "name": "PATTERN 3: LOOPING FLOW",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -304,
+        11968
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# 模式 4：AI 分類器\n\n##（AI 分類與路由）\n\nAI 分析收到的電子郵件，並根據分類（緊急、發票、垃圾郵件）將其路由到不同的操作。",
+        "height": 248,
+        "width": 400,
+        "color": 6
+      },
+      "id": "d0998529-1a38-4d74-b593-6492cdbb4ad9",
+      "name": "PATTERN 4: AI SORTER",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -304,
+        12624
+      ]
+    },
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyX",
+              "value": 5,
+              "unit": "minutes"
+            }
+          ]
+        },
+        "authentication": "serviceAccount",
+        "filters": {}
+      },
+      "id": "52b55b86-88e1-4bcd-8838-8a20f24b423e",
+      "name": "GET EMAIL (Trigger)",
+      "type": "n8n-nodes-base.gmailTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        224,
+        12640
+      ]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Classify this email: {{ $json.snippet }}",
+        "options": {
+          "systemMessage": "You are an email classifier. Analyze the email and return ONLY one word: \"Urgent\", \"Invoice\", or \"Spam\"."
+        }
+      },
+      "id": "58afd9a7-96ef-453f-ab90-3f6d3ca44a5a",
+      "name": "AI SCRIBE (Classify)",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3,
+      "position": [
+        448,
+        12640
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "id": "id-1",
+                    "leftValue": "={{ $json.output }}",
+                    "rightValue": "Urgent",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Urgent"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "id": "id-2",
+                    "leftValue": "={{ $json.output }}",
+                    "rightValue": "Invoice",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Invoice"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "id": "id-3",
+                    "leftValue": "={{ $json.output }}",
+                    "rightValue": "Spam",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Spam"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "c96355d3-a299-493b-9878-1948fc316d7b",
+      "name": "SWITCH (Route by AI)",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.3,
+      "position": [
+        800,
+        12624
+      ]
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": {
+          "__rl": true,
+          "value": "C07AKSATQR4",
+          "mode": "list",
+          "cachedResultName": "general"
+        },
+        "text": "Urgent email received!",
+        "otherOptions": {}
+      },
+      "id": "30674997-de6a-4a45-b0ea-9f418b91964b",
+      "name": "Send Slack Msg",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.3,
+      "position": [
+        1024,
+        12832
+      ],
+      "webhookId": "1cd3f64e-000d-4aeb-b734-29de75012f08"
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "=ph",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "=ph",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "id": "a7cc342c-dfce-4b35-8879-8949ba62ac7e",
+      "name": "Add to AirTable",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1024,
+        12448
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "G9UWOYHbK01vy3Ur",
+          "name": "Airtable Personal Access Token account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "operation": "delete",
+        "messageId": "ph"
+      },
+      "id": "190b5860-309b-44f6-9874-147e5e5ec781",
+      "name": "Delete Email",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        1024,
+        12640
+      ],
+      "webhookId": "13b1f11f-998b-4531-8376-921c01ef854f"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4.1-mini"
+        },
+        "options": {}
+      },
+      "id": "c253b1ed-4f61-4b25-af4a-3b90f852b10e",
+      "name": "OpenAI Chat Model",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        528,
+        12864
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "WdNCSir4qi0cxfNj",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "# 模式 5：AI \n\n##（附工具的智能體）\n\nAI 智慧體扮演協調者的角色，可以存取多種工具（例如 Google 搜尋、Gmail、Notion），並動態地使用這些工具。",
+        "height": 232,
+        "width": 384,
+        "color": null
+      },
+      "id": "109546cd-2b10-4331-91f1-1c06f7f73308",
+      "name": "PATTERN 5: AI DUNGEON MASTER",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -304,
+        13328
+      ]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.chatInput }}",
+        "options": {
+          "systemMessage": "You are a helpful AI assistant with access to Google Search, Gmail, and Notion. Use these tools when needed to help the user."
+        }
+      },
+      "id": "5505f3a7-2219-44f5-aaf1-a29f994ae9d2",
+      "name": "AI AGENT (DM)",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3,
+      "position": [
+        576,
+        13280
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "7faf1f2c-1e2b-490e-a5f0-d32b51107cdd",
+      "name": "TOOL: GSearch",
+      "type": "@n8n/n8n-nodes-langchain.toolSerpApi",
+      "typeVersion": 1,
+      "position": [
+        576,
+        13504
+      ]
+    },
+    {
+      "parameters": {
+        "authentication": "serviceAccount",
+        "sendTo": "={{ $fromAI('to') }}",
+        "subject": "={{ $fromAI('subject') }}",
+        "message": "={{ $fromAI('message_html') }}",
+        "options": {}
+      },
+      "id": "7771b3a5-5dd6-4f95-b2e3-05b01952b239",
+      "name": "TOOL: Gmail",
+      "type": "n8n-nodes-base.gmailTool",
+      "typeVersion": 2.1,
+      "position": [
+        704,
+        13504
+      ],
+      "webhookId": "dc7f24e2-fc3d-49df-a781-9ef854c16efb"
+    },
+    {
+      "parameters": {
+        "pageId": {
+          "__rl": true,
+          "value": "=ph",
+          "mode": "url"
+        },
+        "title": "ph",
+        "options": {}
+      },
+      "id": "fcc6a59b-2c98-4338-83f3-c053d83ba7f6",
+      "name": "TOOL: Notion",
+      "type": "n8n-nodes-base.notionTool",
+      "typeVersion": 2.2,
+      "position": [
+        832,
+        13504
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4.1-mini"
+        },
+        "options": {}
+      },
+      "id": "a9128857-025c-4eaa-bc30-80d728fbc0a6",
+      "name": "OpenAI Chat Model 2",
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        416,
+        13504
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "WdNCSir4qi0cxfNj",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "# 模式 6：資料豐富循環\n\n##（使用 API 呼叫循環）\n\n取得潛在客戶列表，使用 API 呼叫逐一處理每個潛在客戶以豐富數據，然後匯總並保存所有豐富後的記錄。",
+        "height": 248,
+        "width": 400,
+        "color": 4
+      },
+      "id": "381b660b-2419-49d5-a2f9-d91af03c1452",
+      "name": "PATTERN 6: ENRICHMENT LOOP",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -304,
+        13952
+      ]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "id": "c1b083b3-962a-4c9f-b70e-c70a914eb629",
+      "name": "START (Trigger) 3",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        224,
+        14000
+      ]
+    },
+    {
+      "parameters": {
+        "url": "https://api.example.com/leads",
+        "options": {}
+      },
+      "id": "43754de7-7d41-4be6-aa08-d07da46245ee",
+      "name": "Get Leads",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        448,
+        14000
+      ]
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "419d3097-d00a-4299-9ec7-8ee1fbb261de",
+      "name": "SPLIT OUT (1 at a time)",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        672,
+        14000
+      ]
+    },
+    {
+      "parameters": {
+        "url": "=https://api.example.com/profile/{{ $json.leadId }}",
+        "options": {}
+      },
+      "id": "b2fdc644-29bc-400d-ac2b-f2badc0a375e",
+      "name": "HTTP Request (Get profile from API)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        896,
+        14000
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "enriched",
+              "value": true,
+              "type": "boolean"
+            },
+            {
+              "id": "id-2",
+              "name": "profile_data",
+              "value": "={{ $json.profile }}",
+              "type": "object"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "1be89300-a9c4-49eb-890f-9e368547b1ee",
+      "name": "Edit Fields (Merge profile data)",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1120,
+        14000
+      ]
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "id": "8ac44c13-76ff-41be-aca3-f030d9f1edbf",
+      "name": "AGGREGATE (Back to list)",
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        1344,
+        14000
+      ]
+    },
+    {
+      "parameters": {
+        "schema": {
+          "__rl": true,
+          "mode": "list",
+          "value": "public"
+        },
+        "table": {
+          "__rl": true,
+          "value": "=dw",
+          "mode": "name"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "id": "453b84de-620f-4fcf-8315-c8b1f7d99076",
+      "name": "SAVE to DB",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        1568,
+        14000
+      ]
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “練習模式”按鈕\n* **遊戲組件：** 手動觸發\n* **檢查：** 你的「啟動」按鈕。在建立和測試任何工作流程時，你99%的時間都會用到它。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        640,
+        1264
+      ],
+      "typeVersion": 1,
+      "id": "94e605af-f638-4fea-a90a-8e46385ed6cb",
+      "name": "Sticky Note29"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “鬧鐘”\n* **遊戲組件：** 定時觸發器\n* **檢查：** 可用於任何重複性任務，例如：「每天早上 9 點執行此任務」、「每小時檢查一次」、「每週五發送一份報告」。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        640,
+        1440
+      ],
+      "typeVersion": 1,
+      "id": "2c98873a-ff15-438c-8361-f8287081372b",
+      "name": "Sticky Note30"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “魔法傳送門”\n* **關鍵元件：** Webhook 觸發器\n* **檢查：** 這是你的「即時回應」元件。它會創建一個唯一的 URL，供其他應用程式發送數據，從而*立即*啟動你的工作流程。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        640,
+        1616
+      ],
+      "typeVersion": 1,
+      "id": "09d5c1dc-5536-44cf-989d-562a938c8267",
+      "name": "Sticky Note31"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “表格”\n* **遊戲組件：** 應用觸發器（例如，Google Sheets 觸發器）\n* **偵測：** 一個預先建構的、針對特定應用的「魔法傳送門」。當您想要對某個事件（例如「新增了一行」）做出*即時*反應時，請使用此功能。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        640,
+        1984
+      ],
+      "typeVersion": 1,
+      "id": "be814005-1b67-4224-bc91-7cbbe87e70c9",
+      "name": "Sticky Note32"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “設定”\n* **遊戲組件：** 編輯欄位（或「設定」）\n* **氣氛檢查：** 棋盤上最有用的組件。使用它來新增、更改、重新命名或合併任何資料。 （例如，`firstName` + `lastName` = `fullName`）。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        656,
+        2480
+      ],
+      "typeVersion": 1,
+      "id": "9c1350fd-41c2-46ef-b782-a409b7121f05",
+      "name": "Sticky Note33"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “聊天框”\n* **遊戲組件：** 聊天觸發器\n* **檢查：** 這是任何對話式人工智慧的「開始」方格。當用戶發送訊息時，工作流程就會啟動。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        640,
+        1792
+      ],
+      "typeVersion": 1,
+      "id": "256c3c13-423c-43c2-9c71-24e85d3073ef",
+      "name": "Sticky Note34"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “分割器”\n* **遊戲組件：** 分割（或「分批分割」）\n* **氛圍偵測：** 當您有一個項目清單（陣列）並且需要逐一處理時，可以使用此功能。它可以將分割開來。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        656,
+        2688
+      ],
+      "typeVersion": 1,
+      "id": "07a49a74-7c66-4c58-84a8-e46b8c8c0ed1",
+      "name": "Sticky Note35"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “集合點”\n* **遊戲組件：** 匯總\n* **氛圍檢查：** 與「拆分」完全相反。處理完所有項目後，使用此功能將它們重新組合成一個大清單。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        656,
+        2880
+      ],
+      "typeVersion": 1,
+      "id": "c4089def-9b68-4c36-af59-d439d2ac205f",
+      "name": "Sticky Note36"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “判斷”\n* **遊戲組件：** If 節點\n* **檢查：** 簡單的「是/否」決策器。將資料路由到“真”路徑或“假”路徑。",
+        "height": 112,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        672,
+        3312
+      ],
+      "typeVersion": 1,
+      "id": "2bfbcf29-1af1-4164-8168-2881c42206a7",
+      "name": "Sticky Note37"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “切換”\n* **遊戲組件：** 切換節點\n* **檢查：** 更強大的「如果」語句。當您有*兩個以上*可能的結果時使用此語句（例如，路徑 1 代表“緊急”，路徑 2 代表“發票”，路徑 3 代表“垃圾郵件”）。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        672,
+        3472
+      ],
+      "typeVersion": 1,
+      "id": "246e5804-d41c-4913-9219-a6b6d53781c8",
+      "name": "Sticky Note38"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “組合”\n* **關鍵節點：** 合併節點\n* **狀態檢查：** 重新連接工作流程的關鍵。資料經過不同的「如果」或「切換」路徑後，此節點會將它們全部重新連接。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        672,
+        3664
+      ],
+      "typeVersion": 1,
+      "id": "cde7daf9-7d5b-41a5-af5d-dd9a3f33bfac",
+      "name": "Sticky Note39"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "9c015728-c8dd-4b3b-b81a-ed410e5b422f",
+      "name": "Chat Trigger",
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        384,
+        1808
+      ],
+      "webhookId": "17f3ed0c-ea74-4943-bf4b-9abf0d747612"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “暫停”按鈕\n* **遊戲組件：** 等待節點\n* **狀態檢查：** 使用此節點可以故意暫停工作流程。非常適合錯開操作或等待外部 API 冷卻下來。",
+        "height": 112,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        672,
+        3872
+      ],
+      "typeVersion": 1,
+      "id": "92bb1a75-b0fe-4fcc-b712-1a8140c648ce",
+      "name": "Sticky Note40"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “請求”\n* **元件：** HTTP 請求\n* **狀態檢查：** 你的終極秘密武器。如果 n8n 沒有某個服務的節點，這個元件可以讓你「監視」該服務的 API，從而進行 GET 或 POST 資料請求。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        672,
+        4336
+      ],
+      "typeVersion": 1,
+      "id": "eddaa37c-c66e-4ca2-b06d-95b3de063af8",
+      "name": "Sticky Note41"
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://i.imgur.com/Ah8UlkP.png)",
+        "height": 560,
+        "width": 736
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        1008,
+        6976
+      ],
+      "typeVersion": 1,
+      "id": "7eaf2ad7-9356-4ac6-9e44-b72a8280a67e",
+      "name": "Sticky Note42"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “內置表格”\n* **元件：** 儲存節點（例如，Google Sheets、AirTable、Notion、Postgres、資料表）\n* **檢查：** 最常見的「完成」方格。這是您保存處理後資料的「銀行」或「金庫」。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        672,
+        4528
+      ],
+      "typeVersion": 1,
+      "id": "37184114-39be-434c-8d44-4c53652f478b",
+      "name": "Sticky Note43"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 「訊息已接收」訊號\n\n* **遊戲元件：** 回應 Webhook\n\n* **狀態確認：** 僅與「魔法傳送門」（Webhook 觸發器）一起使用。此操作會向對方應用程式發送「收到，謝謝！」訊息。",
+        "height": 256,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        912,
+        4736
+      ],
+      "typeVersion": 1,
+      "id": "9eb458de-f5bc-47a0-a95a-0e7c9444c5ad",
+      "name": "Sticky Note44"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 CODE\n* **組件：** 程式碼節點\n* **偵測：** “作弊碼”元件。使用此元件可以將 5-10 個其他節點替換為一個快速的程式碼區塊。您無需懂程式碼，只需讓 AI 為您編寫！",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        656,
+        5344
+      ],
+      "typeVersion": 1,
+      "id": "54e16d95-31d6-490a-9e60-5ccee4af4ca2",
+      "name": "Sticky Note45"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “LLM”\n* **組件：** 基礎 LLM 節點（例如，「向模型發送訊息」、「基礎 LLM 鏈」、「AI 變換」）\n* **檢查：** 當您希望 AI **思考並做出回應** 時，請使用此功能。它適用於簡單的「判斷」任務：文字摘要、情緒分類、資料擷取或文字重寫。",
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        656,
+        5728
+      ],
+      "typeVersion": 1,
+      "id": "4239cfca-2663-4ff2-a4fc-12f0ce0cf99d",
+      "name": "Sticky Note46"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 AI AGENT\n* **組件：** AI 代理\n* **偵測：** 最強大的node。當您希望 AI **做出決定並採取行動**時，請使用它。您為其提供“工具”（其他節點）和“記憶”，它將決定使用*哪些*工具來幫助您贏得遊戲。",
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        720,
+        6336
+      ],
+      "typeVersion": 1,
+      "id": "7f915cac-0a1f-427a-b73a-d99fa18e006d",
+      "name": "Sticky Note47"
+    },
+    {
+      "parameters": {
+        "content": "### 🔲 “AI”\n* **核心元件：** AI Transform\n* **功能介紹：** 一個簡單快速的 AI「抄寫員」。可用於執行一次性任務，例如從雜亂文字中提取結構化資料（JSON）、總結一段文字或進行語言翻譯。",
+        "height": 128,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        656,
+        5520
+      ],
+      "typeVersion": 1,
+      "id": "922653f2-e6ed-4f0f-9d50-ef71c97aee37",
+      "name": "Sticky Note48"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "itemsSubtotal",
+              "value": "={{ $json.items.reduce((sum, item) => sum + (item.quantity * item.unitPrice), 0) }}",
+              "type": "number"
+            },
+            {
+              "id": "id-2",
+              "name": "totalDiscount",
+              "value": "={{ $json.items.reduce((sum, item) => sum + (item.discount || 0), 0) }}",
+              "type": "number"
+            },
+            {
+              "id": "id-3",
+              "name": "orderTotal",
+              "value": "={{ $json.items.reduce((sum, item) => sum + (item.quantity * item.unitPrice), 0) - $json.items.reduce((sum, item) => sum + (item.discount || 0), 0) + $json.shippingCost }}",
+              "type": "number"
+            },
+            {
+              "id": "id-4",
+              "name": "itemCount",
+              "value": "={{ $json.items.length }}",
+              "type": "number"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "5c24e660-d0a1-4bfc-9ec4-7db3632a3c84",
+      "name": "Calculate Order Totals",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2480,
+        2656
+      ]
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "items",
+        "include": "allOtherFields",
+        "options": {}
+      },
+      "id": "c0c0a7e8-4ec2-4ce3-b450-37861a5c3158",
+      "name": "Split Order Items",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        2704,
+        2656
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "itemTotal",
+              "value": "={{ $json.items.quantity * $json.items.unitPrice - $json.items.discount }}",
+              "type": "number"
+            },
+            {
+              "id": "id-2",
+              "name": "discountPercentage",
+              "value": "={{ Math.round(($json.items.discount / ($json.items.quantity * $json.items.unitPrice)) * 100 * 100) / 100 }}",
+              "type": "number"
+            },
+            {
+              "id": "id-3",
+              "name": "isDiscounted",
+              "value": "={{ $json.items.discount > 0 }}",
+              "type": "boolean"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "c57a96cb-49f2-4b71-9c8a-dab5267217d9",
+      "name": "Enrich Item Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2928,
+        2656
+      ]
+    },
+    {
+      "parameters": {
+        "fieldsToAggregate": {
+          "fieldToAggregate": [
+            {
+              "fieldToAggregate": "productName",
+              "renameField": true,
+              "outputFieldName": "products"
+            },
+            {
+              "fieldToAggregate": "itemTotal",
+              "renameField": true,
+              "outputFieldName": "categoryTotal"
+            },
+            {
+              "fieldToAggregate": "quantity",
+              "renameField": true,
+              "outputFieldName": "totalQuantity"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "7bbfdbae-640d-405f-a9f8-f840c5f646f9",
+      "name": "Aggregate Items by Category",
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        3152,
+        2656
+      ]
+    },
+    {
+      "parameters": {
+        "content": "![Arrow](https://i.imgur.com/xJOATdk.png)",
+        "height": 256,
+        "width": 256,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        1696,
+        2592
+      ],
+      "typeVersion": 1,
+      "id": "0c77fab7-b658-4751-ba4b-565e68ffc504",
+      "name": "Sticky Note49"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "id-1",
+              "leftValue": "={{ $json.orderTotal }}",
+              "rightValue": 300,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "e420afe4-d6e4-4f71-9401-c9212d8b7e2e",
+      "name": "Check Order Total",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        2528,
+        3552
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.category }}",
+                    "rightValue": "Electronics",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "id": "2d1bec54-5c2f-4fb4-a0b4-a1422dd32a22"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Electronics"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.category }}",
+                    "rightValue": "Sports",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "id": "4de88002-cf27-4e01-b715-a1d892dbaa16"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Sports"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.category }}",
+                    "rightValue": "Home & Kitchen",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "id": "335158c0-32eb-4c64-951d-6764c46bacc5"
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Home & Kitchen"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "17a38e45-261e-449c-a48c-4a5fe6c0e6ea",
+      "name": "Route by Category",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.3,
+      "position": [
+        3424,
+        3344
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "priority",
+              "value": "high",
+              "type": "string"
+            },
+            {
+              "id": "id-2",
+              "name": "requiresApproval",
+              "value": true,
+              "type": "boolean"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "e74615c0-5277-414c-b0b9-6c17ef0cf8ae",
+      "name": "High Value Processing",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2752,
+        3360
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "345cffe7-c437-44ca-8123-8f8332ac6b33",
+      "name": "Wait for Approval",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        2976,
+        3360
+      ],
+      "webhookId": "16a083fc-6f89-462d-88cd-8e6cf8e878f5"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "priority",
+              "value": "standard",
+              "type": "string"
+            },
+            {
+              "id": "id-2",
+              "name": "requiresApproval",
+              "value": false,
+              "type": "boolean"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "67a7c89f-5cda-4400-b407-a6b6ef0c4aee",
+      "name": "Standard Processing",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        3648,
+        3744
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "handledBy",
+              "value": "Electronics Department",
+              "type": "string"
+            },
+            {
+              "id": "id-2",
+              "name": "processingTime",
+              "value": "={{ $now.toISO() }}",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "d706d565-d56d-450d-8b0e-41c3a3a19b62",
+      "name": "Electronics Handler",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        3648,
+        3168
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "handledBy",
+              "value": "Sports Department",
+              "type": "string"
+            },
+            {
+              "id": "id-2",
+              "name": "processingTime",
+              "value": "={{ $now.toISO() }}",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "f3690a44-1655-4de2-9283-51a7aa10791e",
+      "name": "Sports Handler",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        3648,
+        3360
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "handledBy",
+              "value": "Home & Kitchen Department",
+              "type": "string"
+            },
+            {
+              "id": "id-2",
+              "name": "processingTime",
+              "value": "={{ $now.toISO() }}",
+              "type": "string"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "4bd7d17f-76bd-4586-8208-8f4e93f9ae19",
+      "name": "Home & Kitchen Handler",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        3648,
+        3552
+      ]
+    },
+    {
+      "parameters": {
+        "numberInputs": 4
+      },
+      "id": "9acae31c-89ed-4cff-9dd8-7c3e5d740a8d",
+      "name": "Merge All Branches",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        3872,
+        3424
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "id-1",
+              "name": "itemsSubtotal",
+              "value": "={{ $json.items.reduce((sum, item) => sum + (item.quantity * item.unitPrice), 0) }}",
+              "type": "number"
+            },
+            {
+              "id": "id-2",
+              "name": "totalDiscount",
+              "value": "={{ $json.items.reduce((sum, item) => sum + item.discount, 0) }}",
+              "type": "number"
+            },
+            {
+              "id": "id-3",
+              "name": "orderTotal",
+              "value": "={{ $json.items.reduce((sum, item) => sum + (item.quantity * item.unitPrice), 0) - $json.items.reduce((sum, item) => sum + item.discount, 0) + $json.shippingCost }}",
+              "type": "number"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "id": "426c4923-6c83-4da5-9627-24a5d76a4ce4",
+      "name": "Calculate Order Total",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2304,
+        3552
+      ]
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "items",
+        "options": {}
+      },
+      "id": "5a147f82-f020-440f-bbee-4b27c57396a1",
+      "name": "Split Order Items1",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        3200,
+        3360
+      ]
+    },
+    {
+      "parameters": {
+        "content": "![Arrow](https://i.imgur.com/xJOATdk.png)",
+        "height": 256,
+        "width": 256,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        1712,
+        3488
+      ],
+      "typeVersion": 1,
+      "id": "3d700ec2-1ce7-4e41-92f4-22c3a76a1841",
+      "name": "Sticky Note50"
+    },
+    {
+      "parameters": {
+        "content": "![Arrow](https://i.imgur.com/xJOATdk.png)",
+        "height": 256,
+        "width": 256,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        1728,
+        5920
+      ],
+      "typeVersion": 1,
+      "id": "e86d9c55-b95a-4fcf-bb7e-9804bcf3151b",
+      "name": "Sticky Note51"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get the order data from the webhook\nconst order = $input.first().json;\n\n// Calculate order totals\nconst itemsSubtotal = order.items.reduce((sum, item) => sum + (item.quantity * item.unitPrice), 0);\nconst totalDiscount = order.items.reduce((sum, item) => sum + item.discount, 0);\nconst orderTotal = itemsSubtotal - totalDiscount + order.shippingCost;\n\n// Check if high value order (>300)\nconst isHighValue = orderTotal > 300;\nconst priority = isHighValue ? 'high' : 'standard';\nconst requiresApproval = isHighValue;\n\n// Process each item with category-based department assignment\nconst processedItems = order.items.map(item => {\n  let handledBy = '';\n  \n  // Route by category\n  switch(item.category) {\n    case 'Electronics':\n      handledBy = 'Electronics Department';\n      break;\n    case 'Sports':\n      handledBy = 'Sports Department';\n      break;\n    case 'Home & Kitchen':\n      handledBy = 'Home & Kitchen Department';\n      break;\n    default:\n      handledBy = 'General Department';\n  }\n  \n  return {\n    ...item,\n    handledBy: handledBy,\n    processingTime: new Date().toISOString(),\n    priority: priority,\n    requiresApproval: requiresApproval,\n    orderTotal: orderTotal,\n    itemsSubtotal: itemsSubtotal,\n    totalDiscount: totalDiscount\n  };\n});\n\n// Return all processed items\nreturn processedItems.map(item => ({ json: item }));"
+      },
+      "id": "f82b06ee-fce0-4a95-b277-85d7ecdc79de",
+      "name": "Process Order",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2480,
+        5984
+      ]
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://i.imgur.com/rw1W7Lx.png)",
+        "height": 368,
+        "width": 528,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -448,
+        8464
+      ],
+      "typeVersion": 1,
+      "id": "c4190dd9-79b0-4056-a39a-95be4a633b90",
+      "name": "Sticky Note52"
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://i.imgur.com/h5kwO6Y.png)",
+        "height": 368,
+        "width": 528,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -448,
+        9040
+      ],
+      "typeVersion": 1,
+      "id": "cc7c3b85-547a-4d74-b7d0-af5fffa09941",
+      "name": "Sticky Note53"
+    },
+    {
+      "parameters": {
+        "content": "![Description](https://i.imgur.com/OrO5EdF.png)",
+        "height": 368,
+        "width": 528,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -448,
+        9680
+      ],
+      "typeVersion": 1,
+      "id": "81d3a7a1-fa1c-453e-9ea0-88acd0ddf2af",
+      "name": "Sticky Note54"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "order-processing",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "270f1f0f-520c-45ed-9fb8-94a40edd8e2b",
+      "name": "Order Webhook1",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        2080,
+        3552
+      ],
+      "webhookId": "9f1f31c3-3a24-40e4-a205-fc2457968c62"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "order-processing",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "fcc1bf92-11e6-44f1-8099-75a5947ecd01",
+      "name": "Order Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        2240,
+        5984
+      ],
+      "webhookId": "9f1f31c3-3a24-40e4-a205-fc2457968c62"
+    },
+    {
+      "parameters": {
+        "content": "### 加入免費群\n\n## https://www.skool.com/aiagent8/about?ref=f2b566934c5c4639aaa47ab1fe39310e",
+        "height": 192,
+        "width": 304,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        944,
+        400
+      ],
+      "typeVersion": 1,
+      "id": "35a84bf0-4977-4ea6-b6d6-d4b9d47f051e",
+      "name": "Sticky Note22"
+    },
+    {
+      "parameters": {
+        "content": "喜歡這類內容嗎？VIP群\n\n我們在早期人工智慧應用領域做得更多：\n\n## https://www.skool.com/aiagent",
+        "width": 560,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        352,
+        14272
+      ],
+      "typeVersion": 1,
+      "id": "e652d28c-0dc3-4ca9-8602-e770509241c9",
+      "name": "Sticky Note56"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "order-processing",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "b0cc4e66-23b1-42d3-96d7-ca40a6b04719",
+      "name": "Order Webhook2",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        2256,
+        2656
+      ],
+      "webhookId": "9f1f31c3-3a24-40e4-a205-fc2457968c62"
+    },
+    {
+      "parameters": {
+        "text": "=",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 2.2,
+      "position": [
+        752,
+        6544
+      ],
+      "id": "ef988acc-3d74-47fb-beb8-83dfc9713c2f",
+      "name": "AI Agent Tool1"
+    },
+    {
+      "parameters": {
+        "text": "=",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agentTool",
+      "typeVersion": 2.2,
+      "position": [
+        1072,
+        6544
+      ],
+      "id": "709a08bb-6749-409c-8af4-36469354044a",
+      "name": "AI Agent Tool2"
+    }
+  ],
+  "pinData": {
+    "Order Webhook1": [
+      {
+        "json": {
+          "orderId": "ORD-2024-001",
+          "customerName": "Sarah Johnson",
+          "customerEmail": "sarah.johnson@email.com",
+          "orderDate": "2024-01-15T10:30:00Z",
+          "status": "processing",
+          "shippingAddress": {
+            "street": "123 Main St",
+            "city": "San Francisco",
+            "state": "CA",
+            "zipCode": "94102",
+            "country": "USA"
+          },
+          "items": [
+            {
+              "productId": "PROD-001",
+              "productName": "Wireless Headphones",
+              "category": "Electronics",
+              "quantity": 2,
+              "unitPrice": 79.99,
+              "discount": 10
+            },
+            {
+              "productId": "PROD-045",
+              "productName": "Yoga Mat",
+              "category": "Sports",
+              "quantity": 1,
+              "unitPrice": 29.99,
+              "discount": 0
+            },
+            {
+              "productId": "PROD-112",
+              "productName": "Coffee Maker",
+              "category": "Home & Kitchen",
+              "quantity": 1,
+              "unitPrice": 149.99,
+              "discount": 15
+            }
+          ],
+          "paymentMethod": "credit_card",
+          "shippingCost": 12.5
+        }
+      }
+    ],
+    "Order Webhook": [
+      {
+        "json": {
+          "orderId": "ORD-2024-001",
+          "customerName": "Sarah Johnson",
+          "customerEmail": "sarah.johnson@email.com",
+          "orderDate": "2024-01-15T10:30:00Z",
+          "status": "processing",
+          "shippingAddress": {
+            "street": "123 Main St",
+            "city": "San Francisco",
+            "state": "CA",
+            "zipCode": "94102",
+            "country": "USA"
+          },
+          "items": [
+            {
+              "productId": "PROD-001",
+              "productName": "Wireless Headphones",
+              "category": "Electronics",
+              "quantity": 2,
+              "unitPrice": 79.99,
+              "discount": 10
+            },
+            {
+              "productId": "PROD-045",
+              "productName": "Yoga Mat",
+              "category": "Sports",
+              "quantity": 1,
+              "unitPrice": 29.99,
+              "discount": 0
+            },
+            {
+              "productId": "PROD-112",
+              "productName": "Coffee Maker",
+              "category": "Home & Kitchen",
+              "quantity": 1,
+              "unitPrice": 149.99,
+              "discount": 15
+            }
+          ],
+          "paymentMethod": "credit_card",
+          "shippingCost": 12.5
+        }
+      }
+    ],
+    "Order Webhook2": [
+      {
+        "json": {
+          "orderId": "ORD-2024-001",
+          "customerName": "Sarah Johnson",
+          "customerEmail": "sarah.johnson@email.com",
+          "orderDate": "2024-01-15T10:30:00Z",
+          "status": "processing",
+          "shippingAddress": {
+            "street": "123 Main St",
+            "city": "San Francisco",
+            "state": "CA",
+            "zipCode": "94102",
+            "country": "USA"
+          },
+          "items": [
+            {
+              "productId": "PROD-001",
+              "productName": "Wireless Headphones",
+              "category": "Electronics",
+              "quantity": 2,
+              "unitPrice": 79.99,
+              "discount": 10
+            },
+            {
+              "productId": "PROD-045",
+              "productName": "Yoga Mat",
+              "category": "Sports",
+              "quantity": 1,
+              "unitPrice": 29.99,
+              "discount": 0
+            },
+            {
+              "productId": "PROD-112",
+              "productName": "Coffee Maker",
+              "category": "Home & Kitchen",
+              "quantity": 1,
+              "unitPrice": 149.99,
+              "discount": 15
+            }
+          ],
+          "paymentMethod": "credit_card",
+          "shippingCost": 12.5
+        }
+      }
+    ]
+  },
+  "connections": {
+    "AI Agent Tool": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model in Google Gemini": {
+      "ai_tool": [
+        [
+          {
+            "node": "Message a model node",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Anthropic Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "AI Agent Tool",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "AI Agent Tool1",
+            "type": "ai_languageModel",
+            "index": 0
+          },
+          {
+            "node": "AI Agent Tool2",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "START (Trigger)": {
+      "main": [
+        [
+          {
+            "node": "GET DATA (HTTP)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GET DATA (HTTP)": {
+      "main": [
+        [
+          {
+            "node": "FORMAT DATA (Edit Fields)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "FORMAT DATA (Edit Fields)": {
+      "main": [
+        [
+          {
+            "node": "SAVE DATA (Google Sheet)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "START (Trigger) 2": {
+      "main": [
+        [
+          {
+            "node": "GET DATA 2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GET DATA 2": {
+      "main": [
+        [
+          {
+            "node": "IF (Decision)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IF (Decision)": {
+      "main": [
+        [
+          {
+            "node": "DO_THING_A (Gmail)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "DO_THING_B (Airtable)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DO_THING_A (Gmail)": {
+      "main": [
+        [
+          {
+            "node": "MERGE",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DO_THING_B (Airtable)": {
+      "main": [
+        [
+          {
+            "node": "MERGE",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "START (Webhook)": {
+      "main": [
+        [
+          {
+            "node": "GET LIST",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GET LIST": {
+      "main": [
+        [
+          {
+            "node": "SPLIT OUT (Loop Over Items)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SPLIT OUT (Loop Over Items)": {
+      "main": [
+        [
+          {
+            "node": "PROCESS_EACH (Edit Fields/AI)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "GET LIST",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "PROCESS_EACH (Edit Fields/AI)": {
+      "main": [
+        [
+          {
+            "node": "AGGREGATE (Group Back)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AGGREGATE (Group Back)": {
+      "main": [
+        [
+          {
+            "node": "SAVE_LIST (Google Sheet)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GET EMAIL (Trigger)": {
+      "main": [
+        [
+          {
+            "node": "AI SCRIBE (Classify)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI SCRIBE (Classify)": {
+      "main": [
+        [
+          {
+            "node": "SWITCH (Route by AI)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SWITCH (Route by AI)": {
+      "main": [
+        [
+          {
+            "node": "Send Slack Msg",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Add to AirTable",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Delete Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI SCRIBE (Classify)",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "TOOL: GSearch": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI AGENT (DM)",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "TOOL: Gmail": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI AGENT (DM)",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "TOOL: Notion": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI AGENT (DM)",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model 2": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI AGENT (DM)",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "START (Trigger) 3": {
+      "main": [
+        [
+          {
+            "node": "Get Leads",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Leads": {
+      "main": [
+        [
+          {
+            "node": "SPLIT OUT (1 at a time)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SPLIT OUT (1 at a time)": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request (Get profile from API)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Get Leads",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request (Get profile from API)": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields (Merge profile data)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields (Merge profile data)": {
+      "main": [
+        [
+          {
+            "node": "AGGREGATE (Back to list)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AGGREGATE (Back to list)": {
+      "main": [
+        [
+          {
+            "node": "SAVE to DB",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Calculate Order Totals": {
+      "main": [
+        [
+          {
+            "node": "Split Order Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Order Items": {
+      "main": [
+        [
+          {
+            "node": "Enrich Item Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Enrich Item Data": {
+      "main": [
+        [
+          {
+            "node": "Aggregate Items by Category",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Order Total": {
+      "main": [
+        [
+          {
+            "node": "High Value Processing",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Standard Processing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Route by Category": {
+      "main": [
+        [
+          {
+            "node": "Electronics Handler",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Sports Handler",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Home & Kitchen Handler",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "High Value Processing": {
+      "main": [
+        [
+          {
+            "node": "Wait for Approval",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait for Approval": {
+      "main": [
+        [
+          {
+            "node": "Split Order Items1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Standard Processing": {
+      "main": [
+        [
+          {
+            "node": "Merge All Branches",
+            "type": "main",
+            "index": 3
+          }
+        ]
+      ]
+    },
+    "Electronics Handler": {
+      "main": [
+        [
+          {
+            "node": "Merge All Branches",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sports Handler": {
+      "main": [
+        [
+          {
+            "node": "Merge All Branches",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Home & Kitchen Handler": {
+      "main": [
+        [
+          {
+            "node": "Merge All Branches",
+            "type": "main",
+            "index": 2
+          }
+        ]
+      ]
+    },
+    "Calculate Order Total": {
+      "main": [
+        [
+          {
+            "node": "Check Order Total",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Order Items1": {
+      "main": [
+        [
+          {
+            "node": "Route by Category",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Order Webhook1": {
+      "main": [
+        [
+          {
+            "node": "Calculate Order Total",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Order Webhook": {
+      "main": [
+        [
+          {
+            "node": "Process Order",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Order Webhook2": {
+      "main": [
+        [
+          {
+            "node": "Calculate Order Totals",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent Tool1": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent Tool2": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "12b2038a-f80c-469e-bad8-348018351ed6",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "78fda1add35c93dc0024c98cb79ca18abaf100f2da4d66f7e1f7cf6b91bd719a"
+  },
+  "id": "9kWFgPIhui6hBlpS",
+  "tags": []
+}
