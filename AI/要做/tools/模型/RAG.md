@@ -6,4 +6,5 @@ https://ai.google.dev/gemini-api/docs/embeddings?hl=ja
 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/
 
 ## openrouter
+LLMs 大模型
 https://openrouter.ai/
