@@ -7,4 +7,9 @@ https://www.youtube.com/watch?v=nGAJMLjBEI8
  
  加入我的免費 Skool 社群，獲取模板：https://www.skool.com/aiagent8/about?ref=f2b566934c5c4639aaa47ab1fe39310e
 
+
+
+ ## AI设计神器——Open CoDesign
+ （GitHub仓库：OpenCoworkAI/open-codesign）
+
  
