@@ -1,3 +1,10 @@
+# cloudflare
+https://www.cloudflare.com/ja-jp/
+
+先用 Next.js + Cloudflare Pages + GitHub 搭建一个极其简陋但功能可用的 MVP（最小可行性产品）。
+让 AI 每天自动生成一个小工具页面（Long-tail keywords），坚持 3 个月，等 SEO 权重上来后再全力铺广告。
+
+
 如果你计划做一个 AI 工具站（AI Tool Wrapper），通过广告（AdSense, Ezoic, etc.）变现，并希望在 SEO 和 GEO（生成引擎优化）上取得优势，
 同时控制成本，以下是一套 2026 年最主流且高效的实现建议：1. 域名与托管：成本与性能的最佳平衡域名注册：首选 Cloudflare。
 原因： 它是目前最透明、续费最便宜的注册商（按成本计价）。更重要的是，它自带强大的 API 和安全防护，非常适合 AI 自动化管理。
