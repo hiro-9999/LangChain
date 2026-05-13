@@ -6,6 +6,11 @@ https://mp.weixin.qq.com/s/2kUmSIGYfe5j3n_Jip4izA
 ```
 扫 ProductHunt 当周前 50 名产品的评论区、X（Twitter）上 buildinpublic 话题的点赞前 100 条、小红书「自媒体工具」笔记的置顶评论。把所有评论丢给 Claude，提示词是："请从这些内容中提炼出用户表达的具体痛点，输出 100 条，每条一句话，不要归纳，保留原始表述风格。"拿到 100 条痛点之后，人工筛 3 个：已有解决方案但体验很差的 > 有人愿意付钱的 > 我能在 2 周内做出 80 分版本的。选题不用做到完美，选一个"够用"的先跑起来。痛点验证永远比 PRD 重要。
 ```
+## AI组建全自动化公司
+https://github.com/paperclipai/paperclip
+
+https://mp.weixin.qq.com/s/zA5oqv8OhuLFMZikQnnVXQ
+
 ## 23个AI趋势让我夜不能寐！独角兽创始人Greg Isenberg：1小时建公司、代理经济、环境业务……普通人现在冲就是最大红利
 https://mp.weixin.qq.com/s/5sl8OqQ4xsesTcLpEGCj0w
 
