@@ -10,6 +10,6 @@ https://www.youtube.com/watch?v=nGAJMLjBEI8
 
 
  ## AI设计神器——Open CoDesign
- （GitHub仓库：OpenCoworkAI/open-codesign）
+https://github.com/OpenCoworkAI/open-codesign
 
  
