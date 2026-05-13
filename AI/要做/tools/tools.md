@@ -6,6 +6,31 @@ https://mp.weixin.qq.com/s/2kUmSIGYfe5j3n_Jip4izA
 ```
 扫 ProductHunt 当周前 50 名产品的评论区、X（Twitter）上 buildinpublic 话题的点赞前 100 条、小红书「自媒体工具」笔记的置顶评论。把所有评论丢给 Claude，提示词是："请从这些内容中提炼出用户表达的具体痛点，输出 100 条，每条一句话，不要归纳，保留原始表述风格。"拿到 100 条痛点之后，人工筛 3 个：已有解决方案但体验很差的 > 有人愿意付钱的 > 我能在 2 周内做出 80 分版本的。选题不用做到完美，选一个"够用"的先跑起来。痛点验证永远比 PRD 重要。
 ```
+## 23个AI趋势让我夜不能寐！独角兽创始人Greg Isenberg：1小时建公司、代理经济、环境业务……普通人现在冲就是最大红利
+https://mp.weixin.qq.com/s/5sl8OqQ4xsesTcLpEGCj0w
+
+```
+2009-2015：App Store时代 
+
+2015-2024：API经济 
+
+2025-2030：Agent Economy
+
+代理会自动发现、评估、雇佣其他代理。Gartner预测2030年20%商业交易是机器对机器。
+```
+
+## Construct 3：一个让250万人不用写代码就做出游戏的工具
+https://mp.weixin.qq.com/s/VG5eaGG_eRFRCXcKfZ2R2A
+
+## AI做游戏，第一步不是写代码
+https://mp.weixin.qq.com/s/_-yhK_sT8G4ov4SIWAcWDQ
+
+## GStack 实战指南
+https://mp.weixin.qq.com/s/s7yijl9t9mcxdFePgH2M_g
+
+## 爱用Claude做Reddit，网站SEO流量效果绝绝子
+http://xhslink.com/o/1ty9cbYXORI
+
 ## 【検索】SearxngをローカルPCに設定するまでの話【OpenWebUI】
 https://note.com/catap_art3d/n/ncec3715e33f7
 
