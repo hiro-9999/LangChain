@@ -12,4 +12,6 @@ https://www.youtube.com/watch?v=nGAJMLjBEI8
  ## AI设计神器——Open CoDesign
 https://github.com/OpenCoworkAI/open-codesign
 
+## 腾讯云CloudBase
+https://www.tencentcloud.com/zh
  
