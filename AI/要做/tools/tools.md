@@ -1,3 +1,6 @@
+## skills
+https://github.com/mattpocock/skills
+
 ## 1人1AI工具月入5万全流程复盘
 https://mp.weixin.qq.com/s/2kUmSIGYfe5j3n_Jip4izA
 
