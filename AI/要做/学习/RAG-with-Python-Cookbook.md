@@ -1,3 +1,7 @@
+## 从零开始构建企业级RAG系统 (李多多, 范国斌)
+https://github.com/morsoli/rag-book-demo
+
+
 https://github.com/polzerdo55862/RAG-with-Python-Cookbook
 
 https://www.hitachi-solutions.co.jp/katsubun/column/generative_ai003/
