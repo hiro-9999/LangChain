@@ -1,4 +1,5 @@
 ## skills
+### 定义问题、组织 Agent、验证结果，并把它变成真实产品
 https://github.com/mattpocock/skills
 
 ## 1人1AI工具月入5万全流程复盘
