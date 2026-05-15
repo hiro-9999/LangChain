@@ -44,6 +44,24 @@ https://dev.classmethod.jp/articles/spec-driven-development-with-github-spec-kit
 
 https://github.com/github/spec-kit
 
+## 让 Cloud Code 替你打工：你只管睡觉，5个开源工具凑出一家AI公司
+DeerFlow + Prompt Optimizer + The Agency + Ruflo + Letta = 一家完整 AI 公司
+
+https://github.com/linshenkx/prompt-optimizer
+
+https://github.com/msitarzewski/agency-agents
+
+https://github.com/ruvnet/ruflo
+
+[Letta](https://github.com/ruvnet/ruflo)
+
+## DeerFlow 2.0 是一次彻底重写。
+我们推荐使用 Doubao-Seed-2.0-Code、DeepSeek v3.2 和 Kimi 2.5 运行 DeerFlow
+https://github.com/bytedance/deer-flow/blob/main/README_zh.md
+
+## 飞书官方 CLI 工具
+https://github.com/larksuite/cli
+
 
 ## Qwen3.6 MTP加速，本地部署加速1.5倍，驱动 Claude Code
 https://mp.weixin.qq.com/s/b3MM6o2NwyUfIufdfFRkSQ
