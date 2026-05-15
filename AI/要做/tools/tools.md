@@ -20,6 +20,9 @@ https://github.com/paperclipai/paperclip
 
 https://mp.weixin.qq.com/s/zA5oqv8OhuLFMZikQnnVXQ
 
+## AI编程王炸 三件套：OpenSpec 定方向，Superpowers定纪律，Harness定协同
+https://www.cnblogs.com/crazymakercircle/p/20011194
+
 ## 23个AI趋势让我夜不能寐！独角兽创始人Greg Isenberg：1小时建公司、代理经济、环境业务……普通人现在冲就是最大红利
 https://mp.weixin.qq.com/s/5sl8OqQ4xsesTcLpEGCj0w
 
@@ -32,6 +35,12 @@ https://mp.weixin.qq.com/s/5sl8OqQ4xsesTcLpEGCj0w
 
 代理会自动发现、评估、雇佣其他代理。Gartner预测2030年20%商业交易是机器对机器。
 ```
+
+## 【开源项目】12k Stars，waoowaoo:一本小说进去，一部短剧出来，全部一人搞定！
+https://mp.weixin.qq.com/s/m81jrOC84mTI_8H7uPVGvQ
+
+waoowaoo GitHub 仓库 — https://github.com/waooAI/waoowaoo
+waoowaoo 官方网站 — https://www.waoowaoo.com/
 
 ## Construct 3：一个让250万人不用写代码就做出游戏的工具
 https://mp.weixin.qq.com/s/VG5eaGG_eRFRCXcKfZ2R2A
