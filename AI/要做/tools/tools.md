@@ -2,6 +2,11 @@
 ### 定义问题、组织 Agent、验证结果，并把它变成真实产品
 https://github.com/mattpocock/skills
 
+## oMLX  -> ok
+https://omlx.ai/
+
+https://github.com/jundot/omlx
+
 ## 1人1AI工具月入5万全流程复盘
 https://mp.weixin.qq.com/s/2kUmSIGYfe5j3n_Jip4izA
 
