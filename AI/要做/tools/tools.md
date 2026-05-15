@@ -36,6 +36,18 @@ https://mp.weixin.qq.com/s/5sl8OqQ4xsesTcLpEGCj0w
 ## Construct 3：一个让250万人不用写代码就做出游戏的工具
 https://mp.weixin.qq.com/s/VG5eaGG_eRFRCXcKfZ2R2A
 
+## Upscayl开源AI图像放大神器：16倍超分辨率本地运行，批量处理+自定义模型+Real-ESRGAN架构完整深度解析！
+https://mp.weixin.qq.com/s/GI0gWQHPZkMt2sWSwWcczQ
+
+## Spec Kit はGitHubが提供する仕様駆動開発(Spec-Driven Development;SDD)のツールキットです(仕様は英語で"Specification"と呼びます)。
+https://dev.classmethod.jp/articles/spec-driven-development-with-github-spec-kit/
+
+https://github.com/github/spec-kit
+
+
+## Qwen3.6 MTP加速，本地部署加速1.5倍，驱动 Claude Code
+https://mp.weixin.qq.com/s/b3MM6o2NwyUfIufdfFRkSQ
+
 ## AI做游戏，第一步不是写代码
 https://mp.weixin.qq.com/s/_-yhK_sT8G4ov4SIWAcWDQ
 
