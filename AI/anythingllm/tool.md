@@ -1,3 +1,6 @@
+## claude console
+https://platform.claude.com/login?returnTo=%2F%3F
+
 ## LM studio   安装LLM
 https://lmstudio.ai/
 
