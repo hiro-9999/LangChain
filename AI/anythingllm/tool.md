@@ -1,3 +1,7 @@
+## openrouter
+https://openrouter.ai/
+
+
 ## claude console
 https://platform.claude.com/login?returnTo=%2F%3F
 
