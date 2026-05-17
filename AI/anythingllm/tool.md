@@ -1,6 +1,9 @@
 ## openrouter
 https://openrouter.ai/
 
+## 零点博客
+https://www.freedidi.com/
+
 
 ## claude console
 https://platform.claude.com/login?returnTo=%2F%3F
