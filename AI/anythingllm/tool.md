@@ -3,7 +3,22 @@ https://openrouter.ai/
 
 ## 零点博客
 https://www.freedidi.com/
+### 全网爆火的AI角色唱歌视频
+https://www.freedidi.com/21795.html
 
+图片去水印[【点击前往】](https://inpaintweb.lxfater.com/)
+
+歌曲风格：
+
+Mandopop, Gu Feng (Chinese Ancient Style), Sentimental Ballad, Female Vocals, Piano, Emotional, Slow Tempo, R&B influence
+(中文流行，古风，伤感慢歌，女声，钢琴，情绪化，慢板，R&B元素)
+
+## suno
+https://suno.com/invite/@nicerjazzcore389
+
+【点击前往】在线音频切割  https://vocalremover.org/zh/cutter
+
+开源的AI对口型工具  https://intl.ozabc.com/page/13.html
 
 ## claude console
 https://platform.claude.com/login?returnTo=%2F%3F
