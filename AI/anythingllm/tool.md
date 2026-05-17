@@ -2,6 +2,8 @@
 https://www.youtube.com/watch?v=2AuGpFDNgTk
 https://www.youtube.com/results?search_query=%E5%B0%8Flu%E8%AF%B4
 
+https://xiaolushuo.top/
+
 ## openrouter
 https://openrouter.ai/
 
