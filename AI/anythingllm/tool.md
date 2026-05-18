@@ -1,8 +1,68 @@
+## 4个免费开源工具，帮你全自动搞定短视频创作全流程
+https://mp.weixin.qq.com/s/TCwp3fHakbC-3V8zRzG47A
+
+## omlx本地部署
+http://xhslink.com/o/2g9TdoQqPR1
+
+## 国内最强本地AI组合来了，3步部署永久免费用
+https://mp.weixin.qq.com/s/b83q6Pi-nLn2l8IiY-KW8g
+
+## Image to 3D
+https://mp.weixin.qq.com/s/UIFlFbS-dx0hlO_PY-TsWA
+
+## 这个Rust无头浏览器内存狂降90%
+https://mp.weixin.qq.com/s/C1OC0U6FyWqI3hzVz4wlHA
+
+## 折腾一下 Codex 接上 DeepSeek 了：CLI 和 App 都能用
+https://mp.weixin.qq.com/s/UJbmUT-TP8tTboC4-F0OBA
+
+## FramePack
+https://github.com/lllyasviel/FramePack
+
+## Make Any Website Your CLI
+https://mp.weixin.qq.com/s/2MmJYZuaxgzJhiXBb3Y1qw
+
+## AI自动化工作流搭建——从零到高手，让你的工作自己跑起来
+https://mp.weixin.qq.com/s/gNfN79kYqXVb3md-e4j6Iw
+
+## 把49人AI游戏工作室塞进Claude
+https://mp.weixin.qq.com/s/CUa9xIJ3NIBoS-PbF_7gyQ
+
+
+## Mac本地跑TTS语音合成！不花一分钱
+https://www.xiaohongshu.com/explore/6a029afd00000000370354f9?app_platform=android&ignoreEngage=true&app_version=9.30.0&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBX47HsgDvfX4iH5c3lQzR9xmHxxZhOqaW1W54y7S-1FU=&author_share=1&xhsshare=&shareRedId=ODs5MDs5SUw2NzUyOTgwNjdGOTg8Nzk9&apptime=1779034991&share_id=d033b1315de442a68fb66de2eb309108&share_channel=copy_link
+
+
 ## 小lu说
 https://www.youtube.com/watch?v=2AuGpFDNgTk
 https://www.youtube.com/results?search_query=%E5%B0%8Flu%E8%AF%B4
 
 https://xiaolushuo.top/
+
+## 一人公司最小的商业模式：一个人怎么跑通"卖铲子"的闭环
+https://mp.weixin.qq.com/s/fAmvSYVeFADmgXJqpdlavA
+
+
+
+## CodeGraph 减少 94% 工具调用次数，勘探速度提升 77%
+https://mp.weixin.qq.com/s/cYEoE4D75BLXpYm6_U75Rw
+
+## 个人副业真正跑起来把 Hermes Top 30 skills 串成系统
+https://mp.weixin.qq.com/s/-Xvia4zoa-INsdUgpDHHXA
+
+## 能学习电脑上万个文件，自动生成报告
+DeepSeekMine
+https://mp.weixin.qq.com/s/Z33VOEyRG940xqwpK_41OQ
+
+
+## 本地大模型
+http://xhslink.com/o/9iuPa2hKbBK
+
+## Gemma 4×Claude Code活用術
+https://www.smartnews.com/ja-jp/article/4946929373463714438?placement=article-preview-social&utm_source=share_android_other&utm_campaign=sn_lid%3A4946929373463714438%7Csn_channel%3Acr_ja_top&share_id=oBIGwr
+
+## langflow
+https://www.langflow.org/
 
 ## openrouter
 https://openrouter.ai/
