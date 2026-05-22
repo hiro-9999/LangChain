@@ -1,3 +1,11 @@
+
+
+
+## 英伟达免费vps
+https://www.youtube.com/results?search_query=%E4%BD%AC%E7%8E%8B
+
+https://www.youtube.com/watch?v=QvXWoRFYuiY
+
 ## 大飞说科技
 https://www.youtube.com/@bestpartners
 
