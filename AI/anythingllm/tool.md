@@ -21,6 +21,7 @@ https://github.com/lllyasviel/FramePack
 
 ## Make Any Website Your CLI
 https://mp.weixin.qq.com/s/2MmJYZuaxgzJhiXBb3Y1qw
+https://github.com/jackwener/opencli
 
 ## AI自动化工作流搭建——从零到高手，让你的工作自己跑起来
 https://mp.weixin.qq.com/s/gNfN79kYqXVb3md-e4j6Iw
