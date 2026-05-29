@@ -1,3 +1,6 @@
+## CodexSwitch deepseek！
+https://github.com/hiro-9999/CodexSwitch
+
 ## 4个免费开源工具，帮你全自动搞定短视频创作全流程
 https://mp.weixin.qq.com/s/TCwp3fHakbC-3V8zRzG47A
 
