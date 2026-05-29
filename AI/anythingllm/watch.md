@@ -1,4 +1,19 @@
-## CodexSwitch
+```
+声明：是4.8上线后的兼容问题，ds后面肯定会修，所以这也是个临时的解决方案
+	
+尝试几下之后，原因如下：
+我用的是："ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic"也就是 Claude Code 通过 DeepSeek 的 Anthropic 兼容接口调用模型。最近 Claude Code 自动升级后，与 DeepSeek Anthropic 兼容层出现了兼容问题。
+👉🏻解决办法
+1️⃣降级 Claude Code：npm install -g @anthropic-ai/claude-code@2.1.153
+查看版本：
+claude --version
+确认已经是：2.1.153
+2️⃣禁止自动升级
+Mac：echo 'export DISABLE_AUTOUPDATER=1' >> ~/.zshrc
+source ~/.zshrc
+```
+
+## CodexSwitch -> NO
 https://github.com/lvjiawei369/CodexSwitch/tree/main/Swift-Window/Sources
 
 https://mp.weixin.qq.com/s/j7amaP-SG_MnpAlxAzV6yQ 模型
