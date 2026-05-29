@@ -19,6 +19,8 @@ https://mp.weixin.qq.com/s/i9VO1O3K86D9ZXqGIARjmw 网站
 ## DeepSeek Reasonix：一个专为 DeepSeek 量身打造的终端 AI 编程助手
 https://mp.weixin.qq.com/s/_KwR9EjjvPdPRs5Nzj5lJg
 
+https://github.com/esengine/deepseek-reasonix
+
 这个地址：https://github.com/lvjiawei369/CodexSwitch  <==try
 
 https://github.com/Auwuua/DockCat <==try
