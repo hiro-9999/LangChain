@@ -1,3 +1,68 @@
+
+https://mp.weixin.qq.com/s/j7amaP-SG_MnpAlxAzV6yQ 模型
+  [5:51 PM]
+https://mp.weixin.qq.com/s/ddTfjV_2sSKk0ck4jqhbGQ deepseek
+  [5:59 PM]
+https://mp.weixin.qq.com/s/7qI4sxpHOgv30Lbtmh52Rw 游戏
+
+  https://mp.weixin.qq.com/s/Do0_ElcC4fB0LPojQUQ9fQ 动画
+
+https://x.com/i/status/2059092668752462089 提示词
+
+https://mp.weixin.qq.com/s/i9VO1O3K86D9ZXqGIARjmw 网站
+
+[12:40 PM]会员订阅：独家资源包、教程
+[12:42 PM]https://mp.weixin.qq.com/s/g2v23LLvCLFC7PUf611M1A  claude skill
+
+[12:45 PM]https://mp.weixin.qq.com/s/6SVfSCpmdVEG8fiTLJdN-g  视频网做法 不露脸
+
+## DeepSeek Reasonix：一个专为 DeepSeek 量身打造的终端 AI 编程助手
+https://mp.weixin.qq.com/s/_KwR9EjjvPdPRs5Nzj5lJg
+
+这个地址：https://github.com/lvjiawei369/CodexSwitch  <==try
+
+https://github.com/Auwuua/DockCat <==try
+
+https://github.com/1ilit/Desktop-Cat <==try
+
+https://github.com/powerycy/Desktop-Cat <==try
+
+cat  <==try
+``` 
+看到codex好像出了 hatch pet   skill貌似能直接用，不知道有没有用[皱眉R]
+[1:57 AM]不难！实验下来 Claude  直接使用视频或图转视频的效果比较差，所以流程最好是：1. 把你的猫猫的照片上传到即梦，用即梦生成纯白色背景的猫咪吃饭、走路、玩小球等视频。2.挑选几张猫猫的照片(含正面侧面)+即梦生成的视频发给claude或者codex(国内的一些支持agent的AI软件也可以)，告诉它生成小猫的桌面宠物，不要背景悬浮于屏幕上，包含吃饭、打工等动作，然后根据生成的效果按照你的期望一步步调整就可以～
+```
+
+一个很脏，但能让SEO网站3天上Google第一 我们用一套... http://xhslink.com/o/9aPgFaCUyuV 
+打开【小红书】，这篇笔记值得一看~
+
+https://x.com/i/status/2059579175275561415爆肝两周，我把 Codex 最全实战指南开源了
+
+https://mp.weixin.qq.com/s/XxNPNr7YLiYPPQSLUY1bxw
+
+https://x.com/i/status/2060004064260509725
+
+MENDING INI DARIPADA BAYAR SEEDANCE 2.0 BULANAN
+gua nemu bro versi GRATIS buat generative AI video & image
+namanya Open Generative AI 
+
+Github repo nya gua taro di komen
+
+Fiturnya nih : bisa text to video & image to video
+ bisa connect ke Claude Code dan Codex
+
+
+[8:22 PM]https://mp.weixin.qq.com/s/_eMoDl2jsmr5c-sTmmWEIQ
+[8:23 PM]https://mp.weixin.qq.com/s/LJaSMiC1pyS1J1GGwr5dpQ
+[8:26 PM]https://mp.weixin.qq.com/s/xWW1B1BBUJhtNJEJsD8h0w
+[8:27 PM]https://mp.weixin.qq.com/s/bRIxwobg3jzF4oq0o3jqog
+[8:30 PM]https://mp.weixin.qq.com/s/jJoDg9Dq0eKVFLwC9QmtEw
+[8:30 PM]https://mp.weixin.qq.com/s/DCMWOgncC8svsKR95Pr3JA
+[8:30 PM]https://mp.weixin.qq.com/s/ULD0D1YIPNQeY6LqcZfgmQ
+[8:33 PM]https://mp.weixin.qq.com/s/dL-JTxcbaEYoECbGbhg0QA
+
+
+
 https://omlx.ai/
 
 Claude Code装上这10个Skills，直接原地封 大家好，Cl... http://xhslink.com/o/2KU8E4TtZYp
