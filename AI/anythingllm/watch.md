@@ -1,3 +1,80 @@
+github.com/yaojingang/GEOFlow（1.8k+ stars，持续增长中）
+
+https://mp.weixin.qq.com/s/YKNlgJfTfNlPGGrzRFoEUA 这个好呀，必须要用
+
+[6:27 PM]官方平台：https://platform.agnes-ai.com/• API接口：https://apihub.agnes-ai.com/v1
+
+[6:31 PM]https://mp.weixin.qq.com/s/eJEayoZz_0_XX1seSu2txg skill 做视频
+
+[6:33 PM]https://mp.weixin.qq.com/s/4O4Hxep7eojeB-FBJbeKiQ 获得想发
+
+https://github.com/heygen-com/hyperframes
+
+. https://t.co/VWktHoEbsM — 免费无限 AI 生图，质量直逼 Midjourney
+
+2. https://t.co/qESUPlo56T — 实时 AI 生图，边画边出图
+
+3. https://t.co/tH3f9Xnf4O — AI 无限放大图片，细节自动补全
+
+4. https://t.co/Zqdrv0oqSK — AI 一键去背景/补光/擦除
+
+5. https://x.com/i/status/2060538201195074034
+
+https://mp.weixin.qq.com/s/eSAkL2Q0-h666uonErnE8w
+[6:28 AM]短剧
+  [6:53 AM]
+https://mp.weixin.qq.com/s/47HmSvBCm95Q1J24uSvfbg 工具，做个工具来买
+  [12:02 PM]
+https://mp.weixin.qq.com/s/FrZXoyCqWrNvaJxnE3JCvw 安装DeepSeek
+  [5:02 PM]
+https://mp.weixin.qq.com/s/JU6bEOLiNKJlO18bu7PQOg 写着 视频
+[5:07 PM]https://mp.weixin.qq.com/s/aqy7PC1cK7715JeBorhkVg PS 配置
+[5:08 PM]https://mp.weixin.qq.com/s/mYS8lLWGZZitMf2xcKIP7A github
+  [9:16 PM]
+https://github.com/D4Vinci/Scrapling
+
+```
+指令:把这张照片改成画风笨拙又搞笑的涂鸦风插画。
+特点： - 营造出像是用平价马克笔、蜡笔随手画出来的潦草速写质感- 线条杂乱随性，充满孩子气画风- 透视扭曲失衡，整体构图比例不协调- 脸部五官稍作夸张处理，打造滑稽喜感
+额外添加元素：- 简约漫画风背景（结合参考照片联想绘制即可）- 添上无意义的乱涂线条、细碎随性的小细节- 保留上色不均、涂色出界、明显的笔触痕迹
+整体风格：- 透着敷衍潦草、毫无用心去画的随性感- 切勿画得太过精致完整- 沙雕搞笑的表情包趣味画风- 贴合网络轻松趣味的氛围
+禁止要求：- 不要画得写实- 不要刻画得太过精致细腻- 不要做出专业规整的绘画效
+```
+
+### 本地 AI 音乐分离工作室
+https://mp.weixin.qq.com/s/UV4tSGtmcZBaw_J6xst_Wg 
+
+https://github.com/stemdeckapp/stemdeck
+
+```
+后端：Python 3.12 + FastAPI + Demucs + yt-dlp + FFmpeg
+前端：纯 Vanilla JS + Web Audio API + Canvas 波形渲染
+桌面端：Tauri v2（macOS 用 WKWebView，Windows 用 WebView2）
+```
+
+https://mp.weixin.qq.com/s/0JFQ3IARwVqB8HiiUlHbCA
+
+[4:16 PM]https://mp.weixin.qq.com/s/BaaXxSfqJ9vU2hWFyhkp9Q
+
+[4:19 PM]https://mp.weixin.qq.com/s/wEUZxYPw4PD7J731YrF5PA api tokw
+
+https://mp.weixin.qq.com/s/pz74yvxGJfmBcATW1XkHsw 信息
+
+https://mp.weixin.qq.com/s/jXD-JWVlgPq1hz76i8Aheg 提成
+
+```
+我最看好的不是AI写作不是AI绘画不是AI视频。
+而是：
+AI + 孤独
+AI + 陪伴
+AI + 社区
+AI + 宠物
+AI + 中国文化
+AI + 情绪价值
+因为技术会越来越便宜，人性永远昂贵。
+如果让你选一个赛道。
+```
+
 ```
 声明：是4.8上线后的兼容问题，ds后面肯定会修，所以这也是个临时的解决方案
 	
