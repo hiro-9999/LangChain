@@ -1,6 +1,18 @@
+## free api
+https://mp.weixin.qq.com/s/YKNlgJfTfNlPGGrzRFoEUA 这个好呀，必须要用
+
+- Agnes AI 官网：https://agnes-ai.com/
+
+- API调用时的model名称是全小写
+
+- 生成图片的Prompt可以参考这个插件：
+
+https://github.com/1061700625/image2-prompt-picker
+
+
 github.com/yaojingang/GEOFlow（1.8k+ stars，持续增长中）
 
-https://mp.weixin.qq.com/s/YKNlgJfTfNlPGGrzRFoEUA 这个好呀，必须要用
+
 
 [6:27 PM]官方平台：https://platform.agnes-ai.com/• API接口：https://apihub.agnes-ai.com/v1
 
