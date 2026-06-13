@@ -1,3 +1,11 @@
+## skills codex
+GitHub：Zedong-Liu/codex-deepseek-sidecar
+
+## 演示 📺
+https://github.com/harry0703/MoneyPrinterTurbo
+
+
+
 ## free api
 https://mp.weixin.qq.com/s/YKNlgJfTfNlPGGrzRFoEUA 这个好呀，必须要用
 
