@@ -1,5 +1,5 @@
 ## skills codex
-GitHub：Zedong-Liu/codex-deepseek-sidecar
+[GitHub：Zedong-Liu/codex-deepseek-sidecar](https://github.com/Zedong-Liu/codex-deepseek-sidecar)
 
 ## 演示 📺
 https://github.com/harry0703/MoneyPrinterTurbo
